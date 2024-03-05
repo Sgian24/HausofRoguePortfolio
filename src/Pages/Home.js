@@ -1,7 +1,9 @@
+import NavBar from "..//Components/NavBar"
+
 const Home = () => {
     return (
         <>
-        <p>scoop</p>
+        <NavBar />
         </>
     )
 }

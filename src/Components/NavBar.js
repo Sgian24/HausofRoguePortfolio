@@ -6,15 +6,6 @@ import Hor from "..//Assets/HOR.webp";
 const NavBar = () => {
     return (
         <>
-       <style>
-        {`
-         @media only screen and (max-width: 576px) {
-            .scoop {
-            display: block !important;
-            }
-         }
-        `}
-        </style>
         <Navbar collapseOnSelect expand="sm" >
             <Container>
                 <Navbar.Brand>
@@ -22,7 +13,7 @@ const NavBar = () => {
                 </Navbar.Brand> 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse className="" id="responsive-navbar-nav">
-                 <div className="scoop d-flex justify-content-end w-100">   
+                 <div className="nav-container d-flex justify-content-end w-100">   
                  <Nav>
                   <Nav.Link>About</Nav.Link> 
                   <Nav.Link>Work</Nav.Link>

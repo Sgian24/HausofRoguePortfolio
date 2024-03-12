@@ -14,7 +14,7 @@ const Home = () => {
         <div className="">
         <NavBar />
         <Container className="body-content-container">
-            <Row className="mb-5">
+            <Row className="mb-5 ">
               <Col>
                <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img src={lip} width="70" alt="" /></h1>
                <p className="hero-description">Fuelled by vision and verve, I'm here to serve. I'm known for channeling my love for raw 
@@ -26,16 +26,25 @@ const Home = () => {
             </Row>
             <Row className="mb-3 gap-4 project-row">
               <Col className="h-100 rounded glitch" style={{ backgroundImage:`url(${SilentHill})`,}} sm={6} md={6} lg={3}>
-              <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}></div>
-              <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}></div>
-              <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}></div>
-              <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}> </div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`, zIndex:2}}></div>
+                <div className="d-flex justify-content-center align-items-center overlay h-100 ">
+                  <h1 className="overlay-text" style={{color: "white"}}>Visit: Silent Hill</h1>
+                </div>
               </Col>
               <Col className="h-100 rounded glitch" style={{backgroundImage:`url(${ALF})`}} sm={6} md={6} lg={3}>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
+              <div></div>
+              <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
+              <div className="d-flex justify-content-center align-items-center overlay h-100 text-center">
+                  <h1 className="overlay-text" style={{color: "white"}}>Animal Liberation Front: Rebrand</h1>
+                </div>
               </Col>
             </Row>
             <Row className="gap-4 project-row">
@@ -44,12 +53,25 @@ const Home = () => {
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
+              <div></div>
+              <div></div>
+              <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
+              <div className="d-flex justify-content-center align-items-center overlay h-100 ">
+                  <h1 className="overlay-text" style={{color: "white"}}>Call of Cthulu Campaign</h1>
+                </div>
               </Col>
               <Col className="h-100 rounded glitch" style={{backgroundImage:`url(${Resthaven})`}} sm={6} md={6} lg={6}>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
+              <div className="d-flex justify-content-center align-items-center overlay h-100 ">
+                  <h1 className="overlay-text" style={{color: "white"}}>Resthaven: Album</h1>
+              </div>
               </Col>
             </Row>
             <Row>

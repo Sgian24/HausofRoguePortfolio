@@ -1,10 +1,44 @@
+@font-face {
+    font-family: cozy;
+    src: url(./Assets/Cozybrush.otf);
+}
+
+@font-face {
+    font-family: 'Modern Typewriter';
+    src: url(./Assets//ModernTypewriter-YaR42.ttf);
+}
+
+@font-face {
+    font-family: Barlow-ExtraLight;
+    src: url(./Assets/Barlow-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: Barlow-Bold;
+    src: url(./Assets/Barlow-Medium.otf);
+}
+
 .body-content-container {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .hero-title {
+    font-family: Barlow-ExtraLight;
     font-size: 4rem;
     margin-bottom: 5vh;
+}
+
+.Billie {
+    font-family: Barlow-Bold;
+}
+
+.attitude {
+    font-size: 5rem;
+    font-family: cozy;
+}
+
+.hero-description {
+    font-family: Modern Typewriter;
 }
 
 .cd-container {
@@ -15,13 +49,24 @@
     height:70vh;
 }
 
+.overlay {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    left:0;
+    opacity: 0;
+}
 
-
-
-
-
+.overlay-text {
+    font-family: Cozy;
+    font-size: 4rem;
+}
 
 /*Glitch hover effects*/
+
+.overlay:hover {
+    opacity: 1 !important;
+}
 
 .glitch,.glitch-img {
     background-repeat: no-repeat;
@@ -67,15 +112,33 @@
    .glitch:hover &:nth-child(4) {
        animation-name: glitch-anim-3;
     }
-          
-   .glitch:hover &:nth-child(5) {
-       animation-name: glitch-anim-4;
-       background-blend-mode: overlay;
-       background-color: #af4949;
+    .glitch:hover &:nth-child(5){
+            animation-name: glitch-anim-4;
+            background-blend-mode: overlay;
+            background-color: #95009e;
     }
+
+    .glitch:hover &:nth-child(6){
+            animation-name: glitch-anim-4;
+            background-blend-mode: overlay;
+            background-color: #4c9e09;
+    }
+
+    .glitch:hover &:nth-child(7){
+        animation-name: glitch-anim-4;
+        background-blend-mode: overlay;
+        background-color: #ad0025ab;
+        ;
+    }
+
+    .glitch:hover &:nth-child(8){
+        animation-name: glitch-anim-4;
+        background-blend-mode: overlay;
+        background-color: #00b4bd;
+    }     
 }
-        
-.c-glitch__img:nth-child(n+2) {
+
+.c-glitch-img:nth-child(n+2) {
    opacity: 0;
 }
         
@@ -279,15 +342,9 @@
     }
 }
         
-@keyframes glitch-anim-4 {
-    0%, 5% { 
-        opacity: 0.2; 
-        transform: translate3d(10px, 5px, 0);
-    }
-        
-    5.5%, 100% {
-        opacity: 0;
-        transform: translate3d(0, 0, 0);
+@keyframes glitch-anim-4 {    
+    0%, 100% {
+        opacity: 0.5;  
     }
 }
 

@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="">
         <NavBar />
-        <Container className="body-content-container">
+        <Container className="body-content-container mb-4" style={{width:"90%"}}fluid>
             <Row className="mb-5 ">
               <Col>
                <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img src={lip} width="70" alt="" /></h1>
@@ -32,7 +32,7 @@ const Home = () => {
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`, zIndex:2}}></div>
                 <div className="d-flex justify-content-center align-items-center overlay h-100 ">
-                  <h1 className="overlay-text" style={{color: "white"}}>Visit: Silent Hill</h1>
+                  <h1 className="overlay-text">Visit: Silent Hill</h1>
                 </div>
               </Col>
               <Col className="h-100 rounded glitch" style={{backgroundImage:`url(${ALF})`}} sm={6} md={6} lg={3}>
@@ -43,7 +43,7 @@ const Home = () => {
               <div></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
               <div className="d-flex justify-content-center align-items-center overlay h-100 text-center">
-                  <h1 className="overlay-text" style={{color: "white"}}>Animal Liberation Front: Rebrand</h1>
+                  <h1 className="overlay-text">Animal Liberation Front: Rebrand</h1>
                 </div>
               </Col>
             </Row>
@@ -57,7 +57,7 @@ const Home = () => {
               <div></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
               <div className="d-flex justify-content-center align-items-center overlay h-100 ">
-                  <h1 className="overlay-text" style={{color: "white"}}>Call of Cthulu Campaign</h1>
+                  <h1 className="overlay-text">Call of Cthulu Campaign</h1>
                 </div>
               </Col>
               <Col className="h-100 rounded glitch" style={{backgroundImage:`url(${Resthaven})`}} sm={6} md={6} lg={6}>
@@ -70,15 +70,29 @@ const Home = () => {
               <div></div>
               <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
               <div className="d-flex justify-content-center align-items-center overlay h-100 ">
-                  <h1 className="overlay-text" style={{color: "white"}}>Resthaven: Album</h1>
+                  <h1 className="overlay-text">Resthaven: Album</h1>
               </div>
               </Col>
             </Row>
             <Row>
-              s
+            
             </Row>
         </Container>
-        </div>
+        <Container className="footer-container bg-black d-flex justify-content-center align-items-center" fluid>  
+          <footer className="px-0">
+            <Row className="mb-3">
+             <div className="d-flex gap-5 px-2"> 
+              <a className="footer-links" href="">LinkedIn</a>
+              <a className="footer-links" href="">Behance</a>
+              <a className="footer-links" href="">Dribble</a>
+             </div>
+            </Row>
+            <Row className="px-0">
+              <p className="copyright px-2">© 2024 Haus of Rogue</p>
+            </Row>
+          </footer> 
+        </Container>   
+      </div>
     )
 }
 

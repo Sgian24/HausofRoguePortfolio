@@ -60,6 +60,28 @@
 .overlay-text {
     font-family: Cozy;
     font-size: 4rem;
+    color: white;
+}
+
+.footer-container {
+    height: 18vh;
+}
+
+footer {
+    width: 90%;
+}
+
+.copyright {
+    color: white;
+    font-family: Modern Typewriter;
+    font-size:0.7rem;
+}
+
+.footer-links {
+    color: white;
+    font-family: Barlow-ExtraLight;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 /*Glitch hover effects*/
@@ -127,7 +149,7 @@
     .glitch:hover &:nth-child(7){
         animation-name: glitch-anim-4;
         background-blend-mode: overlay;
-        background-color: #ad0025ab;
+        background-color: #bd0029e8;
         ;
     }
 

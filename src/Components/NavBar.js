@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
         <>
         <Navbar collapseOnSelect expand="sm" >
-            <Container>
+            <Container style={{width:"90%"}}fluid>
                 <Navbar.Brand>
                     <img src={Hor} width="200" alt="" />    
                 </Navbar.Brand> 
@@ -15,8 +15,8 @@ const NavBar = () => {
                 <Navbar.Collapse className="" id="responsive-navbar-nav">
                  <div className="nav-container d-flex justify-content-end w-100">   
                  <Nav>
-                  <Nav.Link>About</Nav.Link> 
-                  <Nav.Link>Work</Nav.Link>
+                  <Nav.Link>Work</Nav.Link> 
+                  <Nav.Link>About</Nav.Link>
                   <Nav.Link>Contact</Nav.Link>     
                  </Nav>
                  </div>

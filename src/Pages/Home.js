@@ -45,7 +45,7 @@ const Home = () => {
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
                 <div></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
-                <Link to="/animalLiberationFront">
+                <Link to="/animalliberationfront">
                   <div className="d-flex justify-content-center align-items-center overlay h-100 text-center">
                     <h1 className="overlay-text">Animal Liberation Front: Rebrand</h1>
                   </div>
@@ -76,7 +76,7 @@ const Home = () => {
                 <div></div>
                 <div></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
-                <Link to="/Resthaven">
+                <Link to="/resthaven">
                   <div className="d-flex justify-content-center align-items-center overlay h-100 ">
                     <h1 className="overlay-text">Resthaven: Album</h1>
                   </div>

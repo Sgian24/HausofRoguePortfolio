@@ -10,7 +10,10 @@ import Carousel from "react-bootstrap/Carousel";
 import silentHillPoster from "..//Assets/Poly art assignment_Poster Design.jpg";
 import silentHillPostCard from "..//Assets/Poly art assignment_Postcard Design.jpg";
 import iMac from "..//Assets/iMac Mockup.png";
-import silentHillBrochure from "../Assets/Silent Hill Tourist brochure mockup_edited.png";
+import silentHillBrochureEdited from "../Assets/Silent Hill Tourist brochure mockup_edited.png";
+import silentHillBrochure from "../Assets/SilentHillBrochure.webp";
+import Footer from "../Components/Footer";
+import {Link} from "react-router-dom";
 
 const SilentHill = () => {
     const [position, setPosition] = useState(10)
@@ -128,7 +131,7 @@ const SilentHill = () => {
             </Row>
             </Container>
             <Container className="gx-0 brochure-container" fluid>
-            <Row className="gx-0" style={{height:"80vh"}}>
+            <Row className="brochure-row gx-0">
                 <Col lg={6} className="d-flex justify-content-center align-items-center px-5 ">
                     <div>
                         <h1 className="sub-heading text-center mb-5">Brochure Print</h1>
@@ -140,11 +143,33 @@ const SilentHill = () => {
                 </Col>
                 <Col lg={6} className="border">
                     <div className="brochure-image-scroll">
-                        <img className="object-fit-cover" src={silentHillBrochure} alt="" style={{objectPosition:`${position}% 50%`, height:"100%", width:"100%"}} />
+                        <img className="object-fit-cover" src={silentHillBrochureEdited} alt="" style={{objectPosition:`${position}% 50%`, height:"100%", width:"100%"}} />
                     </div>
                 </Col>
             </Row>
         </Container>
+        <Container>
+            <Row>
+                <Col style={{backgroundImage:`url(${silentHillBrochure})`, objectFit:"cover",width:"100%", height:"120vh", backgroundRepeat:"no-repeat", backgroundAttachment:"fixed"}}>
+                </Col>
+            </Row>
+            <Row className="mt-5">
+                <Col className="d-flex justify-content-center">
+                    <p className="w-75 mb-5">
+                    And that's all she wrote for Visit: Silent Hill. This was made in the first year of my 
+                    graphic design course, and in almost 2 years now, it still holds up among the works I'm 
+                    most proud of. This project also showcased my versatility as an artist because
+                     Visit: Silent Hill has this very snug, warm colour palette with fancy elegant header fonts. 
+                     Something that's a little different from my usual gritty taste. </p>
+                </Col>
+            </Row>
+            <Row>
+                <Col className="d-flex justify-content-center mb-5">
+                    <Link>More Projects</Link>
+                </Col>
+            </Row>
+        </Container>
+        <Footer />
         </>
     )
 }

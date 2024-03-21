@@ -9,12 +9,13 @@ import ALF from "..//Assets/ALF-stationary.webp";
 import cthulu from "..//Assets/cthulu.webp";
 import Resthaven from "..//Assets/resthaven.webp";
 import { Link } from "react-router-dom";
+import Footer from "../Components/Footer";
 
 const Home = () => {
     return (
         <div className="">
         <NavBar />
-        <Container className="body-content-container mb-4" style={{width:"90%"}}fluid>
+        <Container className="body-content-container mb-4" fluid>
             <Row className="mb-5 ">
               <Col>
                <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img src={lip} width="70" alt="" /></h1>
@@ -84,20 +85,7 @@ const Home = () => {
               </Col>
             </Row>
         </Container>
-        <Container className="footer-container bg-black d-flex justify-content-center align-items-center" fluid>  
-          <footer className="px-0">
-            <Row className="mb-3">
-             <div className="d-flex gap-5 px-2"> 
-              <a className="footer-links" href="">LinkedIn</a>
-              <a className="footer-links" href="">Behance</a>
-              <a className="footer-links" href="">Dribble</a>
-             </div>
-            </Row>
-            <Row className="px-0">
-              <p className="copyright px-2">© 2024 Haus of Rogue</p>
-            </Row>
-          </footer> 
-        </Container>   
+         <Footer /> 
       </div>
     )
 }

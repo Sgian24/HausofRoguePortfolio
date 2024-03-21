@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
     font-family: cozy;
     src: url(./Assets/Cozybrush.otf);
@@ -18,8 +20,19 @@
     src: url(./Assets/Barlow-Medium.otf);
 }
 
+/* Content */
+
+p {
+    font-family: Modern Typewriter; 
+}
+
+.nav-container {
+    width: 90%;
+}
+
 .body-content-container {
     margin-top: 5vh;
+    width: 90%;
 }
 
 .hero-title {
@@ -84,6 +97,56 @@ footer {
     font-size: 1.5rem;
 }
 
+.silent-hill-container {
+    width: 90%;
+}
+
+.silent-hill-title {
+    font-family: Cozy;
+    font-size: 5rem;
+}
+
+.table-container {
+    width: 55%;
+}
+
+td {
+    font-family: Modern Typewriter;
+}
+
+th {
+    text-decoration: underline;
+}
+
+.carousel-container {
+    background-color: #f0f0f0;
+}
+
+.carousel {
+    width: 80%;
+}
+
+.carousel-image {
+    height: 90vh;
+}
+
+.iMac {
+    position:absolute;
+    top: 380%;
+}
+
+.sub-heading {
+    font-family: Barlow-Bold;
+}
+
+.brochure-container {
+    background-color: #f0f0f0;
+}
+
+.brochure-image-scroll {
+    height: 100%;
+    width: 100%;
+}
 /*Glitch hover effects*/
 
 .overlay:hover {
@@ -373,7 +436,7 @@ footer {
 /* Media Queries */
 
 @media only screen and (max-width: 576px) {
-    .nav-container {
+    .navlink-container {
         display: block !important;
     }
 }

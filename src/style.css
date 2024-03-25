@@ -97,11 +97,11 @@ footer {
     font-size: 1.5rem;
 }
 
-.silent-hill-container {
+.margin-container {
     width: 90%;
 }
 
-.silent-hill-title {
+.header-title {
     font-family: Cozy;
     font-size: 5rem;
 }
@@ -146,6 +146,35 @@ th {
 .brochure-image-scroll {
     height: 100%;
     width: 100%;
+}
+
+.brochure-row {
+    height: 80vh;
+}
+
+.logo-row {
+    height: 120vh;
+}
+
+.logo-text-col {
+    background-color:#f0f0f0;
+}
+
+.modal-container {
+    top: -2%;
+}
+
+.modal-header {
+    height: 5vh;
+}
+
+.modal-body {
+    height: 90vh;
+}
+
+.alf-thumbnail-container {
+    width: 90%;
+    height: 69vh;
 }
 /*Glitch hover effects*/
 

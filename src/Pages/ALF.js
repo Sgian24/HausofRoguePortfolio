@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Modal from "react-bootstrap/Modal";
 import NavBar from "../Components/NavBar";
 import Container from "react-bootstrap/Container";
@@ -6,22 +6,54 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Line from "..//Assets/Asset 8.png";
 import Table from "react-bootstrap/Table";
+import { Link } from "react-router-dom";
 import stamp from "..//Assets/mock up stamp_edited.jpg";
 import logo from "..//Assets/fullColor_redSpray_edited.png";
 import logoSketch from "..//Assets/Roa_Billie-Sketches-02.jpg";
 import logoSketchTwo from "..//Assets/Roa_Billie-LogoDesign-03.jpg";
+import guideline from "..//Assets/wprch.jpg";
+import alfInvitation from "..//Assets/Identity-Invitation-Stationery-Free-psd-Mockup.jpg";
+import moodBoard from "..//Assets/Roa_Billie-Moodboard1.jpg";
+import alfMockup from "..//Assets/ALF-stationary.webp";
+import alfSite from "..//Assets/alf-website.webp";
+import siteMockup from "..//Assets/Web Screen PSD Mockup.jpg";
+import Footer from "../Components/Footer";
 
 const ALF = () => {
 
     const [show, setShow] = useState(false);
     const [image, setImage] = useState("");
+    const [scale, setScale] = useState(200);
+
+    const imgRef = useRef(null)
 
     const handleShow = (item) => {
         setShow(true)
         setImage(item);
     }
     const handleClose = () => setShow(false);
-
+    
+    useEffect(() => {
+        const oldScrollY = window.scrollY;
+        const handleScroll = () => {
+            if (oldScrollY < window.scrollY && scale >= 100) {
+              setScale(() => scale -4)
+            } else if (oldScrollY > window.scrollY && scale <= 200){
+                setScale(() => scale + 4)
+            }
+        }
+        const observer = new IntersectionObserver(i => {
+            if (i[0].isIntersecting) {
+                window.addEventListener("scroll", handleScroll)
+                return () => window.removeEventListener("scroll", handleScroll);
+            }
+        });
+        if (imgRef.current) observer.observe(imgRef.current)
+        return () => { 
+            if (imgRef.current) observer.unobserve(imgRef.current)
+        }
+    },[imgRef, scale])
+    
     return (
         <>
         <NavBar />
@@ -115,12 +147,97 @@ const ALF = () => {
                         <img src={image === 1? logoSketch: logoSketchTwo} height="100%" width="100%" alt="" />
                     </Modal.Body>
             </Modal>
-            <Container className= "alf-thumbnail-container mb-5">
+            <Container className= "alf-thumbnail-container mb-4">
                      <Row>
-                        <Col><img onClick={() => handleShow(1)} src={logoSketch} width="100%" alt=""  /></Col>
-                        <Col><img onClick={() => handleShow(2)} src={logoSketchTwo} width="100%" alt="" /></Col>
+                        <Col><img className="alf-thumbnail" onClick={() => handleShow(1)} src={logoSketch} width="100%" alt=""  /></Col>
+                        <Col><img className="alf-thumbnail" onClick={() => handleShow(2)} src={logoSketchTwo} width="100%" alt="" /></Col>
                     </Row>
             </Container>
+            <Container className="zoom-container overflow-hidden mb-5" fluid>
+                 <Row className="h-100">
+                    <Col className="border d-flex justify-content-center align-items-center h-100 w-100"  >
+                        <img className="guidelines-img" src={guideline} ref={imgRef} style={{transform:`scale(${scale.toString() + "%"})`}} width="100%" alt="" />
+                        <h1 className="guidelines-heading">Guidelines</h1>
+                    </Col>
+                </Row>
+            </Container>
+            <Container className="guidelines-body-container mb-5">
+                <Row className="h-100">
+                    <Col>
+                        <p>I constructed a moodboard that was faithful to the industrial x anarchy look of ALF, 
+                            because this is something that no other animal rights organization has branded. So 
+                            think dusty, photo-scan textures, spray paint and ripped paper textures.</p>
+                        <img src={moodBoard} width="100%" alt="" />
+                    </Col>
+                    <Col className="h-100">
+                        <img className="mb-3" src={alfInvitation} width="100%" alt="" />
+                        <p>I constructed a moodboard that was faithful to the industrial x anarchy look of ALF, 
+                            because this is something that no other animal rights organization has branded. So 
+                            think dusty, photo-scan textures, spray paint and ripped paper textures. However, 
+                            as the project progressed I opted for a more optimistic design, to show diplomacy. 
+                            Instead I used the industrial-heavy style on the assets such as the brush strokes 
+                            on the dog, and the spray texture of the circle enclosing it. The 
+                            industrial-anarchist elements were instead used as statement pieces--just to
+                             maintain ALF's roots and convictive tone.</p>
+                        <div className="alf-mockup-container w-100">
+                            <img className="alf-mockup" src={alfMockup} height="100%" width="100%"  alt="" />
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+            <Container className="mb-5" fluid>
+                <Row>
+                <Col className="alf-site w-100" style={{backgroundImage:`url(${alfSite})`}}>
+                    </Col>
+                </Row>
+            </Container>
+            <Container className="site-mockup-container mb-4">
+                <Row className="mb-3">
+                    <Col className="d-flex justify-content-center align-items-center">
+                        <Link className="alf-site-link" to="https://billierogue.github.io/AnimalLiberationFront/">Desktop Web Design</Link>
+                    </Col>
+                    <Col>
+                        <p>Designing the site was the final set of the project. You can Google their real site 
+                            at your own risk but it’s very outdated-looking which is what these other animal 
+                            rights organizations have against them. </p>
+                        <p> In order to come up with the design, I took into consideration ALF's three biggest 
+                            competitors: Four Paws, Direct Action Everywhere and The Humane League .They all 
+                            had something that Animal Liberation Front was missing such as: rescuing a bigger 
+                            range of animals such as lions, monkeys, aquatic animals and other wild animals. 
+                            Travelling with bigger press exposure, which lead to legislative victories. And a 
+                            logo (which I do not recall ALF having) with a sleek website design.</p>
+                    </Col>
+                </Row>
+                <Row className="mb-4">
+                    <Col>
+                     <img src={siteMockup} width="100%" alt="" />
+                    </Col>
+                </Row>
+                <Row className="mb-4">
+                    <Col>
+                        <p>Though my branding project cannot provide them with the ability to travel around the
+                             world like UNICEF, have signed legislations and rescue more wild animals--I knew I 
+                             could just give them the ability to "seem" like they do and look on par with their 
+                             competitive charities.</p>
+                        <p>Designed by me, with the aid of my boyfriend, Sunny Gian, who developed the web 
+                            prototype. Click the "Desktop-Web Design" heading to view the prototype or click 
+                            the link: <Link to="https://billierogue.github.io/AnimalLiberationFront">https://billierogue.github.io/AnimalLiberationFront/</Link></p>
+                        <p>All in all, I love my work on this organization and had considered commissioning it to the
+                           real Animal Liberation Front to turn this project to reality. Though there are just a 
+                           plethora of things into consideration, like the organization's radicalism and my 
+                           association with that. But my mind has not been made up, so hopefully in the future--it's 
+                           never too late!</p>
+                    </Col>
+                </Row>
+                <Row >
+                <Col className="d-flex justify-content-center ">
+                    <Link className="more-projects">More Projects</Link>
+                    <div className="link-line"></div>
+                </Col>
+            </Row>
+            </Container>
+           
+           <Footer />
         </>
     )
 }

@@ -34,10 +34,10 @@ const SilentHill = () => {
     return (
         <>
         <NavBar />
-        <Container className="silent-hill-container mt-4 overflow-visible" fluid>
+        <Container className="margin-container mt-4 " fluid>
             <Row>
             <Col>
-                <h1 className="text-center silent-hill-title">Visit: Silent Hill</h1>
+                <h1 className="text-center header-title">Visit: Silent Hill</h1>
                 <p className="mb-5">The Silent Hill game series known for the 'creepy fog effect' and grotesque monsters. 
                    It is so much more than that it's a haunting and captivating journey into the depths of
                    psychological horror and existential dread. With each instalment, it weaves an intricate
@@ -141,16 +141,14 @@ const SilentHill = () => {
                         palette; it just radiates cozy, cottage and coffee.</p>
                     </div>
                 </Col>
-                <Col lg={6} className="border">
-                    <div className="brochure-image-scroll">
-                        <img className="object-fit-cover" src={silentHillBrochureEdited} alt="" style={{objectPosition:`${position}% 50%`, height:"100%", width:"100%"}} />
-                    </div>
+                <Col className="brochure-image-scroll border">
+                    <img className="object-fit-cover h-100 w-100" src={silentHillBrochureEdited} alt="" style={{objectPosition:`${position}% 50%`}} />
                 </Col>
             </Row>
         </Container>
         <Container>
             <Row>
-                <Col style={{backgroundImage:`url(${silentHillBrochure})`, objectFit:"cover",width:"100%", height:"120vh", backgroundRepeat:"no-repeat", backgroundAttachment:"fixed"}}>
+                <Col className="brochure w-100" style={{backgroundImage:`url(${silentHillBrochure})`}}>
                 </Col>
             </Row>
             <Row className="mt-5">
@@ -165,7 +163,8 @@ const SilentHill = () => {
             </Row>
             <Row>
                 <Col className="d-flex justify-content-center mb-5">
-                    <Link>More Projects</Link>
+                    <Link className="more-projects">More Projects</Link>
+                    <div className="link-line"></div>
                 </Col>
             </Row>
         </Container>

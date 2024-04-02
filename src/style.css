@@ -245,7 +245,7 @@ th {
 }
 
 .alf-mockup-container {
-    height: 34%;
+    height: 42.6%;
 
 }
 
@@ -278,8 +278,82 @@ th {
     text-decoration:line-through;
 }
 
+.cthulu-body-container {
+    width: 90%;
+    height: 300vh;
+}
 
+.grave-poster {
+    left: 32%;
+    top: 280%;
+}
 
+.ch-poster {
+    left: 68%;
+    top: 220%;
+}
+
+.sketches {
+    height: 90vh;
+}
+
+.billboard {
+    background-size: cover;
+    height: 62vh;
+    background-position: 50% 52%;
+    padding-left: 8vw;
+}
+
+.billboard-text {
+    width: 25vw;
+}
+
+.book-header-container {
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.book-sketch-container {
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+
+.book-sketch-row {
+    width: 90%;
+}
+
+.book-sketch-col {
+    padding-left: 7vw;
+}
+
+.book-sketch-paragraph {
+    width: 32vw;
+    left: 45%;
+    top: 707%;
+}
+
+mark {
+    margin: 0 -0.4em;
+    padding: 0.04em 0.4em;
+    box-decoration-break: clone;
+    background-color: white;
+}
+
+.typography-container {
+    height: 250vh;
+}
+
+.book-mockup:hover {
+    cursor:pointer;
+    opacity: 0.7;
+}
+
+.book {
+    left: 95%;
+    transition: left 1s ease-out;
+}
 
 /*Glitch hover effects*/
 

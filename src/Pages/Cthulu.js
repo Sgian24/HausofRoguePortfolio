@@ -6,6 +6,8 @@ import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
 import Carousel from "react-bootstrap/Carousel";
 import Modal from "react-bootstrap/Modal";
+import Footer from "..//Components/Footer";
+import {Link} from "react-router-dom";
 import Line from "..//Assets/Asset 8.png";
 import cthuluBookMockup from "..//Assets/CoC_Book-Mockup.jpg";
 import cthuluMMoodBoard from "..//Assets/Cthulu Moodboard.jpg";
@@ -22,6 +24,11 @@ import bookMockupUp from "..//Assets/Free_Book_Mockup_3.jpg";
 import bookMockupDown from "..//Assets/Free_Book_Mockup_8.jpg";
 import bookMockup from "..//Assets/cthulu.webp";
 import book from "..//Assets/book png.png";
+import iPhoneMockup from "..//Assets/iPhone11-PSD-Mockup.jpg";
+import wallMockup from "..//Assets/Billboard on Wall Mockup.jpg";
+import exteriorMockup from "..//Assets/Exterior_scene_4_free_updated.jpg";
+import iPhoneJacketMockup from "..//Assets/IphoneX-JacketMockup.jpg";
+import digestMockup from "..//Assets/Digest-mockup-vol1-Free -800x526px.jpg";
 
 const Cthulu = () => {
 
@@ -128,7 +135,7 @@ const Cthulu = () => {
             </Container>
             <Container className="mb-5">
                 <Row>
-                    <Col>
+                    <Col xs={12} lg={6}>
                         <img src={posterOnWall} width="100%" alt="" />
                     </Col>
                     <Col className="d-flex align-items-center">
@@ -178,16 +185,20 @@ const Cthulu = () => {
             <Modal size="lg" className="modal-container" show={show} onHide={handleClose}>
                     <Modal.Header className="modal-header" closeButton></Modal.Header>
                     <Modal.Body className="modal-body" >
-                        <img src={image === 1? bookMockupUp: 
-                                  image === 2? bookMockupDown: bookMockup} height="100%" width="100%" alt="" />
+                        <img src={image === "book-mockup-up"? bookMockupUp: 
+                                  image === "book-mockup-down"? bookMockupDown: 
+                                  image === "book-mockup"? bookMockup:
+                                  image === "wall-mockup"? wallMockup:
+                                  image === "exterior-mockup"? exteriorMockup:
+                                  image === "iPhone-jacket-mockup"? iPhoneJacketMockup: digestMockup} height="100%" width="100%" alt="" />
                     </Modal.Body>
             </Modal>
             <Container className="typography-container overflow-hidden">
                 <Row>
                     <Col>
-                        <img className="book-mockup mb-2" onClick={() => handleShow(1)} src={bookMockupUp} width="100%" alt="" />
-                        <img className="book-mockup mb-2" onClick={() => handleShow(2)} src={bookMockupDown} width="100%" alt="" />
-                        <img className="book-mockup" src={bookMockup} onClick={() => handleShow(3)} width="100%" alt="" />
+                        <img className="book-mockup mb-2" onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="" />
+                        <img className="book-mockup mb-2" onClick={() => handleShow("book-mockup-down")} src={bookMockupDown} width="100%" alt="" />
+                        <img className="book-mockup" src={bookMockup} onClick={() => handleShow("book-mockup")} width="100%" alt="" />
                     </Col>
                     <Col>
                     <h2 className="sub-heading text-center mb-5">The Typography Aspect</h2>
@@ -218,6 +229,61 @@ const Cthulu = () => {
                     </Col>
                 </Row>
             </Container>
+            <Container className="promotional-package-container pt-5" fluid>
+                <Row className="promotional-package-bg-row">
+                    <Col className="promotional-package-bg-col" style={{backgroundImage:`url(${iPhoneMockup})`}}>
+                    </Col>
+                </Row>
+                <Row className="promotional-package-text-row bg-white">
+                    <Col className="d-flex justify-content-center align-items-center">
+                        <div>
+                        <h2 className="sub-heading mb-5">The Promotional <br /> Package</h2>
+                        <div className="short-line"></div>
+                        </div>
+                    </Col>
+                    <Col className="d-flex justify-content-center align-items-center">
+                        <p className="w-75">The 'Promotional Package' chapter was quite familiar to me. I sort of had previous 
+                            experience in my music releases because you got to hype up your audience with 
+                            various visuals leading up to the drop date. It's essentially disassembling and 
+                            rearranging the puzzles pieces to create something new.</p>
+                    </Col>
+                </Row>
+            </Container>
+            <Container className="cthulu-mockup-container overflow-x-hidden px-0" fluid>
+                <Row className="cthulu-mockup-row mb-3">
+                    <Col>
+                       <img className="cthulu-mockup" onClick={() => handleShow("wall-mockup")} src={wallMockup} height="75%" width="100%" alt="" /> 
+                    </Col>
+                    <Col>
+                        <img className="cthulu-mockup" onClick={() => handleShow("exterior-mockup")} src={exteriorMockup} height="75%" width="100%" alt="" />
+                    </Col>
+                </Row>
+                <Row className="cthulu-mockup-row">
+                    <Col>
+                       <img className="cthulu-mockup" onClick={() => handleShow("iPhone-jacket-mockup")} src={iPhoneJacketMockup} height="75%" width="100%" alt="" /> 
+                    </Col>
+                    <Col>
+                        <img className="cthulu-mockup" onClick={() => handleShow("digest-mockup")} src={digestMockup} height="75%" width="100%" alt="" />
+                    </Col>
+                </Row>
+                <Row className="cthulu-mockup-text-row">
+                    <Col className="d-flex align-items-center justify-content-center">
+                        <p className="w-75 ">As I begin closing off this project, I feel like I’ve already made my Lovecraftian 
+                         cinematic universe. Digitizing my handmade art onto Photoshop without retracing anything
+                         and it still came out beautifully and full-of-life--in a retro style that has never been
+                         done before, for any Lovecraft works. My favourite in particular was the book design 
+                         because it allowed me to harness some much needed ‘expertise’ on typography and utilizing 
+                         InDesign.</p>
+                    </Col>
+                </Row>
+                <Row >
+                <Col className="d-flex justify-content-center ">
+                    <Link className="more-projects">More Projects</Link>
+                    <div className="link-line"></div>
+                </Col>
+            </Row>
+            </Container>
+            <Footer />
         </>
     )
 }

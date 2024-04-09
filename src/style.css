@@ -355,6 +355,56 @@ mark {
     transition: left 1s ease-out;
 }
 
+.promotional-package-container {
+    height: 150vh;
+    background-color: #f0f0f0;
+}
+
+.promotional-package-bg-row {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 65%;
+}
+
+.promotional-package-bg-col {
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed; 
+    background-repeat:no-repeat;
+}
+
+.promotional-package-text-row {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 35%;
+}
+
+.short-line {
+    height: 3px;
+    width: 40px;
+    background-color: black;
+}
+
+.cthulu-mockup-container {
+    height: 150vh;
+}
+
+.cthulu-mockup-row {
+    height: 35%;
+}
+
+.cthulu-mockup {
+    object-fit: cover;
+}
+
+.cthulu-mockup:hover {
+    cursor:pointer;
+    opacity: 0.7;
+}
+
+.cthulu-mockup-text-row {
+    height: 20%;
+}
 /*Glitch hover effects*/
 
 .overlay:hover {

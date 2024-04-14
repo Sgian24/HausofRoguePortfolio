@@ -405,6 +405,11 @@ mark {
 .cthulu-mockup-text-row {
     height: 20%;
 }
+
+.resthaven-body-container {
+    width:90%;
+}
+
 /*Glitch hover effects*/
 
 .overlay:hover {

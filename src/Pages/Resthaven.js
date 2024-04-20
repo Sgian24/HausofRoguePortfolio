@@ -8,20 +8,23 @@ import Line from "..//Assets/Asset 8.png";
 import resthaven from "..//Assets/resthaven-cropped.webp";
 import bwResthaven from "..//Assets/IMG_3121.jpg";
 import resthavenOne from "..//Assets/resthaven2.webp";
+import brayden from "..//Assets/IMG_3015.jpg";
+import {Link} from "react-router-dom";
+import Footer from "..//Components/Footer";
 
 const Resthaven = () => {
 
-    const [position, setPosition] = useState(30)
+    const [position, setPosition] = useState(10)
     const imgRef = useRef(null);
 
     useEffect(() => {
         const oldScrollY = window.scrollY;
         const handleScroll = () => {
-            if (oldScrollY < window.scrollY && position >= 30) {
-              setPosition(() => position + 5 )
-            } else if (oldScrollY > window.scrollY && position <= 80){
-              setPosition(() => position - 5 )
-            }
+            if (oldScrollY < window.scrollY && position <= 140) {
+              setPosition(() => position + 2 )
+            } else if (oldScrollY > window.scrollY && position >= 10 ){
+              setPosition(() => position - 2 )
+            } 
         }
         const observer = new IntersectionObserver(i => {
             if (i[0].isIntersecting) {
@@ -35,6 +38,7 @@ const Resthaven = () => {
         }
     },[imgRef, position])
 
+    console.log(position);
     return (
         <>
         <NavBar />
@@ -80,7 +84,7 @@ const Resthaven = () => {
             <Row className="h-100 " style={{backgroundImage:`url(${resthaven})`, backgroundSize:"cover", backgroundPosition:"center", backgroundAttachment:"fixed"}}>
             </Row>
         </Container>
-        <Container className="mt-5" >
+        <Container className="mt-5 mb-5" >
             <Row className="">
                 <Col className="d-flex justify-content-center align-items-center" lg={4}>
                     <div>
@@ -129,14 +133,31 @@ const Resthaven = () => {
             </Row>
         </Container>
         <Container ref={imgRef} fluid>
-            <Row style={{height:"100vh"}}>
-                <Col lg={6} className="overflow-hidden" style={{height:"100%" ,backgroundImage:`url(${resthavenOne})`, backgroundSize:"cover", backgroundPosition:"20% 20%", backgroundRepeat:"no-repeat", backgroundAttachment:"fixed"}}>
+            <Row className="split-row-container">
+                <Col lg={6} className="split-row-col overflow-hidden" style={{backgroundImage:`url(${resthavenOne})`}}>
                 </Col>
-                <Col lg={6}  className="overflow-hidden" style={{backgroundImage:`url(${resthavenOne})`, backgroundPosition:`130% ${position}%`, backgroundRepeat:"no-repeat", backgroundAttachment:"fixed"}}>
+                <Col lg={6}  className="split-row-col-full overflow-hidden" style={{backgroundImage:`url(${resthavenOne})`, backgroundPosition:`130% ${position}%`}}>
                 </Col>
             </Row>
         </Container>
-        <Container style={{height:"200vh"}}></Container>
+        <Container className="parallax-container d-flex flex-column justify-content-center" style={{height:"85vh", backgroundImage:`url(${brayden})`}} fluid>
+            <Row className="mb-5">
+                <Col className="d-flex justify-content-center  align-items-center text-center">
+                    <div>
+                        <h2 className="sub-heading-resthaven mb-4">Since the album's release, <br />Resthaven has become a full-unit.</h2>
+                        <p className="paragraph-resthaven">We've gone from a one-man band to a four-membered friend group who loves to take the 
+                        Toronto local scene by storm, with many more production projects coming up.</p>
+                        </div>
+                </Col>
+            </Row>
+            <Row className="">
+                <Col className="d-flex justify-content-center"> 
+                    <Link className="text-white more-projects bg-black" >More Projects</Link>
+                    <div className="bg-white link-line" ></div>
+                </Col>
+            </Row>
+        </Container>
+        <Footer />
         </>
     )
 }

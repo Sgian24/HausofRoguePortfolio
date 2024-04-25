@@ -152,7 +152,7 @@ const Resthaven = () => {
             </Row>
             <Row className="">
                 <Col className="d-flex justify-content-center"> 
-                    <Link className="text-white more-projects bg-black" >More Projects</Link>
+                    <Link to="/" className="text-white more-projects bg-black" >More Projects</Link>
                     <div className="bg-white link-line" ></div>
                 </Col>
             </Row>

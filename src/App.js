@@ -14,8 +14,8 @@ const App = () => {
       <Route path="/silenthill" element={<SilentHill />} />
       <Route path="/animalliberationfront" element={<ALF />} />
       <Route path="/callofcthulu" element={<Cthulu />} />
-      <Route path="resthaven" element={<Resthaven />}/> 
-      <Route path="about" element={<About />}></Route>
+      <Route path="/resthaven" element={<Resthaven />}/> 
+      <Route path="/about" element={<About />}></Route>
     </Routes>
     </>
   );

@@ -171,9 +171,7 @@ const ALF = () => {
                     </Col>
                     <Col className="h-100">
                         <img className="mb-3" src={alfInvitation} width="100%" alt="" />
-                        <p>I constructed a moodboard that was faithful to the industrial x anarchy look of ALF, 
-                            because this is something that no other animal rights organization has branded. So 
-                            think dusty, photo-scan textures, spray paint and ripped paper textures. However, 
+                        <p> However, 
                             as the project progressed I opted for a more optimistic design, to show diplomacy. 
                             Instead I used the industrial-heavy style on the assets such as the brush strokes 
                             on the dog, and the spray texture of the circle enclosing it. The 
@@ -231,12 +229,11 @@ const ALF = () => {
                 </Row>
                 <Row >
                 <Col className="d-flex justify-content-center ">
-                    <Link className="more-projects">More Projects</Link>
+                    <Link to="/" className="more-projects">More Projects</Link>
                     <div className="link-line"></div>
                 </Col>
             </Row>
             </Container>
-           
            <Footer />
         </>
     )

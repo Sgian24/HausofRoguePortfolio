@@ -278,7 +278,7 @@ const Cthulu = () => {
                 </Row>
                 <Row >
                 <Col className="d-flex justify-content-center ">
-                    <Link className="more-projects">More Projects</Link>
+                    <Link to="/" className="more-projects">More Projects</Link>
                     <div className="link-line"></div>
                 </Col>
             </Row>

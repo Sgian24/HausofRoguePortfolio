@@ -22,6 +22,9 @@
 
 /* Content */
 
+Nav {
+    font-family: Barlow-ExtraLight;
+}
 
 p {
     font-family: Modern Typewriter; 
@@ -29,6 +32,16 @@ p {
 
 .nav-container {
     width: 90%;
+}
+
+.active {
+    color: white !important;
+    background-color: black;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
 }
 
 .body-content-container {
@@ -410,7 +423,53 @@ mark {
     width:90%;
 }
 
-/*Glitch hover effects*/
+.split-row-container {
+    height: 100vh;
+}
+
+.split-row-col {
+    background-size: cover;
+    background-position: 20% 20%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.split-row-col-full {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-container {
+    height: 85vh;
+    background-size: cover;
+    background-position: 50% 65%;
+    background-attachment: fixed;
+}
+
+.sub-heading-resthaven {
+    font-family: Modern Typewriter;
+    color: white;
+}
+
+.paragraph-resthaven {
+    width: 65vw;
+    color: white;
+}
+
+.billie-div {
+    height: 95vh;
+}
+
+.billie-guitar {
+    object-fit: cover;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+/*Glitch hover effects////////////////////////////////////*/
 
 .overlay:hover {
     opacity: 1 !important;

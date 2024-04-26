@@ -7,7 +7,7 @@ import Table from "react-bootstrap/Table";
 import Carousel from "react-bootstrap/Carousel";
 import Modal from "react-bootstrap/Modal";
 import Footer from "..//Components/Footer";
-import {Link} from "react-router-dom";
+import {Link, ScrollRestoration} from "react-router-dom";
 import Line from "..//Assets/Asset 8.png";
 import cthuluBookMockup from "..//Assets/CoC_Book-Mockup.jpg";
 import cthuluMMoodBoard from "..//Assets/Cthulu Moodboard.jpg";
@@ -57,6 +57,7 @@ const Cthulu = () => {
 
     return (
         <>
+        <ScrollRestoration />
         <NavBar />
         <Container className="cthulu-body-container mt-4" fluid>
             <Row>

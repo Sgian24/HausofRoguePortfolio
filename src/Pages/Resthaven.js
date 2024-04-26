@@ -9,7 +9,7 @@ import resthaven from "..//Assets/resthaven-cropped.webp";
 import bwResthaven from "..//Assets/IMG_3121.jpg";
 import resthavenOne from "..//Assets/resthaven2.webp";
 import brayden from "..//Assets/IMG_3015.jpg";
-import {Link} from "react-router-dom";
+import {Link, ScrollRestoration} from "react-router-dom";
 import Footer from "..//Components/Footer";
 
 const Resthaven = () => {
@@ -41,6 +41,7 @@ const Resthaven = () => {
     console.log(position);
     return (
         <>
+        <ScrollRestoration />
         <NavBar />
         <Container className="resthaven-body-container mt-4" fluid>
             <Row>

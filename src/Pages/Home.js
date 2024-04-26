@@ -8,12 +8,13 @@ import cd from "..//Assets/cd-services.webp";
 import ALF from "..//Assets/ALF-stationary.webp";
 import cthulu from "..//Assets/cthulu.webp";
 import Resthaven from "..//Assets/resthaven.webp";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 import Footer from "../Components/Footer";
 
 const Home = () => {
     return (
         <div className="">
+        <ScrollRestoration />
         <NavBar />
         <Container className="body-content-container mb-4" fluid>
             <Row className="mb-5 ">

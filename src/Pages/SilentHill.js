@@ -41,13 +41,13 @@ const SilentHill = () => {
                 <h1 className="text-center header-title">Visit: Silent Hill</h1>
                 <p className="mb-5">The Silent Hill game series known for the 'creepy fog effect' and grotesque monsters. 
                    It is so much more than that it's a haunting and captivating journey into the depths of
-                   psychological horror and existential dread. With each instalment, it weaves an intricate
+                   psychological horror and existential dread. With each installment, it weaves an intricate
                    tapestry of fear and introspection, inviting players to confront their (character's) 
                    darkest fears and innermost demons in a nightmarish realm like no other. The objective of 
                    the assignment itself was to pick a city/town to use as a subject for a promotional print
                    campaign. We were free to pick a fictional place as well, so with the Silent Hill being among 
                    my most cherished video games ever, I went with it. You'll see some game references and Easter
-                   eggs planted around.</p>
+                   <br />eggs planted around.</p>
             </Col>
             </Row>
             <Row>
@@ -67,7 +67,7 @@ const SilentHill = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Digital Art, Web Design, Print, Marketing Campaign</td>
+                            <td>Digital Art, Web Design, <br /> Print, Marketing Campaign</td>
                             <td>School Project</td>
                             <td>2022</td>
                         </tr>
@@ -77,7 +77,7 @@ const SilentHill = () => {
             </Row>
             <Row className="mb-4">
                <Col> 
-                <img src={silentHill} width="100%" alt="" />
+                <img className="silent-hill-web-two" src={silentHill} width="100%" alt="" />
                </Col>
             </Row>
             <Row className="mb-4">
@@ -112,16 +112,16 @@ const SilentHill = () => {
             </Container>
             <Container>
             <Row>
-                <Col className="d-flex justify-content-center mb-4">
-                    <img src={silentHill} width="70%" alt="" />
+                <Col className= "d-flex justify-content-center mb-4">
+                    <img className="silent-hill-web" src={silentHill} width="70%" alt="" />
                 </Col>
             </Row>
             <Row>
                 <Col>
                     <img className="iMac" src={iMac} width="50%" alt="" />
                 </Col>
-                <Col className="mb-5">
-                    <h1 className="mb-4 sub-heading">Web Design</h1>
+                <Col sm={12} md={6} className="mb-5">
+                    <h1 className="mb-4 web-design-sub sub-heading">Web Design</h1>
                     <p>
                     For the website design, as you can see, I decided to take things a little more seriously. 
                     As my brand for Silent Hill began to develop, I did so on the basis of a peaceful, quiet, 
@@ -133,16 +133,16 @@ const SilentHill = () => {
             </Container>
             <Container className="gx-0 brochure-container" fluid>
             <Row className="brochure-row gx-0">
-                <Col lg={6} className="d-flex justify-content-center align-items-center px-5 ">
+                <Col xs={12} sm={6} md={6} lg={6} className="d-flex justify-content-center align-items-center px-5 ">
                     <div>
-                        <h1 className="sub-heading text-center mb-5">Brochure Print</h1>
+                        <h1 className="brochure-sub sub-heading text-center mb-5">Brochure Print</h1>
                         <p>Finally, the last instalment of the marketing campaign would be the handout brochures. 
                         Most of the work was already done through my XD file and I'm simply just applying that 
                         design on my InDesign file. I've fallen in love with the warm beige-brown colour 
                         palette; it just radiates cozy, cottage and coffee.</p>
                     </div>
                 </Col>
-                <Col className="brochure-image-scroll border">
+                <Col sm={6} md={6} lg={6} className="brochure-image-scroll">
                     <img className="object-fit-cover h-100 w-100" src={silentHillBrochureEdited} alt="" style={{objectPosition:`${position}% 50%`}} />
                 </Col>
             </Row>

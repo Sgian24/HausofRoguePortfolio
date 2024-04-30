@@ -22,6 +22,9 @@
 
 /* Content */
 
+body {
+    overflow-x: hidden;
+}
 Nav {
     font-family: Barlow-ExtraLight;
 }
@@ -34,15 +37,17 @@ p {
     width: 90%;
 }
 
+.nav-link:hover {
+    color: white;
+    background-color: black;
+}
+
 .active {
     color: white !important;
     background-color: black;
 }
 
-.nav-link:hover {
-    color: white;
-    background-color: black;
-}
+/********* Work ***********************************/
 
 .body-content-container {
     margin-top: 5vh;
@@ -88,6 +93,7 @@ p {
     font-family: Cozy;
     font-size: 4rem;
     color: white;
+    text-align: center;
 }
 
 .footer-container {
@@ -110,6 +116,8 @@ footer {
     text-decoration: none;
     font-size: 1.5rem;
 }
+
+/********* Silent Hill ***********************************/
 
 .margin-container {
     width: 90%;
@@ -160,7 +168,7 @@ th {
 
 .brochure-image-scroll {
     height: 100%;
-    width: 100%;
+    
 }
 
 .brochure-row {
@@ -205,6 +213,8 @@ th {
         width: 100px;
     }
 }
+
+/********* ALF ***********************************/
 
 .logo-row {
     height: 120vh;
@@ -290,6 +300,8 @@ th {
 .alf-site-link:hover {
     text-decoration:line-through;
 }
+
+/********* Cthulu ***********************************/
 
 .cthulu-body-container {
     width: 90%;
@@ -419,6 +431,8 @@ mark {
     height: 20%;
 }
 
+/********* Resthaven ***********************************/
+
 .resthaven-body-container {
     width:90%;
 }
@@ -469,7 +483,7 @@ mark {
     color: black;
 }
 
-/*Glitch hover effects////////////////////////////////////*/
+/********* Glitch Effect ***********************************/
 
 .overlay:hover {
     opacity: 1 !important;
@@ -755,10 +769,163 @@ mark {
     }
 }
 
-/* Media Queries */
+/********* Media Queries ***********************************/
 
 @media only screen and (max-width: 576px) {
     .navlink-container {
         display: block !important;
     }
+}
+
+ /***MQ Work***/
+
+ @media only screen and (max-width: 993px) {
+    .cd {
+        width:80%;
+    }
+    .hero-title {
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cd {
+        width: 100%;
+    }
+
+    .cd-container {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .project-row {
+        height: 105vh;
+    }
+    
+    .glitch {
+        height: 50vh !important;
+        width: 100%;
+        background-position: 70% 50%;
+    }
+
+    .glitch-img {
+        background-position: 70% 50%;
+    }
+    .overlay-text {
+        font-size: 3rem;
+    }
+}
+
+/***MQ Silent Hill***/
+
+@media only screen and (max-width: 1200px) {
+    .silent-hill-web {
+        width: 80%;
+    }
+
+    .iMac {
+        top:405%;
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .silent-hill-web {
+        width: 90%;
+    }
+
+    .iMac {
+        top:390%;
+        left: 5%;
+    }
+
+    .brochure {
+        height: 90vh;
+        background-position: 38% 30%;
+    }
+
+    .link-line {
+        left: 45%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel {
+        width: 75%;
+    }
+
+    .carousel-image {
+        height: 70vh;
+    }
+
+    .silent-hill-web {
+        width: 100%;
+    }
+
+    .iMac {
+        top:365%;
+        left: 5%;
+    }
+
+    .brochure {
+        height: 70vh;
+        background-position: 38% 30%;
+    }
+
+    .link-line {
+        left: 43.5%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .carousel {
+        width: 80%;
+    }
+
+    .carousel-image {
+        height: 45vh;
+    }
+    
+    .silent-hill-web {
+        width: 100%;
+    }
+
+    .iMac {
+        display: none;
+    }
+
+    .silent-hill-web-two {
+        display: none;
+    }
+
+    .web-design-sub {
+        text-align: center;
+    }
+    
+    .brochure-container {
+        padding-top: 10vh;
+    }
+
+    .brochure-row {
+        height: 120vh;
+    }
+
+    .brochure-sub {
+        margin-bottom: 2vh !important;
+    }
+
+    .brochure {
+        height: 70vh;
+        background-position: 40% 10%;
+    }
+
+    .link-line {
+        left: 40%;
+    }
+
+    .footer-container {
+        height: 27vh;
+    }
+
 }

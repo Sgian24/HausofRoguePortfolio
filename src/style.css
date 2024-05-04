@@ -149,12 +149,12 @@ th {
 }
 
 .carousel-image {
-    height: 90vh;
+    left: -3%;
 }
 
 .iMac {
     position:absolute;
-    top: 380%;
+    top: 405%;
 }
 
 .sub-heading {
@@ -190,7 +190,7 @@ th {
 }
 
 .link-line {
-    left: 46%;
+    left: 45.7%;
     margin-top: 2vh;
     background-color: black;
     z-index: 1;
@@ -284,7 +284,7 @@ th {
 }
 
 .site-mockup-container {
-    height: 260vh;
+    height: 250vh;
 }
 
 .alf-site-link {
@@ -825,8 +825,12 @@ mark {
     }
 
     .iMac {
-        top:405%;
+        top: 385%;
         left: 5%;
+    }
+
+    .link-line {
+        left: 44.8%;
     }
 }
 
@@ -836,56 +840,73 @@ mark {
     }
 
     .iMac {
-        top:390%;
+        top:360%;
         left: 5%;
     }
 
     .brochure {
         height: 90vh;
         background-position: 38% 30%;
+        background-size: 180%;
     }
 
     .link-line {
-        left: 45%;
+        left: 43.2%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .carousel {
-        width: 75%;
-    }
-
-    .carousel-image {
-        height: 70vh;
-    }
-
+  
     .silent-hill-web {
         width: 100%;
     }
 
+    .carousel {
+        width: 100%;
+    }
+
     .iMac {
-        top:365%;
+        top:355%;
         left: 5%;
     }
 
+    .brochure-container {
+        padding-top: 10vh;
+        height: 132.5vh;
+    }
+
+    .brochure-sub {
+        margin-bottom: 2vh !important;
+    }
+
+    .brochure-image-scroll {
+       
+    }
+
     .brochure {
-        height: 70vh;
+        height: 180vh;
         background-position: 38% 30%;
+        background-size: cover;
     }
 
     .link-line {
-        left: 43.5%;
+        left: 40.7%;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .brochure-container {
+        height: 136.5vh;
+    }
+}
+
+@media only screen and (max-width: 598px) {
+    .brochure-container {
+        height: 140.5vh;
     }
 }
 
 @media only screen and (max-width: 576px) {
-    .carousel {
-        width: 80%;
-    }
-
-    .carousel-image {
-        height: 45vh;
-    }
     
     .silent-hill-web {
         width: 100%;
@@ -917,15 +938,128 @@ mark {
 
     .brochure {
         height: 70vh;
-        background-position: 40% 10%;
+        background-position: 38% 30%;
     }
 
     .link-line {
-        left: 40%;
+        left: 39.7%;
     }
 
     .footer-container {
         height: 27vh;
     }
 
+}
+
+/**MQ ALF**/
+
+@media only screen and (max-width: 1200px) {
+    .mood-board {
+        height: 84%;
+    }
+
+    .alf-mockup-container {
+        height: 45.8%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .alf-thumbnail-container {
+        height: 50vh;
+    }
+
+    .alf-thumbnail {
+        height: 94%;
+    }
+
+    .modal-body {
+        height: 75vh;
+    }
+
+    .modal-container {
+        top: 6%;
+    }
+
+    .modal-90w {
+        max-width: 68%;
+    }
+
+    .zoom-container {
+        margin-bottom: 0 !important;
+    }
+
+    .guidelines-body-container {
+        max-width: 90%;
+        height: 155vh;
+    }
+
+    .mood-board {
+        height: 77.2%;
+    }
+
+    .alf-mockup-container {
+        height: 32.5%;
+    }
+
+    .alf-site {
+        height: 100vh;
+        background-position: 20% 2%;
+    }   
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-body {
+        height: 65vh;
+    }
+
+    .alf-thumbnail-container {
+        height: 39vh;
+    }
+
+    .zoom-container {
+        height: 110vh;
+    }
+
+    .guidelines-body-container {
+        height: 135vh;
+    }
+
+    .mood-board {
+        height: 70%;
+    }
+
+    .alf-mockup-container {
+        height: 25.3%;
+    }
+
+    .alf-site {
+        height: 80vh;
+        background-position: 40% -2%;
+    }  
+
+    .site-mockup-container {
+        height: 240vh;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .logo-row {
+        height: 180vh;
+    }
+
+    .modal-body {
+        height: 50vh;
+    }
+
+    .modal-container {
+        
+    }
+    
+    .mood-board {
+        height: 84%;
+    }
+
+    .alf-mockup-container {
+        height: 45.8%;
+    }
 }

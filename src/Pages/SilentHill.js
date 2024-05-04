@@ -7,8 +7,8 @@ import Table from "react-bootstrap/Table";
 import Line from "..//Assets/Asset 8.png";
 import silentHill from "..//Assets/silenthill.webp";
 import Carousel from "react-bootstrap/Carousel";
-import silentHillPoster from "..//Assets/Poly art assignment_Poster Design.jpg";
-import silentHillPostCard from "..//Assets/Poly art assignment_Postcard Design.jpg";
+import silentHillPoster from "..//Assets/Poly_art_assignment_Poster_Design_Two.jpg";
+import silentHillPostCard from "..//Assets/Poly_art_assignment_Postcard_Design.jpg";
 import iMac from "..//Assets/iMac Mockup.png";
 import silentHillBrochureEdited from "../Assets/Silent Hill Tourist brochure mockup_edited.png";
 import silentHillBrochure from "../Assets/SilentHillBrochure.webp";
@@ -100,17 +100,17 @@ const SilentHill = () => {
             <Row className="mb-4">
                 <Col className="carousel-container d-flex p-5 justify-content-center" >
                     <Carousel className="carousel">
-                        <Carousel.Item>
-                            <img className="carousel-image" src={silentHillPoster} width="100%"  alt="" />
+                        <Carousel.Item className="bg-transparent" >
+                            <img className="d-block m-auto" src={silentHillPoster}  width="92.4%"  alt="" />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="carousel-image" src={silentHillPostCard} width="100%"  alt="" />
+                            <img className="carousel-image position-relative" src={silentHillPostCard} width="104%"  alt="" />
                         </Carousel.Item>
                     </Carousel>
                 </Col>
             </Row>
             </Container>
-            <Container>
+            <Container className="margin-container" fluid>
             <Row>
                 <Col className= "d-flex justify-content-center mb-4">
                     <img className="silent-hill-web" src={silentHill} width="70%" alt="" />
@@ -120,7 +120,7 @@ const SilentHill = () => {
                 <Col>
                     <img className="iMac" src={iMac} width="50%" alt="" />
                 </Col>
-                <Col sm={12} md={6} className="mb-5">
+                <Col xs={12} sm={6} md={6} className="mb-5">
                     <h1 className="mb-4 web-design-sub sub-heading">Web Design</h1>
                     <p>
                     For the website design, as you can see, I decided to take things a little more seriously. 
@@ -133,7 +133,7 @@ const SilentHill = () => {
             </Container>
             <Container className="gx-0 brochure-container" fluid>
             <Row className="brochure-row gx-0">
-                <Col xs={12} sm={6} md={6} lg={6} className="d-flex justify-content-center align-items-center px-5 ">
+                <Col xs={12} sm={12} md={6} lg={6} className="d-flex justify-content-center align-items-center px-5 mb-4 mb-lg-0 mb-xl-0 mb-xs-4 mb-sm-4">
                     <div>
                         <h1 className="brochure-sub sub-heading text-center mb-5">Brochure Print</h1>
                         <p>Finally, the last instalment of the marketing campaign would be the handout brochures. 
@@ -142,12 +142,12 @@ const SilentHill = () => {
                         palette; it just radiates cozy, cottage and coffee.</p>
                     </div>
                 </Col>
-                <Col sm={6} md={6} lg={6} className="brochure-image-scroll">
+                <Col sm={12} md={6} lg={6} className="brochure-image-scroll">
                     <img className="object-fit-cover h-100 w-100" src={silentHillBrochureEdited} alt="" style={{objectPosition:`${position}% 50%`}} />
                 </Col>
             </Row>
         </Container>
-        <Container>
+        <Container className="position-relative">
             <Row>
                 <Col className="brochure w-100" style={{backgroundImage:`url(${silentHillBrochure})`}}>
                 </Col>

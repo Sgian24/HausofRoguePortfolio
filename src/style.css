@@ -879,10 +879,6 @@ mark {
         margin-bottom: 2vh !important;
     }
 
-    .brochure-image-scroll {
-       
-    }
-
     .brochure {
         height: 180vh;
         background-position: 38% 30%;
@@ -955,11 +951,19 @@ mark {
 
 @media only screen and (max-width: 1200px) {
     .mood-board {
-        height: 84%;
+        width: 100%;
     }
 
     .alf-mockup-container {
         height: 45.8%;
+    }
+
+    .alf-mockup {
+        width: 96.2%;
+    }
+
+    .guidelines-body-container {
+        height: auto;
     }
 }
 
@@ -984,27 +988,43 @@ mark {
         max-width: 68%;
     }
 
+    .modal-img {
+        object-fit: contain;
+    }
+
     .zoom-container {
-        margin-bottom: 0 !important;
+        height: 120vh;
     }
 
     .guidelines-body-container {
         max-width: 90%;
-        height: 155vh;
+        height: auto;
     }
 
-    .mood-board {
-        height: 77.2%;
+    .alf-invitation-container {
+        height: 28%;
+        border: solid 1px black;
     }
 
-    .alf-mockup-container {
-        height: 32.5%;
+    .alf-invitation {
+        height: 100%;
+        object-fit: cover !important;
+        
+    }
+
+    .alf-mockup {
+        width: 100%;
+   
     }
 
     .alf-site {
         height: 100vh;
         background-position: 20% 2%;
     }   
+
+    .mood-board {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1017,17 +1037,13 @@ mark {
     }
 
     .zoom-container {
-        height: 110vh;
+        height: 100vh;
     }
 
     .guidelines-body-container {
-        height: 135vh;
+        height: auto;
     }
-
-    .mood-board {
-        height: 70%;
-    }
-
+    
     .alf-mockup-container {
         height: 25.3%;
     }
@@ -1040,6 +1056,31 @@ mark {
     .site-mockup-container {
         height: 240vh;
     }
+
+    .alf-logo-container {
+        height: 230vh;
+    }
+
+    .alf-logo {
+        display: none;
+    }
+
+    .alf-logo-container-col {
+        display: none !important;
+    }
+
+    .alf-logo-whole-container {
+        display: flex !important;
+    }
+
+    .logo-text-col {
+        height: 50% !important;
+    }
+
+    .logo-row {
+        height: 180vh;
+    }
+    
 }
 
 @media only screen and (max-width: 576px) {
@@ -1047,19 +1088,48 @@ mark {
         height: 180vh;
     }
 
+    .modal-container {
+        top: 10%;
+        left: 14%;
+    }
+
     .modal-body {
         height: 50vh;
     }
-
-    .modal-container {
-        
-    }
     
     .mood-board {
-        height: 84%;
+        height: auto;
     }
 
-    .alf-mockup-container {
-        height: 45.8%;
+    .mood-board-text {
+        margin-top: 15vh;
+    }
+
+    .alf-logo-container {
+       height: auto;
+    }
+
+    .logo-text-container {
+        width: 90% !important;
+    }
+
+    .alf-thumbnail-container {
+        height: auto;
+    }
+
+    .zoom-container {
+        height: auto;
+    }
+
+    .site-mockup-container {
+        height: auto;
+    }
+
+    .site-mockup-text {
+        width: 90%;
+    }
+
+    .site-mockup-img {
+        width: 90%;
     }
 }

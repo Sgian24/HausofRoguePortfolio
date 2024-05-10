@@ -9,6 +9,7 @@ import Table from "react-bootstrap/Table";
 import { Link, ScrollRestoration } from "react-router-dom";
 import stamp from "..//Assets/mock up stamp_edited.jpg";
 import logo from "..//Assets/fullColor_redSpray_edited.png";
+import logoWhole from "..//Assets/logo-full.jpg";
 import logoSketch from "..//Assets/Roa_Billie-Sketches-02.jpg";
 import logoSketchTwo from "..//Assets/Roa_Billie-LogoDesign-03.jpg";
 import guideline from "..//Assets/wprch.jpg";
@@ -37,9 +38,9 @@ const ALF = () => {
         const oldScrollY = window.scrollY;
         const handleScroll = () => {
             if (oldScrollY < window.scrollY && scale >= 100) {
-              setScale(() => scale -4)
+              setScale(() => scale -5)
             } else if (oldScrollY > window.scrollY && scale <= 200){
-                setScale(() => scale + 4)
+                setScale(() => scale + 5)
             }
         }
         const observer = new IntersectionObserver(i => {
@@ -62,15 +63,10 @@ const ALF = () => {
             <Row>
             <Col>
                 <h1 className="text-center header-title">Animal Liberation Front</h1>
-                <p className="mb-5">The Silent Hill game series known for the 'creepy fog effect' and grotesque monsters. 
-                   It is so much more than that it's a haunting and captivating journey into the depths of
-                   psychological horror and existential dread. With each instalment, it weaves an intricate
-                   tapestry of fear and introspection, inviting players to confront their (character's) 
-                   darkest fears and innermost demons in a nightmarish realm like no other. The objective of 
-                   the assignment itself was to pick a city/town to use as a subject for a promotional print
-                   campaign. We were free to pick a fictional place as well, so with the Silent Hill being among 
-                   my most cherished video games ever, I went with it. You'll see some game references and Easter
-                   eggs planted around.</p>
+                <p className="mb-5">As an animal lover and a dog-mom, this project has some heartstrings into 
+                it. The objective of this assignment was to take a real or existing charity organization and 
+                completely rebrand it. New logo, design systems, everything. I chose the real life company of 
+                Animal Liberation Front as my first Branding Identity Project. </p>
             </Col>
             </Row>
             <Row>
@@ -121,14 +117,14 @@ const ALF = () => {
                </Col>
             </Row>
             </Container>
-            <Container className="gx-0 mb-5" fluid>
+            <Container className="alf-logo-container gx-0 mb-5" fluid>
                 <Row className="logo-row gx-0">
-                    <Col className="d-flex justify-content-end h-100">
+                    <Col sm={0} md={6} lg={6} xl={6} className="alf-logo-container-col border d-flex justify-content-end h-100">
                         <img src={logo} alt="" />
                     </Col>
-                    <Col className="logo-text-col h-100 d-flex justify-content-center align-items-center mb-5">
-                        <div className="w-75">
-                            <h1 className="mb-5 sub-heading text-center">The Logo</h1>
+                    <Col xx={12} sm={12} md={6} lg={6} xl={6} className="logo-text-col h-100 d-flex justify-content-center align-items-center mb-5">
+                        <div className="logo-text-container w-75">
+                            <h1 className="mb-sm-3 mb-lg-5 sub-heading text-center">The Logo</h1>
                             <p> I started doodling and writing down footnotes, as a graphic designer does. Symbol, 
                             icon, word mark--the choices were endless. I ended up drawing a beagle dog and something 
                             clicked.</p>
@@ -140,47 +136,52 @@ const ALF = () => {
                              animals.</p>
                         </div>
                     </Col>
+                    <Col md={6} lg={6} xl={6} className="alf-logo-whole-container h-auto d-none d-flex justify-content-end">
+                        <img className="object-fit-contain" src={logoWhole} height="100%" width="100%"/>
+                    </Col>
                 </Row>
             </Container>
-            <Modal size="lg" className="modal-container" show={show} onHide={handleClose}>
+            <Modal size="lg" dialogClassName="modal-90w" className="modal-container" show={show} onHide={handleClose}>
                     <Modal.Header className="modal-header" closeButton></Modal.Header>
                     <Modal.Body className="modal-body" >
-                        <img src={image === 1? logoSketch: logoSketchTwo} height="100%" width="100%" alt="" />
+                        <img className="modal-img" src={image === 1? logoSketch: logoSketchTwo} height="100%" width="100%" alt="" />
                     </Modal.Body>
             </Modal>
-            <Container className= "alf-thumbnail-container mb-4">
+            <Container className="alf-thumbnail-container mb-3 mb-sm-0 mb-lg-5" fluid>
                      <Row>
                         <Col><img className="alf-thumbnail" onClick={() => handleShow(1)} src={logoSketch} width="100%" alt=""  /></Col>
                         <Col><img className="alf-thumbnail" onClick={() => handleShow(2)} src={logoSketchTwo} width="100%" alt="" /></Col>
                     </Row>
             </Container>
-            <Container className="zoom-container overflow-hidden mb-5" fluid>
+            <Container className="zoom-container overflow-hidden mb-3 mb-xl-5" fluid>
                  <Row className="h-100">
-                    <Col className="border d-flex justify-content-center align-items-center h-100 w-100"  >
+                    <Col className="d-flex justify-content-center align-items-center h-100 w-100"  >
                         <img className="guidelines-img" src={guideline} ref={imgRef} style={{transform:`scale(${scale.toString() + "%"})`}} width="100%" alt="" />
                         <h1 className="guidelines-heading">Guidelines</h1>
                     </Col>
                 </Row>
             </Container>
-            <Container className="guidelines-body-container mb-5">
-                <Row className="h-100">
-                    <Col>
-                        <p>I constructed a moodboard that was faithful to the industrial x anarchy look of ALF, 
+            <Container className="guidelines-body-container mb-5" >
+                <Row className="">
+                    <Col className="d-flex flex-column justify-content-between">
+                        <p className="mood-board-text mt-sm-5 mt-md-3 mt-lg-0">I constructed a moodboard that was faithful to the industrial x anarchy look of ALF, 
                             because this is something that no other animal rights organization has branded. So 
                             think dusty, photo-scan textures, spray paint and ripped paper textures.</p>
-                        <img src={moodBoard} width="100%" alt="" />
+                        <img className="mood-board object-fit-contain" src={moodBoard}  width="100%" alt="" />
                     </Col>
-                    <Col className="h-100">
-                        <img className="mb-3" src={alfInvitation} width="100%" alt="" />
-                        <p> However, 
+                    <Col className="d-flex flex-column justify-content-between">
+                        <div className="alf-invitation-container mb-3 mb-sm-3 mb-md-3 mb-lg-0 ">
+                            <img className="alf-invitation mb-3 object-fit-contain" src={alfInvitation} width="100%" alt="" />
+                        </div>
+                        <p className="" > However, 
                             as the project progressed I opted for a more optimistic design, to show diplomacy. 
                             Instead I used the industrial-heavy style on the assets such as the brush strokes 
                             on the dog, and the spray texture of the circle enclosing it. The 
                             industrial-anarchist elements were instead used as statement pieces--just to
                              maintain ALF's roots and convictive tone.</p>
-                        <div className="alf-mockup-container w-100">
-                            <img className="alf-mockup" src={alfMockup} height="100%" width="100%"  alt="" />
-                        </div>
+                       
+                            <img className="border alf-mockup object-fit-contain" src={alfMockup}  width="98.6%"  alt="" />
+                      
                     </Col>
                 </Row>
             </Container>
@@ -190,46 +191,50 @@ const ALF = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className="site-mockup-container mb-4">
+            <Container className="site-mockup-container mb-5 mb-sm-4 mb-md-4 mb-lg-4" >
                 <Row className="mb-3">
-                    <Col className="d-flex justify-content-center align-items-center">
+                    <Col md={4} className="d-flex justify-content-center align-items-center">
                         <Link className="alf-site-link" to="https://billierogue.github.io/AnimalLiberationFront/">Desktop Web Design</Link>
                     </Col>
-                    <Col>
-                        <p>Designing the site was the final set of the project. You can Google their real site 
+                    <Col md={8} className="d-flex flex-column justify-content-center align-items-center">
+                        <div className="site-mockup-text" >
+                            <p>Designing the site was the final set of the project. You can Google their real site 
                             at your own risk but it’s very outdated-looking which is what these other animal 
                             rights organizations have against them. </p>
-                        <p> In order to come up with the design, I took into consideration ALF's three biggest 
+                            <p> In order to come up with the design, I took into consideration ALF's three biggest 
                             competitors: Four Paws, Direct Action Everywhere and The Humane League .They all 
                             had something that Animal Liberation Front was missing such as: rescuing a bigger 
                             range of animals such as lions, monkeys, aquatic animals and other wild animals. 
                             Travelling with bigger press exposure, which lead to legislative victories. And a 
                             logo (which I do not recall ALF having) with a sleek website design.</p>
+                        </div>
                     </Col>
                 </Row>
                 <Row className="mb-4">
-                    <Col>
-                     <img src={siteMockup} width="100%" alt="" />
+                    <Col className="d-block">
+                     <img className="site-mockup-img d-block m-auto" src={siteMockup} width="100%" alt="" />
                     </Col>
                 </Row>
-                <Row className="mb-4">
-                    <Col>
+                <Row className="mb-3 mb-sm-4 mb-md-4 mb-lg-4">
+                    <Col className="d-flex flex-column align-items-center justify-content-center">
+                      <div style={{width: "90%"}}>
                         <p>Though my branding project cannot provide them with the ability to travel around the
                              world like UNICEF, have signed legislations and rescue more wild animals--I knew I 
                              could just give them the ability to "seem" like they do and look on par with their 
                              competitive charities.</p>
                         <p>Designed by me, with the aid of my boyfriend, Sunny Gian, who developed the web 
                             prototype. Click the "Desktop-Web Design" heading to view the prototype or click 
-                            the link: <Link to="https://billierogue.github.io/AnimalLiberationFront">https://billierogue.github.io/AnimalLiberationFront/</Link></p>
+                            the link: <Link to="https://billierogue.github.io/AnimalLiberationFront">https://billierogue.github.io/<br/>AnimalLiberationFront/</Link></p>
                         <p>All in all, I love my work on this organization and had considered commissioning it to the
                            real Animal Liberation Front to turn this project to reality. Though there are just a 
                            plethora of things into consideration, like the organization's radicalism and my 
                            association with that. But my mind has not been made up, so hopefully in the future--it's 
                            never too late!</p>
+                      </div>
                     </Col>
                 </Row>
                 <Row >
-                <Col className="d-flex justify-content-center ">
+                <Col className="d-flex justify-content-center position-relative">
                     <Link to="/" className="more-projects">More Projects</Link>
                     <div className="link-line"></div>
                 </Col>

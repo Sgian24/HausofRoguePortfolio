@@ -59,7 +59,7 @@ const Cthulu = () => {
         <>
         <ScrollRestoration />
         <NavBar />
-        <Container className="cthulu-body-container mt-4" fluid>
+        <Container className="cthulu-body-container mt-4 mb-sm-5 mb-md-5" fluid>
             <Row>
                 <Col>
                     <h1 className="text-center header-title">Call of Cthulu</h1>
@@ -96,19 +96,19 @@ const Cthulu = () => {
                 </Table>   
                 </Col>
             </Row>
-            <Row className="mb-5">
+            <Row className="mb-3 mb-sm-4 mb-md-4 mb-xl-5">
                <Col> 
                 <img src={cthuluBookMockup} width="100%" alt="" />
                </Col>
             </Row>
             <Row>
-                <Col lg={4}>
+                <Col lg={4} className="mb-sm-3 mb-md-3 mb-xl-5">
                     <p>I'd like to start off with the moodboard first because it is in a style called Grindhouse. 
                         Grindhouse style refers to a specific cinematic aesthetic that emerged in the 1960s and 
                         1970s, characterized by low-budget filmmaking techniques, exploitation of sensational and 
                         often taboo subject matter, and a focus on delivering visceral and intense experiences to 
                         audiences. However, the grindhouse aesthetic is usually associated with gore, horror and 
-                        slashers--hence the "visceral" experience.</p>
+                        slashers--hence the <br className="visceral-orphan"/>"visceral" experience.</p>
                 </Col>
                 <Col lg={8}>
                     <img src={cthuluMMoodBoard} width="100%" alt="" />
@@ -134,19 +134,19 @@ const Cthulu = () => {
                 </Col>
             </Row>
             </Container>
-            <Container className="mb-5">
-                <Row>
-                    <Col xs={12} lg={6}>
-                        <img src={posterOnWall} width="100%" alt="" />
+            <Container className="cthulu-movie-poster-container d-flex mb-5" fluid>
+                <Row className="">
+                    <Col className="order-2 order-sm-2 order-md-1" md={6} lg={6}>
+                        <img className="object-fit-md-cover" src={posterOnWall} height="100%" width="100%" alt="" />
                     </Col>
-                    <Col className="d-flex align-items-center">
+                    <Col className="d-flex align-items-center order-1 order-sm-1 order-md-2">
                     <div>
                         <h2 className="sub-heading text-center">The Movie Poster</h2>
                         <p>My goal was to recreate my adaption of the Cthulhu franchise onto the grindhouse face. 
                             I also intentionally misspelled Cthulhu to Cthulu for artistic purposes: easier 
                             pronunciation for mainstream audiences, and a way to differentiate itself from other 
                             adaptions of the novel.</p>
-                        <p>Before, I'd usually draw something and then retrace in on Illustrator. However, I 
+                        <p className="mb-sm-4 mb-xl-3">Before, I'd usually draw something and then retrace in on Illustrator. However, I 
                             was on a tight deadline and I felt I already worked so hard on this drawing. With 
                             the advice of a fairy godfather a.k.a my professor, Dwight Alexander, he had told 
                             me to go with what medium was "faster'. I didn't know the answer but I instinctually 
@@ -173,8 +173,8 @@ const Cthulu = () => {
             </Container>
             <Container className="book-sketch-container d-flex justify-content-center mb-5" fluid>
                 <Row className="book-sketch-row">
-                    <Col className="book-sketch-col d-flex align-items-center">
-                       <img className="object-fit-cover" src={sketchFour} width="52%" alt="" />
+                    <Col className="book-sketch-col d-flex align-items-center pt-5 pt-sm-0 pb-4 pb-sm-0">
+                       <img className="book-sketch object-fit-cover pb-3 pb-sm-0" src={sketchFour} width="52%" alt="" />
                        <p className="book-sketch-paragraph position-absolute"><mark>I could've easily pasted my movie poster onto the book, but I wanted to add variety 
                         and experiment with this new mixed media skill of playing with my hand-drawn assets with 
                         effect manipulation on Photoshop. Instead I decided to go with one of the alternate early 
@@ -183,25 +183,25 @@ const Cthulu = () => {
                     </Col>
                 </Row>
             </Container>
-            <Modal size="lg" className="modal-container" show={show} onHide={handleClose}>
+            <Modal size="lg" dialogClassName="modal-larger" className="modal-container" show={show} onHide={handleClose}>
                     <Modal.Header className="modal-header" closeButton></Modal.Header>
-                    <Modal.Body className="modal-body" >
+                    <Modal.Body className="modal-body">
                         <img src={image === "book-mockup-up"? bookMockupUp: 
                                   image === "book-mockup-down"? bookMockupDown: 
                                   image === "book-mockup"? bookMockup:
                                   image === "wall-mockup"? wallMockup:
                                   image === "exterior-mockup"? exteriorMockup:
-                                  image === "iPhone-jacket-mockup"? iPhoneJacketMockup: digestMockup} height="100%" width="100%" alt="" />
+                                  image === "iPhone-jacket-mockup"? iPhoneJacketMockup: digestMockup} className="object-fit-md-cover object-fit-lg-cover" height="100%" width="100%" alt="" />
                     </Modal.Body>
             </Modal>
-            <Container className="typography-container overflow-hidden">
+            <Container className="d-flex typography-container overflow-hidden" fluid>
                 <Row>
-                    <Col>
-                        <img className="book-mockup mb-2" onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="" />
-                        <img className="book-mockup mb-2" onClick={() => handleShow("book-mockup-down")} src={bookMockupDown} width="100%" alt="" />
-                        <img className="book-mockup" src={bookMockup} onClick={() => handleShow("book-mockup")} width="100%" alt="" />
+                    <Col className="typography-col order-2 order-sm-2 order-md-1 order-lg-1" md={5} lg={5} xl={6}>
+                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="" />
+                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-down")} src={bookMockupDown} width="100%" alt="" />
+                        <img className="book-mockup object-fit-lg-cover object-fit-md-cover" src={bookMockup} onClick={() => handleShow("book-mockup")} width="100%" alt="" />
                     </Col>
-                    <Col>
+                    <Col md={7} lg={6} xl={6} className="order-1 order-sm-1 order-md-2 order-lg-2">
                     <h2 className="sub-heading text-center mb-5">The Typography Aspect</h2>
                     <p className="mb-5"> The main font system used for the body text was Adobe Caslon Pro (directly based on William 
                         Caslon’s eponymous serif font family). I chose this serif font for the body copy because it 
@@ -209,9 +209,9 @@ const Cthulu = () => {
                          20th century and is popular in gothic fiction. Overall, the Caslon font has somewhat of a 
                          vintage, typewriter feel to it. Caslon is used for journals and books which is perfect 
                          because the point-of-view of Call of Cthulhu is narrated through the point-of-view of s
-                         omeone going through their late-uncle’s journals. </p>
+                         omeone going through their <br />late-uncle’s journals. </p>
                     <h5 className="text-end mb-4">Justification and Composition</h5>
-                    <p>I was already wary of widows, orphans and rivers in text formatting so fixing those didn’t 
+                    <p className="mb-sm-4 mb-xl-0">I was already wary of widows, orphans and rivers in text formatting so fixing those didn’t 
                         take up too much of my time. If you have a grasp of InDesign, working paragraph styles then 
                         formatting the text (via justification, hyphenation and ‘GREP” style”) shouldn’t take long 
                         (when in doubt, YouTube). One thing I noticed in books is the body copy is justified with the 
@@ -226,7 +226,7 @@ const Cthulu = () => {
                         based on the context of the story. For example, page 1, Chapter 1: I italicized the word “live”. 
                         I wanted the word to be thin to symbolize the slim chances of the character surviving—-show the reader 
                         the stakes.</p>
-                        <img className="book position-relative"ref={imgRef} src={book} width="100%" alt="" />
+                        <img className="book position-relative"ref={imgRef} src={book} width="80%" alt="" />
                     </Col>
                 </Row>
             </Container>
@@ -236,14 +236,14 @@ const Cthulu = () => {
                     </Col>
                 </Row>
                 <Row className="promotional-package-text-row bg-white">
-                    <Col className="d-flex justify-content-center align-items-center">
-                        <div>
-                        <h2 className="sub-heading mb-5">The Promotional <br /> Package</h2>
+                    <Col className="d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-center justify-content-xl-center align-items-center ps-md-5 ps-lg-0 ps-xl-0">
+                        <div className="">
+                        <h2 className="promotional-sub-heading mb-5">The Promotional <br className="visceral-orphan" /> Package</h2>
                         <div className="short-line"></div>
                         </div>
                     </Col>
-                    <Col className="d-flex justify-content-center align-items-center">
-                        <p className="w-75">The 'Promotional Package' chapter was quite familiar to me. I sort of had previous 
+                    <Col className="d-flex justify-content-center align-items-center ps-4 pe-4 ps-sm-5 ps-xl-0 pe-md-5 pe-lg-0 pe-xl-0">
+                        <p className="promotional-package-text w-75">The 'Promotional Package' chapter was quite familiar to me. I sort of had previous 
                             experience in my music releases because you got to hype up your audience with 
                             various visuals leading up to the drop date. It's essentially disassembling and 
                             rearranging the puzzles pieces to create something new.</p>
@@ -251,23 +251,23 @@ const Cthulu = () => {
                 </Row>
             </Container>
             <Container className="cthulu-mockup-container overflow-x-hidden px-0" fluid>
-                <Row className="cthulu-mockup-row mb-3">
-                    <Col>
-                       <img className="cthulu-mockup" onClick={() => handleShow("wall-mockup")} src={wallMockup} height="75%" width="100%" alt="" /> 
+                <Row className="mb-3">
+                    <Col className="cthulu-mockup-col mb-4 mb-sm-0 mb-xl-0" xs={12} sm={6} xl={6}>
+                       <img className="cthulu-mockup" onClick={() => handleShow("wall-mockup")} src={wallMockup} height="100%" width="100%" alt="" /> 
                     </Col>
-                    <Col>
-                        <img className="cthulu-mockup" onClick={() => handleShow("exterior-mockup")} src={exteriorMockup} height="75%" width="100%" alt="" />
-                    </Col>
-                </Row>
-                <Row className="cthulu-mockup-row">
-                    <Col>
-                       <img className="cthulu-mockup" onClick={() => handleShow("iPhone-jacket-mockup")} src={iPhoneJacketMockup} height="75%" width="100%" alt="" /> 
-                    </Col>
-                    <Col>
-                        <img className="cthulu-mockup" onClick={() => handleShow("digest-mockup")} src={digestMockup} height="75%" width="100%" alt="" />
+                    <Col className="cthulu-mockup-col" >
+                        <img className="cthulu-mockup" onClick={() => handleShow("exterior-mockup")} src={exteriorMockup} height="100%" width="100%" alt="" />
                     </Col>
                 </Row>
-                <Row className="cthulu-mockup-text-row">
+                <Row className="cthulu-mockup-row mb-5">
+                    <Col className="cthulu-mockup-col mb-4 mb-sm-0 mb-xl-0" xs={12} sm={6} xl={6}>
+                       <img className="cthulu-mockup" onClick={() => handleShow("iPhone-jacket-mockup")} src={iPhoneJacketMockup} height="100%" width="100%" alt="" /> 
+                    </Col>
+                    <Col className="cthulu-mockup-col">
+                        <img className="cthulu-mockup" onClick={() => handleShow("digest-mockup")} src={digestMockup} height="100%" width="100%" alt="" />
+                    </Col>
+                </Row>
+                <Row className="cthulu-mockup-text-row mb-3">
                     <Col className="d-flex align-items-center justify-content-center">
                         <p className="w-75 ">As I begin closing off this project, I feel like I’ve already made my Lovecraftian 
                          cinematic universe. Digitizing my handmade art onto Photoshop without retracing anything
@@ -277,11 +277,13 @@ const Cthulu = () => {
                          InDesign.</p>
                     </Col>
                 </Row>
-                <Row >
-                <Col className="d-flex justify-content-center ">
-                    <Link to="/" className="more-projects">More Projects</Link>
-                    <div className="link-line"></div>
-                </Col>
+            </Container>
+            <Container >
+                <Row className="mb-5">
+                    <Col className="d-flex justify-content-center position-relative">
+                        <Link to="/" className="more-projects">More Projects</Link>
+                        <div className="link-line"></div>
+                    </Col>
             </Row>
             </Container>
             <Footer />

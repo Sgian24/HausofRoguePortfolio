@@ -5,12 +5,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
 import Line from "..//Assets/Asset 8.png";
-import resthaven from "..//Assets/resthaven-cropped.webp";
+import resthaven from "..//Assets/resthaven.jpg";
 import bwResthaven from "..//Assets/IMG_3121.jpg";
 import resthavenOne from "..//Assets/resthaven2.webp";
 import brayden from "..//Assets/IMG_3015.jpg";
 import {Link, ScrollRestoration} from "react-router-dom";
 import Footer from "..//Components/Footer";
+import testing from "..//Assets/Paperback-Book-Mockup-Vol6.jpg";
 
 const Resthaven = () => {
 
@@ -38,7 +39,7 @@ const Resthaven = () => {
         }
     },[imgRef, position])
 
-    console.log(position);
+    console.log(document.getElementById("more"));
     return (
         <>
         <ScrollRestoration />
@@ -62,7 +63,7 @@ const Resthaven = () => {
             </Row>
             <Row className="mb-4">
                 <Col className="d-flex justify-content-center">
-                <Table className="table-container" size="sm" borderless>
+                <Table className="resthaven-table-container" size="sm" borderless>
                     <thead>
                         <tr>
                             <th>Service</th>
@@ -81,12 +82,14 @@ const Resthaven = () => {
                 </Col>
             </Row>
         </Container>
-        <Container style={{height:"100vh"}} fluid>
-            <Row className="h-100 " style={{backgroundImage:`url(${resthaven})`, backgroundSize:"cover", backgroundPosition:"center", backgroundAttachment:"fixed"}}>
+        <Container className="resthaven-bg-container" fluid>
+            <Row className="h-100 bg-danger">
+                <Col className="h-100 resthaven-bg-row" style={{backgroundImage:`url(${resthaven})`}}>
+                </Col>
             </Row>
         </Container>
-        <Container className="mt-5 mb-5" >
-            <Row className="">
+        <Container className="resthaven-history-container mt-5 mb-5" >
+            <Row className="mb-5">
                 <Col className="d-flex justify-content-center align-items-center" lg={4}>
                     <div>
                         <h2 className="sub-heading">Our History</h2>
@@ -101,25 +104,25 @@ const Resthaven = () => {
                             brewing for 4 years.</p>
                     </div>
                 </Col>
-                <Col className="d-flex justify-content-center align-items-center" lg={8}>
+                <Col className="bw-resthaven-col d-flex justify-content-center align-items-center align-items-lg-start align-items-xl-center" lg={8}>
                     <img src={bwResthaven} width="100%" alt="" />
                 </Col>
             </Row>
-            <Row className="mb-4" style={{height:"38%"}}>
+            <Row className="album-preview-row mb-5">
                 <Col className="h-100 d-flex flex-column align-items-center ">
-                <div className="w-50">
-                <h2 className="text-end sub-heading mb-4">Album Preview</h2>
-                <iframe className="" style={{width: "100%", height: "22vh"}} src="https://bandcamp.com/EmbeddedPlayer/album=1129382717/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
-                    <a href="https://resthaven.bandcamp.com/album/resthaven">Resthaven by Resthaven</a>
-                    </iframe>
-                </div>
+                    <div className="bandcamp-div w-50">
+                        <h2 className="text-end sub-heading mb-4">Album Preview</h2>
+                        <iframe className="iframe w-100" src="https://bandcamp.com/EmbeddedPlayer/album=1129382717/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
+                            <a href="https://resthaven.bandcamp.com/album/resthaven">Resthaven by Resthaven</a>
+                        </iframe>
+                    </div>
                 </Col>
             </Row>
             <Row>
                 <Col>
                  <h2 className="sub-heading">The Process</h2>
-                 <p>Braydan recorded his own instruments in his own studio setup, which made things a lot easie
-                    r for me, however he would be recording vocals at my home studio--literally Haus of Rogue. 
+                 <p>Braydan recorded his own instruments in his own studio setup, which made things a lot easier 
+                    for me, however he would be recording vocals at my home studio--literally Haus of Rogue. 
                     The process took 2 days. After we finished, we celebrated with pizza and watched Puss In 
                     Boots.</p>
                 <p>Shortly afterwards, I recorded my backup vocals and finished mixing and mastering the album 
@@ -141,22 +144,24 @@ const Resthaven = () => {
                 </Col>
             </Row>
         </Container>
-        <Container className="parallax-container d-flex flex-column justify-content-center" style={{height:"85vh", backgroundImage:`url(${brayden})`}} fluid>
+        <Container className="parallax-container d-flex flex-column justify-content-center" style={{backgroundImage:`url(${brayden})`}} fluid>
             <Row className="mb-5">
                 <Col className="d-flex justify-content-center  align-items-center text-center">
-                    <div>
+                    <div className="">
                         <h2 className="sub-heading-resthaven mb-4">Since the album's release, <br />Resthaven has become a full-unit.</h2>
-                        <p className="paragraph-resthaven">We've gone from a one-man band to a four-membered friend group who loves to take the 
+                        <p className="paragraph-resthaven ">We've gone from a one-man band to a four-membered friend group who loves to take the 
                         Toronto local scene by storm, with many more production projects coming up.</p>
                         </div>
                 </Col>
             </Row>
+            <Container>
             <Row className="">
-                <Col className="d-flex justify-content-center"> 
+                <Col className="d-flex justify-content-center position-relative"> 
                     <Link to="/" className="text-white more-projects bg-black" >More Projects</Link>
-                    <div className="bg-white link-line" ></div>
+                    <div className="bg-white link-line resthaven-link-line" ></div>
                 </Col>
             </Row>
+            </Container>
         </Container>
         <Footer />
         </>

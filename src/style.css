@@ -453,6 +453,18 @@ mark {
     width:90%;
 }
 
+.resthaven-table-container {
+    width: 50%;
+}
+
+.album-preview-row {
+    height: 38%;
+}
+
+.iframe {
+    height: 20.5vh;
+}
+
 .split-row-container {
     height: 100vh;
 }
@@ -486,6 +498,8 @@ mark {
     color: white;
 }
 
+/********* About ***********************************/
+
 .billie-div {
     height: 95vh;
 }
@@ -497,6 +511,17 @@ mark {
 .email {
     text-decoration: none;
     color: black;
+}
+
+.resthaven-bg-container {
+    height: 100vh;
+}
+
+.resthaven-bg-row {
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /********* Glitch Effect ***********************************/
@@ -1338,10 +1363,81 @@ mark {
      .link-line {
         left: 41%;
      }
-
-     @media only screen and (Max-width: 500px) {
-       .link-line { 
-        left: 40%;
-       }
-     }
 }
+
+@media only screen and (Max-width: 500px) {
+    .link-line { 
+     left: 40%;
+    }
+  }
+
+/**MQ Resthaven **/
+
+@media only screen and (Max-width: 1200px) {
+    .bw-resthaven-col {
+        margin-top: 5.5rem;
+    }
+}
+
+@media only screen and (Max-width: 992px) {
+    .bw-resthaven-col {
+        margin-top: 0rem;
+    }
+
+    .split-row-col-full {
+        background-position: 50% 50% !important;
+        background-size: cover;
+    }
+
+    .paragraph-resthaven {
+        width: 80vw;
+    }
+
+    .bandcamp-div {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (Max-width: 768px) {
+    .resthaven-table-container {
+        width: 65%;
+    }
+
+    .resthaven-bg-row {
+        background-position: 62% 50% ;
+    }
+
+    .split-row-col {
+        background-position: auto;
+        background-position: 50% 50%;
+    }
+
+    .split-row-col-full {
+        background-size: auto;
+        background-position: 50% 50%;
+    }
+
+    .paragraph-resthaven {
+        width: 90vw;
+    }
+}
+
+@media only screen and (Max-width: 576px) {
+    .resthaven-table-container {
+        width: 85%;
+    }
+
+    .resthaven-history-container {
+        width: 90%;
+    }
+
+    .resthaven-link-line {
+        left: 41%;   
+    }
+}
+
+@media only screen and (Max-width: 500px) {
+    .link-line { 
+        left: 39.5%;
+    }
+  }

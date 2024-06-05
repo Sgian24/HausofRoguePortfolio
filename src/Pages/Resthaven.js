@@ -53,7 +53,7 @@ const Resthaven = () => {
                     band called Resthaven. We describe ourselves as "thrashgaze" (thrash metal and shoegaze 
                     hybrid). This summer, it was an honour to have been called to produce and master an entire 
                     album--something I haven't done even for myself yet. I'm so excited to have you delve into 
-                    the music side to Haus of Rogue.</p>
+                    the music side to Haus of&nbsp;Rogue.</p>
                 </Col>
             </Row>
             <Row>
@@ -101,7 +101,7 @@ const Resthaven = () => {
                             demos for him. As time went by, my audio skills got better and better. Braydan's 
                             songwriting got better and better. We were in sync. After Prologue's release in 2022, 
                             Resthaven's momentum to release an album had began...though it technically had been 
-                            brewing for 4 years.</p>
+                            brewing for 4&nbsp;years.</p>
                     </div>
                 </Col>
                 <Col className="bw-resthaven-col d-flex justify-content-center align-items-center align-items-lg-start align-items-xl-center" lg={8}>
@@ -123,10 +123,9 @@ const Resthaven = () => {
                  <h2 className="sub-heading">The Process</h2>
                  <p>Braydan recorded his own instruments in his own studio setup, which made things a lot easier 
                     for me, however he would be recording vocals at my home studio--literally Haus of Rogue. 
-                    The process took 2 days. After we finished, we celebrated with pizza and watched Puss In 
-                    Boots.</p>
+                    The process took 2 days. After we finished, we celebrated with pizza and watched Puss In&nbsp;Boots.</p>
                 <p>Shortly afterwards, I recorded my backup vocals and finished mixing and mastering the album 
-                    around early to mid-May. </p>
+                    around early to&nbsp;mid-May. </p>
                 </Col>
             </Row>
             <Row >
@@ -150,7 +149,7 @@ const Resthaven = () => {
                     <div className="">
                         <h2 className="sub-heading-resthaven mb-4">Since the album's release, <br />Resthaven has become a full-unit.</h2>
                         <p className="paragraph-resthaven ">We've gone from a one-man band to a four-membered friend group who loves to take the 
-                        Toronto local scene by storm, with many more production projects coming up.</p>
+                        Toronto local scene by storm, with many more production projects coming&nbsp;up.</p>
                         </div>
                 </Col>
             </Row>

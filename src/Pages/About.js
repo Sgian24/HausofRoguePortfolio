@@ -21,9 +21,9 @@ const About = () => {
                         I had more than enough time to myself. I was bouncing back and forth pondering about my 
                         future and what career plan was waiting for me. I also had a song coming out at the time 
                         that had no cover art, nor did I have the money to commission an artist to do one. Low and 
-                        behold, Affinity Photo went on sale and the rest is herstory.</p>
+                        behold, Affinity Photo went on sale and the rest is&nbsp;herstory.</p>
                     <p>The word "Haus" is a stylistic choice derived from the German "Bauhaus" and the ballroom 
-                        scene subculture. "Rogue" is simply from my stage name, Billie Rogue. </p>
+                        scene subculture. "Rogue" is simply from my stage name, Billie&nbsp;Rogue. </p>
                    
                         <img className="billie-guitar d-block d-sm-block d-md-none" src={billieTwo} width="100%" height="100%" alt="" />
                    
@@ -39,8 +39,8 @@ const About = () => {
                          a rebellious spirit but a deep understanding of design principles, I'm on a mission to 
                          create bold, unforgettable experiences that leave an indelible mark on audiences and 
                          brands alike, long after the screen. I'm here to give your design that much-needed edge 
-                         and attitude. </p>
-                    <p>When I'm not designing, I'm either gaming, being a rockstar or scrapbooking.</p>
+                         and&nbsp;attitude. </p>
+                    <p>When I'm not designing, I'm either gaming, being a rockstar or&nbsp;scrapbooking.</p>
                     <div className="billie-div">
                         <img className="billie-guitar d-none d-sm-none d-md-block" src={billieTwo} width="100%" height="100%" alt="" />
                         <img className="mb-5 d-block d-sm-block d-md-none" src={billie} width="100%" alt="" />

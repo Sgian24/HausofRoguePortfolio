@@ -47,7 +47,7 @@ const SilentHill = () => {
                    the assignment itself was to pick a city/town to use as a subject for a promotional print
                    campaign. We were free to pick a fictional place as well, so with the Silent Hill being among 
                    my most cherished video games ever, I went with it. You'll see some game references and Easter
-                   <br />eggs planted around.</p>
+                   eggs planted&nbsp;around.</p>
             </Col>
             </Row>
             <Row>
@@ -85,13 +85,13 @@ const SilentHill = () => {
                 <p>              
                     The first step of the Silent Hill Project with a low-poly art poster. This was quite the 
                     challenge because it was during my first year of using Illustrator, let alone, I don't often 
-                    do low-poly art.  
+                    do low-poly&nbsp;art.  
                 </p>
                 </Col>
                 <Col>
                 <p>
                     One version of the poster includes a distressed, washed-out look that pays more homage to 
-                    the real tone of the games. The other version is what I consider the raw, clean draft.
+                    the real tone of the games. The other version is what I consider the raw, clean&nbsp;draft.
                 </p>
                </Col>
             </Row>
@@ -127,7 +127,7 @@ const SilentHill = () => {
                     As my brand for Silent Hill began to develop, I did so on the basis of a peaceful, quiet, 
                     serene resort town. A description that would intrigue introverted travellers looking for a 
                     quiet getaway with a lakeside. I wanted it to completely hide the fact that the town is a 
-                    portal to a hellish alternate reality. After all it was a tourist marketing campaign.</p>
+                    portal to a hellish alternate reality. After all it was a tourist marketing&nbsp;campaign.</p>
                 </Col>
             </Row>
             </Container>
@@ -159,7 +159,7 @@ const SilentHill = () => {
                     graphic design course, and in almost 2 years now, it still holds up among the works I'm 
                     most proud of. This project also showcased my versatility as an artist because
                      Visit: Silent Hill has this very snug, warm colour palette with fancy elegant header fonts. 
-                     Something that's a little different from my usual gritty taste. </p>
+                     Something that's a little different from my usual gritty&nbsp;taste. </p>
                 </Col>
             </Row>
             <Row>

@@ -68,7 +68,7 @@ const Cthulu = () => {
                     by one of the amazing works of H.P. Lovecraft, provided me with a much-needed new challenge which 
                     was mixing my hand drawings into digital work and designing a novel. For this project we had to
                     create a movie poster for a novel of our choosing, a book specimen and a promotional package; all
-                    for the hypothetical, upcoming Call of Cthulu film and publication.</p>
+                    for the hypothetical, upcoming Call of Cthulu film and&nbsp;publication.</p>
                 </Col>
             </Row>
             <Row>
@@ -108,7 +108,7 @@ const Cthulu = () => {
                         1970s, characterized by low-budget filmmaking techniques, exploitation of sensational and 
                         often taboo subject matter, and a focus on delivering visceral and intense experiences to 
                         audiences. However, the grindhouse aesthetic is usually associated with gore, horror and 
-                        slashers--hence the <br className="visceral-orphan"/>"visceral" experience.</p>
+                        slashers--hence the "visceral"&nbsp;experience.</p>
                 </Col>
                 <Col lg={8}>
                     <img src={cthuluMMoodBoard} width="100%" alt="" />
@@ -145,13 +145,13 @@ const Cthulu = () => {
                         <p>My goal was to recreate my adaption of the Cthulhu franchise onto the grindhouse face. 
                             I also intentionally misspelled Cthulhu to Cthulu for artistic purposes: easier 
                             pronunciation for mainstream audiences, and a way to differentiate itself from other 
-                            adaptions of the novel.</p>
+                            adaptions of the&nbsp;novel.</p>
                         <p className="mb-sm-4 mb-xl-3">Before, I'd usually draw something and then retrace in on Illustrator. However, I 
                             was on a tight deadline and I felt I already worked so hard on this drawing. With 
                             the advice of a fairy godfather a.k.a my professor, Dwight Alexander, he had told 
                             me to go with what medium was "faster'. I didn't know the answer but I instinctually 
                             chose my drawing. I've been doing art with my hands way before doing it on the laptop, 
-                            so why not.</p>
+                            so why&nbsp;not.</p>
                             </div>
                     </Col>
                 </Row>
@@ -160,7 +160,7 @@ const Cthulu = () => {
                 <Row>
                     <Col>
                         <p className="billboard-text text-white">To keep it from washing out, I reworked the drawing over and over on Photoshop to 
-                            give it its definition and to also color under the linework.</p>
+                            give it its definition and to also color under the&nbsp;linework.</p>
                     </Col>
                 </Row>
             </Container>
@@ -179,7 +179,7 @@ const Cthulu = () => {
                         and experiment with this new mixed media skill of playing with my hand-drawn assets with 
                         effect manipulation on Photoshop. Instead I decided to go with one of the alternate early 
                         drafts of Call of Ctulhu and used it towards the book. This gives the book its own identity 
-                        apart from the film.</mark></p>
+                        apart from the&nbsp;film.</mark></p>
                     </Col>
                 </Row>
             </Container>
@@ -209,7 +209,7 @@ const Cthulu = () => {
                          20th century and is popular in gothic fiction. Overall, the Caslon font has somewhat of a 
                          vintage, typewriter feel to it. Caslon is used for journals and books which is perfect 
                          because the point-of-view of Call of Cthulhu is narrated through the point-of-view of s
-                         omeone going through their <br />late-uncle’s journals. </p>
+                         omeone going through their <br />late-uncle’s&nbsp;journals. </p>
                     <h5 className="text-end mb-4">Justification and Composition</h5>
                     <p className="mb-sm-4 mb-xl-0">I was already wary of widows, orphans and rivers in text formatting so fixing those didn’t 
                         take up too much of my time. If you have a grasp of InDesign, working paragraph styles then 
@@ -225,7 +225,7 @@ const Cthulu = () => {
                         through all the pages one-by-one and indented, italicized and bolded where it felt appropriate 
                         based on the context of the story. For example, page 1, Chapter 1: I italicized the word “live”. 
                         I wanted the word to be thin to symbolize the slim chances of the character surviving—-show the reader 
-                        the stakes.</p>
+                        the&nbsp;stakes.</p>
                         <img className="book position-relative"ref={imgRef} src={book} width="80%" alt="" />
                     </Col>
                 </Row>
@@ -246,7 +246,7 @@ const Cthulu = () => {
                         <p className="promotional-package-text w-75">The 'Promotional Package' chapter was quite familiar to me. I sort of had previous 
                             experience in my music releases because you got to hype up your audience with 
                             various visuals leading up to the drop date. It's essentially disassembling and 
-                            rearranging the puzzles pieces to create something new.</p>
+                            rearranging the puzzles pieces to create something&nbsp;new.</p>
                     </Col>
                 </Row>
             </Container>
@@ -273,8 +273,7 @@ const Cthulu = () => {
                          cinematic universe. Digitizing my handmade art onto Photoshop without retracing anything
                          and it still came out beautifully and full-of-life--in a retro style that has never been
                          done before, for any Lovecraft works. My favourite in particular was the book design 
-                         because it allowed me to harness some much needed ‘expertise’ on typography and utilizing 
-                         InDesign.</p>
+                         because it allowed me to harness some much needed ‘expertise’ on typography and utilizing&nbsp;InDesign.</p>
                     </Col>
                 </Row>
             </Container>
@@ -282,7 +281,8 @@ const Cthulu = () => {
                 <Row className="mb-5">
                     <Col className="d-flex justify-content-center position-relative">
                         <Link to="/" className="more-projects">More Projects</Link>
-                        <div className="link-line"></div>
+                        <div className="
+                        link-line"></div>
                     </Col>
             </Row>
             </Container>

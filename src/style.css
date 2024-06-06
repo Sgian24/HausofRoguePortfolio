@@ -823,7 +823,7 @@ mark {
     }
 
     .iMac {
-        top: 385%;
+        top: 400%;
         left: 5%;
     }
 
@@ -915,7 +915,7 @@ mark {
     }
 
     .iMac {
-        top:360%;
+        top:380%;
         left: 5%;
     }
 
@@ -1069,7 +1069,7 @@ mark {
     }
 
     .iMac {
-        top:355%;
+        top:368%;
         left: 5%;
     }
 
@@ -1273,7 +1273,8 @@ mark {
     }
 
     .iMac {
-        display: none;
+        position:initial;
+        width:100%;
     }
 
     .silent-hill-web-two {

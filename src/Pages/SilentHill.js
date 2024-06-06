@@ -118,10 +118,10 @@ const SilentHill = () => {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col className="order-2 order-sm-1">
                     <img className="iMac" src={iMac} width="50%" alt="iMac mockup with Silent Hill webpage design." />
                 </Col>
-                <Col xs={12} sm={6} md={6} className="mb-5">
+                <Col xs={12} sm={6} md={6} className="mb-0 mb-sm-5 order-1 order-sm-2">
                     <h1 className="mb-4 web-design-sub sub-heading">Web Design</h1>
                     <p>
                     For the website design, as you can see, I decided to take things a little more seriously. 

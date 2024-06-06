@@ -52,7 +52,7 @@ const SilentHill = () => {
             </Row>
             <Row>
                 <Col className="d-flex justify-content-center">   
-                    <img className="mb-4 border" src={Line} width="90%" height="20%" alt="" />
+                    <img className="mb-4 border" src={Line} width="90%" height="20%" />
                 </Col>
             </Row>
             <Row className="mb-4">
@@ -77,7 +77,7 @@ const SilentHill = () => {
             </Row>
             <Row className="mb-4">
                <Col> 
-                <img className="silent-hill-web-two" src={silentHill} width="100%" alt="" />
+                <img className="silent-hill-web-two" src={silentHill} width="100%" alt="Preview of Silent Hill web design pages." />
                </Col>
             </Row>
             <Row className="mb-4">
@@ -101,10 +101,11 @@ const SilentHill = () => {
                 <Col className="carousel-container d-flex p-5 justify-content-center" >
                     <Carousel className="carousel">
                         <Carousel.Item className="bg-transparent" >
-                            <img className="d-block m-auto" src={silentHillPoster}  width="92.4%"  alt="" />
+                            <img className="d-block m-auto" src={silentHillPoster}  width="92.4%"  alt="Low-poly Silent Hill poster." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="carousel-image position-relative" src={silentHillPostCard} width="104%"  alt="" />
+                            <img className="carousel-image position-relative" src={silentHillPostCard} width="104%"  
+                            alt="Distressed and washed-out version of the low-poly Silent Hill poster." />
                         </Carousel.Item>
                     </Carousel>
                 </Col>
@@ -113,12 +114,12 @@ const SilentHill = () => {
             <Container className="margin-container" fluid>
             <Row>
                 <Col className= "d-flex justify-content-center mb-4">
-                    <img className="silent-hill-web" src={silentHill} width="70%" alt="" />
+                    <img className="silent-hill-web" src={silentHill} width="70%" alt="Preview of Silent Hill web design pages." />
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <img className="iMac" src={iMac} width="50%" alt="" />
+                    <img className="iMac" src={iMac} width="50%" alt="iMac mockup with Silent Hill webpage design." />
                 </Col>
                 <Col xs={12} sm={6} md={6} className="mb-5">
                     <h1 className="mb-4 web-design-sub sub-heading">Web Design</h1>
@@ -143,7 +144,7 @@ const SilentHill = () => {
                     </div>
                 </Col>
                 <Col sm={12} md={6} lg={6} className="brochure-image-scroll">
-                    <img className="object-fit-cover h-100 w-100" src={silentHillBrochureEdited} alt="" style={{objectPosition:`${position}% 50%`}} />
+                    <img className="object-fit-cover h-100 w-100" src={silentHillBrochureEdited} alt="Silent Hill brochure." style={{objectPosition:`${position}% 50%`}} />
                 </Col>
             </Row>
         </Container>

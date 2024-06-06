@@ -105,7 +105,7 @@ const Resthaven = () => {
                     </div>
                 </Col>
                 <Col className="bw-resthaven-col d-flex justify-content-center align-items-center align-items-lg-start align-items-xl-center" lg={8}>
-                    <img src={bwResthaven} width="100%" alt="" />
+                    <img src={bwResthaven} width="100%" alt="Resthaven performing at a gig." />
                 </Col>
             </Row>
             <Row className="album-preview-row mb-5">
@@ -137,9 +137,9 @@ const Resthaven = () => {
         </Container>
         <Container ref={imgRef} fluid>
             <Row className="split-row-container">
-                <Col lg={6} className="split-row-col overflow-hidden" style={{backgroundImage:`url(${resthavenOne})`}}>
+                <Col lg={6} className="split-row-col overflow-hidden" role="img" aria-label="Resthaven posing." style={{backgroundImage:`url(${resthavenOne})`}}>
                 </Col>
-                <Col lg={6}  className="split-row-col-full overflow-hidden" style={{backgroundImage:`url(${resthavenOne})`, backgroundPosition:`130% ${position}%`}}>
+                <Col lg={6}  className="split-row-col-full overflow-hidden" role="img" aria-label="Resthaven posing." style={{backgroundImage:`url(${resthavenOne})`, backgroundPosition:`130% ${position}%`}}>
                 </Col>
             </Row>
         </Container>

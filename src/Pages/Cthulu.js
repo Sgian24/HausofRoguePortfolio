@@ -98,7 +98,7 @@ const Cthulu = () => {
             </Row>
             <Row className="mb-3 mb-sm-4 mb-md-4 mb-xl-5">
                <Col> 
-                <img src={cthuluBookMockup} width="100%" alt="" />
+                <img src={cthuluBookMockup} width="100%" alt="Call of Cthulu book mockup." />
                </Col>
             </Row>
             <Row>
@@ -111,7 +111,7 @@ const Cthulu = () => {
                         slashers--hence the "visceral"&nbsp;experience.</p>
                 </Col>
                 <Col lg={8}>
-                    <img src={cthuluMMoodBoard} width="100%" alt="" />
+                    <img src={cthuluMMoodBoard} width="100%" alt="Call of Cthulu moodboard with various horror movie posters." />
                     <img src={gravePoster} className="grave-poster position-absolute" width="10%" alt="" />
                     <img src={chPoster} className="ch-poster position-absolute" width="7%" alt="" />
                 </Col>
@@ -122,13 +122,13 @@ const Cthulu = () => {
                 <Col className="carousel-container d-flex p-5 justify-content-center" >
                     <Carousel className="carousel" data-bs-theme="dark">
                         <Carousel.Item>
-                            <img className="sketches object-fit-contain" src={sketchOne} width="100%"  alt="" />
+                            <img className="sketches object-fit-contain" src={sketchOne} width="100%"  alt="Call of Cthulu concept sketches." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="sketches object-fit-contain" src={sketchTwo} width="100%" alt="" />
+                            <img className="sketches object-fit-contain" src={sketchTwo} width="100%" alt="Call of Cthulu concept sketches." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="sketches object-fit-contain" src={sketchThree} width="100%" alt="" />
+                            <img className="sketches object-fit-contain" src={sketchThree} width="100%" alt="Call of Cthulu concept sketches." />
                         </Carousel.Item>
                     </Carousel>
                 </Col>
@@ -137,7 +137,7 @@ const Cthulu = () => {
             <Container className="cthulu-movie-poster-container d-flex mb-5" fluid>
                 <Row className="">
                     <Col className="order-2 order-sm-2 order-md-1" md={6} lg={6}>
-                        <img className="object-fit-md-cover" src={posterOnWall} height="100%" width="100%" alt="" />
+                        <img className="object-fit-md-cover" src={posterOnWall} height="100%" width="100%" alt="Call of Cthulu movie poster mockup." />
                     </Col>
                     <Col className="d-flex align-items-center order-1 order-sm-1 order-md-2">
                     <div>
@@ -156,7 +156,7 @@ const Cthulu = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className="billboard mb-5 d-flex align-items-center w-100" style={{backgroundImage:`url(${billboard})`}} fluid>
+            <Container className="billboard mb-5 d-flex align-items-center w-100" role="img" aria-label="Call of Cthulu billboard mockup." style={{backgroundImage:`url(${billboard})`}} fluid>
                 <Row>
                     <Col>
                         <p className="billboard-text text-white">To keep it from washing out, I reworked the drawing over and over on Photoshop to 
@@ -174,7 +174,7 @@ const Cthulu = () => {
             <Container className="book-sketch-container d-flex justify-content-center mb-5" fluid>
                 <Row className="book-sketch-row">
                     <Col className="book-sketch-col d-flex align-items-center pt-5 pt-sm-0 pb-4 pb-sm-0">
-                       <img className="book-sketch object-fit-cover pb-3 pb-sm-0" src={sketchFour} width="52%" alt="" />
+                       <img className="book-sketch object-fit-cover pb-3 pb-sm-0" src={sketchFour} width="52%" alt="Call of Cthulu movie poster concept sketches." />
                        <p className="book-sketch-paragraph position-absolute"><mark>I could've easily pasted my movie poster onto the book, but I wanted to add variety 
                         and experiment with this new mixed media skill of playing with my hand-drawn assets with 
                         effect manipulation on Photoshop. Instead I decided to go with one of the alternate early 
@@ -191,15 +191,15 @@ const Cthulu = () => {
                                   image === "book-mockup"? bookMockup:
                                   image === "wall-mockup"? wallMockup:
                                   image === "exterior-mockup"? exteriorMockup:
-                                  image === "iPhone-jacket-mockup"? iPhoneJacketMockup: digestMockup} className="object-fit-md-cover object-fit-lg-cover" height="100%" width="100%" alt="" />
+                                  image === "iPhone-jacket-mockup"? iPhoneJacketMockup: digestMockup} className="object-fit-md-cover object-fit-lg-cover" height="100%" width="100%"/>
                     </Modal.Body>
             </Modal>
             <Container className="d-flex typography-container overflow-hidden" fluid>
                 <Row>
                     <Col className="typography-col order-2 order-sm-2 order-md-1 order-lg-1" md={5} lg={5} xl={6}>
-                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="" />
-                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-down")} src={bookMockupDown} width="100%" alt="" />
-                        <img className="book-mockup object-fit-lg-cover object-fit-md-cover" src={bookMockup} onClick={() => handleShow("book-mockup")} width="100%" alt="" />
+                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="Cthulu book mockup opened and facing up." />
+                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-down")} src={bookMockupDown} width="100%" alt="Cthulu book mockup opened and facing down." />
+                        <img className="book-mockup object-fit-lg-cover object-fit-md-cover" src={bookMockup} onClick={() => handleShow("book-mockup")} width="100%" alt="Cthulu book mockup closed." />
                     </Col>
                     <Col md={7} lg={6} xl={6} className="order-1 order-sm-1 order-md-2 order-lg-2">
                     <h2 className="sub-heading text-center mb-5">The Typography Aspect</h2>
@@ -226,7 +226,7 @@ const Cthulu = () => {
                         based on the context of the story. For example, page 1, Chapter 1: I italicized the word “live”. 
                         I wanted the word to be thin to symbolize the slim chances of the character surviving—-show the reader 
                         the&nbsp;stakes.</p>
-                        <img className="book position-relative"ref={imgRef} src={book} width="80%" alt="" />
+                        <img className="book position-relative" ref={imgRef} src={book} width="80%" alt="Cthulu book." />
                     </Col>
                 </Row>
             </Container>
@@ -253,18 +253,18 @@ const Cthulu = () => {
             <Container className="cthulu-mockup-container overflow-x-hidden px-0" fluid>
                 <Row className="mb-3">
                     <Col className="cthulu-mockup-col mb-4 mb-sm-0 mb-xl-0" xs={12} sm={6} xl={6}>
-                       <img className="cthulu-mockup" onClick={() => handleShow("wall-mockup")} src={wallMockup} height="100%" width="100%" alt="" /> 
+                       <img className="cthulu-mockup" onClick={() => handleShow("wall-mockup")} src={wallMockup} height="100%" width="100%" alt="Call of Cthulu billboard mockup." /> 
                     </Col>
                     <Col className="cthulu-mockup-col" >
-                        <img className="cthulu-mockup" onClick={() => handleShow("exterior-mockup")} src={exteriorMockup} height="100%" width="100%" alt="" />
+                        <img className="cthulu-mockup" onClick={() => handleShow("exterior-mockup")} src={exteriorMockup} height="100%" width="100%" alt="Call of Cthulu advertising board mockup." />
                     </Col>
                 </Row>
                 <Row className="cthulu-mockup-row mb-5">
                     <Col className="cthulu-mockup-col mb-4 mb-sm-0 mb-xl-0" xs={12} sm={6} xl={6}>
-                       <img className="cthulu-mockup" onClick={() => handleShow("iPhone-jacket-mockup")} src={iPhoneJacketMockup} height="100%" width="100%" alt="" /> 
+                       <img className="cthulu-mockup" onClick={() => handleShow("iPhone-jacket-mockup")} src={iPhoneJacketMockup} height="100%" width="100%" alt="Mockup of the Cthulu book mockup on an iphone." /> 
                     </Col>
                     <Col className="cthulu-mockup-col">
-                        <img className="cthulu-mockup" onClick={() => handleShow("digest-mockup")} src={digestMockup} height="100%" width="100%" alt="" />
+                        <img className="cthulu-mockup" onClick={() => handleShow("digest-mockup")} src={digestMockup} height="100%" width="100%" alt="Mockup of the Cthulu book mockup in a magazine." />
                     </Col>
                 </Row>
                 <Row className="cthulu-mockup-text-row mb-3">

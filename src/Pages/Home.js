@@ -19,16 +19,16 @@ const Home = () => {
         <Container className="body-content-container mb-4" fluid>
             <Row className="mb-5 ">
               <Col lg={6} xl={6}>
-               <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img className="attitude-lips" src={lip} width="70" alt="" /></h1>
+               <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img className="attitude-lips" src={lip} width="70" alt="Lips." /></h1>
                <p className="hero-description">Fuelled by vision and verve, I'm here to serve. Combining my passion
                for music with my design skills, I'm recognized for infusing my visuals witha  rockstar vibe. Balancing
                a rebellious nature with a strong grip of design fundamentals, I craft daring and memorable designs that make a 
                lasting&nbsp;ATTITUDE.</p>
               </Col>
-              <Col lg={4} xl={4} className="cd-container mt-3"><img className="cd"src={cd} width="140%" alt="" /></Col>
+              <Col lg={4} xl={4} className="cd-container mt-3"><img className="cd"src={cd} width="140%" alt="Haus of Rogue's services." /></Col>
             </Row>
             <Row className="mb-3 gap-4 project-row">
-              <Col className="h-100 rounded glitch" style={{ backgroundImage:`url(${SilentHill})`,}} sm={6} md={6} lg={6}>
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${SilentHill})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}> </div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
@@ -40,7 +40,7 @@ const Home = () => {
                   </div>
                 </Link> 
               </Col>
-              <Col className="h-100 rounded glitch" style={{backgroundImage:`url(${ALF})`}} sm={6} md={6} lg={6}>
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Animal Liberation Front section." style={{backgroundImage:`url(${ALF})`}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
@@ -55,7 +55,7 @@ const Home = () => {
               </Col>
             </Row>
             <Row className="gap-4 project-row">
-              <Col className="h-100 rounded glitch" style={{ backgroundImage:`url(${cthulu})`,}} sm={6} md={6} lg={6}>
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Call of Cthulu section." style={{ backgroundImage:`url(${cthulu})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
@@ -69,7 +69,7 @@ const Home = () => {
                   </div>
                 </Link>
               </Col>
-              <Col className="h-100 rounded glitch" style={{backgroundImage:`url(${Resthaven})`}} sm={6} md={6} lg={6}>
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Resthaven section." style={{backgroundImage:`url(${Resthaven})`}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>

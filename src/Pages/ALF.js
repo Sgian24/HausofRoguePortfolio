@@ -71,7 +71,7 @@ const ALF = () => {
             </Row>
             <Row>
                 <Col className="d-flex justify-content-center">   
-                    <img className="mb-4 border" src={Line} width="90%" height="20%" alt="" />
+                    <img className="mb-4 border" src={Line} width="90%" height="20%" />
                 </Col>
             </Row>
             <Row className="mb-4">
@@ -96,7 +96,7 @@ const ALF = () => {
             </Row>
             <Row className="mb-4">
                <Col> 
-                <img src={stamp} width="100%" alt="" />
+                <img src={stamp} width="100%" alt="Stamp mockup with ALF logo." />
                </Col>
             </Row>
             <Row className="mb-4">
@@ -120,7 +120,7 @@ const ALF = () => {
             <Container className="alf-logo-container gx-0 mb-5" fluid>
                 <Row className="logo-row gx-0">
                     <Col sm={0} md={6} lg={6} xl={6} className="alf-logo-container-col border d-flex justify-content-end h-100">
-                        <img src={logo} alt="" />
+                        <img src={logo} alt="ALF logo." />
                     </Col>
                     <Col xx={12} sm={12} md={6} lg={6} xl={6} className="logo-text-col h-100 d-flex justify-content-center align-items-center mb-5">
                         <div className="logo-text-container w-75">
@@ -142,13 +142,13 @@ const ALF = () => {
             <Modal size="lg" dialogClassName="modal-90w" className="modal-container" show={show} onHide={handleClose}>
                     <Modal.Header className="modal-header" closeButton></Modal.Header>
                     <Modal.Body className="modal-body" >
-                        <img className="modal-img" src={image === 1? logoSketch: logoSketchTwo} height="100%" width="100%" alt="" />
+                        <img className="modal-img" src={image === 1? logoSketch: logoSketchTwo} height="100%" width="100%" alt="ALF logo drafts." />
                     </Modal.Body>
             </Modal>
             <Container className="alf-thumbnail-container mb-3 mb-sm-0 mb-lg-5" fluid>
                      <Row>
-                        <Col><img className="alf-thumbnail" onClick={() => handleShow(1)} src={logoSketch} width="100%" alt=""  /></Col>
-                        <Col><img className="alf-thumbnail" onClick={() => handleShow(2)} src={logoSketchTwo} width="100%" alt="" /></Col>
+                        <Col><img className="alf-thumbnail" onClick={() => handleShow(1)} src={logoSketch} width="100%" alt="ALF logo drafts."  /></Col>
+                        <Col><img className="alf-thumbnail" onClick={() => handleShow(2)} src={logoSketchTwo} width="100%" alt="ALF logo drafts." /></Col>
                     </Row>
             </Container>
             <Container className="zoom-container overflow-hidden mb-3 mb-xl-5" fluid>
@@ -165,11 +165,11 @@ const ALF = () => {
                         <p className="mood-board-text mt-sm-5 mt-md-3 mt-lg-0">I constructed a moodboard that was faithful to the industrial x anarchy look of ALF, 
                             because this is something that no other animal rights organization has branded. So 
                             think dusty, photo-scan textures, spray paint and ripped paper&nbsp;textures.</p>
-                        <img className="mood-board object-fit-contain" src={moodBoard}  width="100%" alt="" />
+                        <img className="mood-board object-fit-contain" src={moodBoard}  width="100%" alt="ALF moodboard." />
                     </Col>
                     <Col className="d-flex flex-column justify-content-between">
                         <div className="alf-invitation-container mb-3 mb-sm-3 mb-md-3 mb-lg-0 ">
-                            <img className="alf-invitation mb-3 object-fit-contain" src={alfInvitation} width="100%" alt="" />
+                            <img className="alf-invitation mb-3 object-fit-contain" src={alfInvitation} width="100%" alt="ALF invitation mockup." />
                         </div>
                         <p className="" > However, 
                             as the project progressed I opted for a more optimistic design, to show diplomacy. 
@@ -178,14 +178,14 @@ const ALF = () => {
                             industrial-anarchist elements were instead used as statement pieces--just to
                              maintain ALF's roots and convictive&nbsp;tone.</p>
                        
-                            <img className="border alf-mockup object-fit-contain" src={alfMockup}  width="98.6%"  alt="" />
+                            <img className="border alf-mockup object-fit-contain" src={alfMockup}  width="98.6%"  alt="ALF pen, journal and business card mockup." />
                       
                     </Col>
                 </Row>
             </Container>
             <Container className="mb-5" fluid>
                 <Row>
-                <Col className="alf-site w-100" style={{backgroundImage:`url(${alfSite})`}}>
+                    <Col className="alf-site w-100" style={{backgroundImage:`url(${alfSite})`}}>
                     </Col>
                 </Row>
             </Container>
@@ -198,7 +198,7 @@ const ALF = () => {
                         <div className="site-mockup-text" >
                             <p>Designing the site was the final set of the project. You can Google their real site 
                             at your own risk but it’s very outdated-looking which is what these other animal 
-                            rights organizations have against them. </p>
+                            rights organizations have against&nbsp;them. </p>
                             <p> In order to come up with the design, I took into consideration ALF's three biggest 
                             competitors: Four Paws, Direct Action Everywhere and The Humane League .They all 
                             had something that Animal Liberation Front was missing such as: rescuing a bigger 
@@ -210,7 +210,7 @@ const ALF = () => {
                 </Row>
                 <Row className="mb-4">
                     <Col className="d-block">
-                     <img className="site-mockup-img d-block m-auto" src={siteMockup} width="100%" alt="" />
+                     <img className="site-mockup-img d-block m-auto" src={siteMockup} width="100%" alt="ALF web design pages and mockup." />
                     </Col>
                 </Row>
                 <Row className="mb-3 mb-sm-4 mb-md-4 mb-lg-4">

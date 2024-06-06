@@ -15,7 +15,7 @@ const About = () => {
         <Container className="body-content-container mb-5" fluid>
             <Row className="mb-5 overflow-hidden">
                 <Col className="origin-col order-2 order-sm-2 order-md-1">
-                    <img className="mb-5 d-none d-sm-none d-md-block" src={billie} width="100%" alt="" />
+                    <img className="mb-5 d-none d-sm-none d-md-block" src={billie} width="100%" alt="Billie Rogue posing." />
                     <h2 className="sub-heading mb-4 text-center text-sm-center text-md-start">The Origin Story</h2>
                     <p>Haus of Rogue came to be in the Dark Ages known as the COVID-19 pandemic. During lockdown, 
                         I had more than enough time to myself. I was bouncing back and forth pondering about my 
@@ -24,14 +24,12 @@ const About = () => {
                         behold, Affinity Photo went on sale and the rest is&nbsp;herstory.</p>
                     <p>The word "Haus" is a stylistic choice derived from the German "Bauhaus" and the ballroom 
                         scene subculture. "Rogue" is simply from my stage name, Billie&nbsp;Rogue. </p>
-                   
-                        <img className="billie-guitar d-block d-sm-block d-md-none" src={billieTwo} width="100%" height="100%" alt="" />
-                   
+                    <img className="billie-guitar d-block d-sm-block d-md-none" src={billieTwo} width="100%" height="100%" alt="Billie Rogue performing at a gig." />
                 </Col>
                 <Col sm={12} md={6} className="about-col order-1 order-sm-1 order-md-2" >
                     <div className="d-flex justify-content-center justify-content-sm-center justify-content-md-start gap-4 mb-4">
                         <h2 className="sub-heading">Hey, I'm Billie</h2>
-                        <img className="lips " src={attitude} width="15%" height="15%" alt="" />
+                        <img className="lips " src={attitude} width="15%" height="15%" alt="Lips." />
                     </div>
                     <p>I'm a graphic design student based in Toronto, currently enrolled in Humber's graphic 
                         design program (class of 2024, woohoo!). As an active musician, I'm known for bringing 
@@ -42,8 +40,8 @@ const About = () => {
                          and&nbsp;attitude. </p>
                     <p>When I'm not designing, I'm either gaming, being a rockstar or&nbsp;scrapbooking.</p>
                     <div className="billie-div">
-                        <img className="billie-guitar d-none d-sm-none d-md-block" src={billieTwo} width="100%" height="100%" alt="" />
-                        <img className="mb-5 d-block d-sm-block d-md-none" src={billie} width="100%" alt="" />
+                        <img className="billie-guitar d-none d-sm-none d-md-block" src={billieTwo} width="100%" height="100%" alt="Billie Rogue performing at a gig." />
+                        <img className="mb-5 d-block d-sm-block d-md-none" src={billie} width="100%" alt="Billie Rogue posing." />
                     </div>
                 </Col>
             </Row>

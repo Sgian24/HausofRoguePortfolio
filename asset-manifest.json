@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sgian24.github.io/HausofRoguePortfolio/static/css/main.a9805e96.css",
-    "main.js": "/Sgian24.github.io/HausofRoguePortfolio/static/js/main.a8d69a8d.js",
+    "main.js": "/Sgian24.github.io/HausofRoguePortfolio/static/js/main.bc00cbb7.js",
     "static/media/IMG_3121.jpg": "/Sgian24.github.io/HausofRoguePortfolio/static/media/IMG_3121.3fec9b1144718ee3df38.jpg",
     "static/media/IMG_3015.jpg": "/Sgian24.github.io/HausofRoguePortfolio/static/media/IMG_3015.07cb06517cdb4d630a25.jpg",
     "static/media/iPhone11-PSD-Mockup.jpg": "/Sgian24.github.io/HausofRoguePortfolio/static/media/iPhone11-PSD-Mockup.4f101d71c535129979e5.jpg",
@@ -57,10 +57,10 @@
     "static/media/attitude.webp": "/Sgian24.github.io/HausofRoguePortfolio/static/media/attitude.656f79af92787c92fd2a.webp",
     "index.html": "/Sgian24.github.io/HausofRoguePortfolio/index.html",
     "main.a9805e96.css.map": "/Sgian24.github.io/HausofRoguePortfolio/static/css/main.a9805e96.css.map",
-    "main.a8d69a8d.js.map": "/Sgian24.github.io/HausofRoguePortfolio/static/js/main.a8d69a8d.js.map"
+    "main.bc00cbb7.js.map": "/Sgian24.github.io/HausofRoguePortfolio/static/js/main.bc00cbb7.js.map"
   },
   "entrypoints": [
     "static/css/main.a9805e96.css",
-    "static/js/main.a8d69a8d.js"
+    "static/js/main.bc00cbb7.js"
   ]
 }

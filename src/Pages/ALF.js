@@ -57,7 +57,6 @@ const ALF = () => {
     
     return (
         <>
-        <ScrollRestoration />
         <NavBar />
         <Container className="margin-container mt-4" fluid>
             <Row>

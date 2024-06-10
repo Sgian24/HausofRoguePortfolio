@@ -14,7 +14,7 @@ import Footer from "../Components/Footer";
 const Home = () => {
     return (
         <div className="">
-        <ScrollRestoration />
+        
         <NavBar />
         <Container className="body-content-container mb-4" fluid>
             <Row className="mb-5 ">

@@ -42,7 +42,6 @@ const Resthaven = () => {
     console.log(document.getElementById("more"));
     return (
         <>
-        <ScrollRestoration />
         <NavBar />
         <Container className="resthaven-body-container mt-4" fluid>
             <Row>

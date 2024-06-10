@@ -57,7 +57,7 @@ const Cthulu = () => {
 
     return (
         <>
-        <ScrollRestoration />
+        
         <NavBar />
         <Container className="cthulu-body-container mt-4 mb-sm-5 mb-md-5" fluid>
             <Row>

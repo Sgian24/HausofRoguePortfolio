@@ -12,7 +12,7 @@ const NavBar = () => {
     useEffect(() => {
         if (window.location.hash === "#/about") {
             linkRefAbout.current.classList.add("active")
-        } else if (window.location.hash === "") {
+        } else if (window.location.hash === "" || window.location.hash === "#/") {
             linkRefWork.current.classList.add("active")
         }
     },[])

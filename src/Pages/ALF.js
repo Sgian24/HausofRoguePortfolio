@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Line from "..//Assets/Asset 8.png";
 import Table from "react-bootstrap/Table";
-import { Link, ScrollRestoration } from "react-router-dom";
+import { Link } from "react-router-dom";
 import stamp from "..//Assets/mock up stamp_edited.jpg";
 import logo from "..//Assets/fullColor_redSpray_edited.png";
 import logoWhole from "..//Assets/logo-full.jpg";

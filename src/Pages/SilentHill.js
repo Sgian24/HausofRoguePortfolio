@@ -13,7 +13,7 @@ import iMac from "..//Assets/iMac Mockup.png";
 import silentHillBrochureEdited from "../Assets/Silent Hill Tourist brochure mockup_edited.png";
 import silentHillBrochure from "../Assets/SilentHillBrochure.webp";
 import Footer from "../Components/Footer";
-import {Link, ScrollRestoration} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const SilentHill = () => {
     const [position, setPosition] = useState(10)

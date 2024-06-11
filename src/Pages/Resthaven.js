@@ -9,9 +9,8 @@ import resthaven from "..//Assets/resthaven.jpg";
 import bwResthaven from "..//Assets/IMG_3121.jpg";
 import resthavenOne from "..//Assets/resthaven2.webp";
 import brayden from "..//Assets/IMG_3015.jpg";
-import {Link, ScrollRestoration} from "react-router-dom";
+import {Link} from "react-router-dom";
 import Footer from "..//Components/Footer";
-import testing from "..//Assets/Paperback-Book-Mockup-Vol6.jpg";
 
 const Resthaven = () => {
 

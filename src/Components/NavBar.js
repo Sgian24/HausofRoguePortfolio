@@ -16,11 +16,11 @@ const NavBar = () => {
             linkRefWork.current.classList.add("active")
         }
     },[])
-   console.log(window.location.hash, "1");
+
     return (
         <>
         <Navbar collapseOnSelect expand="sm" >
-            <Container className="nav-container" style={{width:"90%"}}fluid>
+            <Container className="nav-container" fluid>
                 <Navbar.Brand>
                     <img src={Hor} width="200" alt="" />    
                 </Navbar.Brand> 
@@ -28,8 +28,8 @@ const NavBar = () => {
                 <Navbar.Collapse className="" id="responsive-navbar-nav">
                  <div className="navlink-container d-flex justify-content-end w-100">   
                  <Nav className="gap-2">
-                  <Nav.Link ref={linkRefWork} className="nav-link" href="/HausofRoguePortfolio">Work</Nav.Link> 
-                  <Nav.Link ref={linkRefAbout} className="nav-link" href="/HausofRoguePortfolio/#/about">About / Contact</Nav.Link> 
+                  <Nav.Link ref={linkRefWork} className="nav-link" href="/">Work</Nav.Link> 
+                  <Nav.Link ref={linkRefAbout} className="nav-link" href="/#/about">About / Contact</Nav.Link> 
                  </Nav>
                  </div>
                 </Navbar.Collapse>   

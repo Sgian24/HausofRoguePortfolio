@@ -28,7 +28,7 @@ const NavBar = () => {
                 <Navbar.Collapse className="" id="responsive-navbar-nav">
                  <div className="navlink-container d-flex justify-content-end w-100">   
                  <Nav className="gap-2">
-                  <Nav.Link ref={linkRefWork} className="nav-link" href="/HausofRoguePortfolio">Work</Nav.Link> 
+                  <Nav.Link ref={linkRefWork} className="nav-link" href="/HausofRoguePortfolio">Works</Nav.Link> 
                   <Nav.Link ref={linkRefAbout} className="nav-link" href="/HausofRoguePortfolio/about">About / Contact</Nav.Link> 
                  </Nav>
                  </div>

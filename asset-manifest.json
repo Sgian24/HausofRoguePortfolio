@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "//hausofrogue.com/static/css/main.8469dead.css",
-    "main.js": "//hausofrogue.com/static/js/main.4d5074a0.js",
+    "main.js": "//hausofrogue.com/static/js/main.b759502a.js",
     "static/media/IMG_3121.jpg": "//hausofrogue.com/static/media/IMG_3121.3fec9b1144718ee3df38.jpg",
     "static/media/IMG_3015.jpg": "//hausofrogue.com/static/media/IMG_3015.07cb06517cdb4d630a25.jpg",
     "static/media/iPhone11-PSD-Mockup.jpg": "//hausofrogue.com/static/media/iPhone11-PSD-Mockup.4f101d71c535129979e5.jpg",
@@ -57,10 +57,10 @@
     "static/media/attitude.webp": "//hausofrogue.com/static/media/attitude.656f79af92787c92fd2a.webp",
     "index.html": "//hausofrogue.com/index.html",
     "main.8469dead.css.map": "//hausofrogue.com/static/css/main.8469dead.css.map",
-    "main.4d5074a0.js.map": "//hausofrogue.com/static/js/main.4d5074a0.js.map"
+    "main.b759502a.js.map": "//hausofrogue.com/static/js/main.b759502a.js.map"
   },
   "entrypoints": [
     "static/css/main.8469dead.css",
-    "static/js/main.4d5074a0.js"
+    "static/js/main.b759502a.js"
   ]
 }

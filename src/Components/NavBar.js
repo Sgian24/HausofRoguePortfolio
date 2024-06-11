@@ -10,13 +10,13 @@ const NavBar = () => {
     const linkRefAbout = useRef(null);
 
     useEffect(() => {
-        if (window.location.pathname === "/about") {
+        if (window.location.hash === "#/about") {
             linkRefAbout.current.classList.add("active")
-        } else if (window.location.pathname === "/") {
+        } else if (window.location.hash === "") {
             linkRefWork.current.classList.add("active")
         }
     },[])
-   
+   console.log(window.location.hash, "1");
     return (
         <>
         <Navbar collapseOnSelect expand="sm" >

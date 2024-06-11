@@ -5,16 +5,24 @@ import Col from "react-bootstrap/Col";
 import lip from "..//Assets/red-lip.webp";
 import SilentHill from "..//Assets/silenthill.webp";
 import cd from "..//Assets/cd-services.webp";
+import { useEffect } from "react";
 import ALF from "..//Assets/ALF-stationary.webp";
 import cthulu from "..//Assets/cthulu.webp";
 import Resthaven from "..//Assets/resthaven.webp";
-import { Link, ScrollRestoration } from "react-router-dom";
+import { Link} from "react-router-dom";
 import Footer from "../Components/Footer";
 
 const Home = () => {
+
+    useEffect(() => {
+      window.scrollTo({
+          top: 0,
+          behavior:'instant'
+      });
+    },[])
+
     return (
-        <div className="">
-        
+        <div>
         <NavBar />
         <Container className="body-content-container mb-4" fluid>
             <Row className="mb-5 ">

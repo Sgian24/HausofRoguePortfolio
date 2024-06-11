@@ -39,7 +39,13 @@ const Resthaven = () => {
         }
     },[imgRef, position])
 
-    console.log(document.getElementById("more"));
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior:'instant'
+        });
+    },[])
+
     return (
         <>
         <NavBar />

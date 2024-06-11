@@ -30,6 +30,13 @@ const SilentHill = () => {
         window.addEventListener("scroll", handleScroll)
         return () => window.removeEventListener("scroll", handleScroll)
     },[window.scrollY])
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior:'instant'
+        });
+    },[])
     
     return (
         <>

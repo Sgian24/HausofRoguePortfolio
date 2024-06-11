@@ -55,6 +55,13 @@ const Cthulu = () => {
         }
     },[])
 
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior:'instant'
+        });
+    },[])
+
     return (
         <>
         

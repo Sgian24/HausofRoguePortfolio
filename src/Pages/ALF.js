@@ -54,6 +54,13 @@ const ALF = () => {
             if (imgRef.current) observer.unobserve(imgRef.current)
         }
     },[imgRef, scale])
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior:'instant'
+        });
+    },[])
     
     return (
         <>

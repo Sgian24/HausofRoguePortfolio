@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import NavBar from "../Components/NavBar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -9,6 +10,14 @@ import {Link} from "react-router-dom";
 import Footer from "../Components/Footer";
 
 const About = () => {
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior:'instant'
+        });
+    },[])
+    
     return (
         <>
         <NavBar />

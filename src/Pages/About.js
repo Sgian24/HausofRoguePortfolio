@@ -21,7 +21,7 @@ const About = () => {
     return (
         <>
         <NavBar />
-        <Container className="body-content-container mb-5" style={{height: "auto"}} fluid>
+        <Container className="body-content-container mb-5" style={{height: "100%"}} fluid>
             <Row className="mb-5 overflow-hidden">
                 <Col className="origin-col order-2 order-sm-2 order-md-1">
                     <img className="mb-5 d-none d-sm-none d-md-block object-fit-cover" src={billie} width="100%" alt="Billie Rogue posing." />
@@ -48,12 +48,8 @@ const About = () => {
                          brands alike, long after the screen. I'm here to give your design that much-needed edge 
                          and&nbsp;attitude. </p>
                     <p>When I'm not designing, I'm either gaming, being a rockstar or&nbsp;scrapbooking.</p>
-                       
-                        <img className="billie-guitar d-none d-sm-none d-md-block" src={billieTwo} width="100%" height="30%"  alt="Billie Rogue performing at a gig." />
-                    
-                      
-                        <img className="mb-5 d-block d-sm-block d-md-none" src={billie} width="100%" alt="Billie Rogue posing." />
-                    
+                    <img className="billie-guitar d-none d-sm-none d-md-block" src={billieTwo} width="100%" height="180%" alt="Billie Rogue performing at a gig." />
+                    <img className="mb-5 d-block d-sm-block d-md-none" src={billie} width="100%" alt="Billie Rogue posing." />  
                 </Col>
             </Row>
             <Row>

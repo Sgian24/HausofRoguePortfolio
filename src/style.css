@@ -526,21 +526,17 @@ mark {
 
 /********* About ***********************************/
 
-.billie-div {
-    height: 200px;
-}
-
 .origin-col {
     height: auto;
 }
 
 .about-col {
-    height: 125vh;
+    height: 500px;
 }
 
 .billie-guitar {
     object-fit: cover;
-   height: 62%;
+ 
 }
 
 .email {
@@ -854,6 +850,10 @@ mark {
     .grave-poster {
         left: 33%; 
     }
+
+    .billie-guitar {
+        object-position: 50% 300%;
+    }
  }
 
  @media only screen and (max-width: 1200px) {
@@ -934,6 +934,10 @@ mark {
 
     .link-line {
         left: 44.8%;
+    }
+
+    .billie-guitar {
+        object-position: 20% -120px;
     }
 
 }
@@ -1104,7 +1108,12 @@ mark {
     }
 
     .about-col {
-        height: 20vh;
+        height: 500px;
+    }
+
+    .billie-guitar {
+        object-fit: contain;
+        object-position: 50% -20%;
     }
 }
 
@@ -1275,16 +1284,17 @@ mark {
         width: 90vw;
     }
 
+    .origin-col {
+        height: 1000px;
+    }
+
     .about-col {
         height: auto;
     }
 
-    .billie-div {
-        height: 100%;
-    }
-
     .billie-guitar {
-        object-position: 0 -150px;
+        object-fit: cover;
+        object-position: 50% -150px;
     }
 
     .lips {
@@ -1349,10 +1359,6 @@ mark {
 
     .link-line {
         left: 39.7%;
-    }
-
-    .footer-container {
-        height: 27vh;
     }
 
     .alf-table-container {

@@ -143,7 +143,7 @@ const Resthaven = () => {
             <Row className="split-row-container">
                 <Col lg={6} className="split-row-col overflow-hidden" role="img" aria-label="Resthaven posing." style={{backgroundImage:`url(${resthavenOne})`}}>
                 </Col>
-                <Col lg={6}  className="split-row-col-full overflow-hidden" role="img" aria-label="Resthaven posing." style={{backgroundImage:`url(${resthavenOne})`, backgroundPosition:`130% ${position}%`}}>
+                <Col className="split-row-col-full overflow-hidden" role="img" aria-label="Resthaven posing." style={{backgroundImage:`url(${resthavenOne})`, backgroundPosition:`-20% ${position}%`, backgroundSize:"cover"}}>
                 </Col>
             </Row>
         </Container>

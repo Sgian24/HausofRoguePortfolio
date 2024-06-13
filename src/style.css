@@ -138,6 +138,7 @@ td {
 
 th {
     text-decoration: underline;
+    width: 50%;
 }
 
 .carousel-container {
@@ -154,7 +155,7 @@ th {
 
 .iMac {
     position:absolute;
-    top: 405%;
+    top: 32%;
 }
 
 .sub-heading {
@@ -176,8 +177,9 @@ th {
 }
 
 .brochure {
-    object-fit: cover;
+    background-size: cover;
     height: 120vh;
+    width: 100vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -216,6 +218,10 @@ th {
 
 /********* ALF ***********************************/
 
+.alf-table-container {
+    width: 50%;
+}
+
 .logo-row {
     height: 120vh;
 }
@@ -233,12 +239,12 @@ th {
 }
 
 .modal-body {
-    height: 90vh;
+    height: auto;
 }
 
 .alf-thumbnail-container {
     width: 90%;
-    height: 69vh;
+    height: auto;
 }
 
 .alf-thumbnail:hover {
@@ -247,7 +253,7 @@ th {
 }
 
 .zoom-container {
-    height: 150vh;
+    height: 100%;
 }
 
 .guidelines-img {
@@ -264,7 +270,7 @@ th {
 }
 
 .guidelines-body-container {
-    height: 185vh;
+    height: auto;
 }
 
 .alf-mockup-container {
@@ -277,14 +283,16 @@ th {
 }
 
 .alf-site {
-    object-fit: cover;
-    height: 120vh;
+    background-size:cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .site-mockup-container {
-    height: 250vh;
+    height: auto;
 }
 
 .alf-site-link {
@@ -305,17 +313,23 @@ th {
 
 .cthulu-body-container {
     width: 90%;
-    height: 300vh;
+    height: auto;
+}
+
+.cthulu-table-container {
+    width: 50%;
 }
 
 .grave-poster {
-    left: 32%;
-    top: 280%;
+    position:absolute;
+    left: 26%;
+    top: 90%;
 }
 
 .ch-poster {
-    left: 68%;
-    top: 220%;
+    position: absolute;
+    left: 70%;
+    top: 70%;
 }
 
 .sketches {
@@ -361,7 +375,7 @@ th {
 .book-sketch-paragraph {
     width: 32vw;
     left: 45%;
-    top: 707%;
+    top: 30%;
 }
 
 mark {
@@ -372,7 +386,7 @@ mark {
 }
 
 .typography-container {
-    height: 240vh;
+    height: auto;
     width: 90%;
 }
 
@@ -477,6 +491,7 @@ mark {
 }
 
 .split-row-col-full {
+    height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -512,15 +527,20 @@ mark {
 /********* About ***********************************/
 
 .billie-div {
-    height: 95vh;
+    height: 200px;
 }
 
 .origin-col {
-    height: 160vh;
+    height: auto;
+}
+
+.about-col {
+    height: 125vh;
 }
 
 .billie-guitar {
     object-fit: cover;
+   height: 62%;
 }
 
 .email {
@@ -816,15 +836,51 @@ mark {
 
 /********* Media Queries ***********************************/
 
+ @media only screen and (max-width: 1700px) {
+    .ch-poster {
+        top: 72%;
+    }
+ }
+
+ @media only screen and (max-width: 1500px) {
+    .alf-table-container {
+        width: 60%;
+    }
+
+    .cthulu-table-container {
+        width: 55%;
+    }
+
+    .grave-poster {
+        left: 33%; 
+    }
+ }
+
  @media only screen and (max-width: 1200px) {
 
     .silent-hill-web {
         width: 80%;
     }
 
+    .table-container {
+        width: 60%;
+    }
+
+    .alf-table-container {
+        width: 75%;
+    }
+
+    .cthulu-table-container {
+        width: 65%;
+    }
+
     .iMac {
-        top: 400%;
+        top: 32%;
         left: 5%;
+    }
+
+    .brochure {
+        background-position: 40% 50%;
     }
 
     .mood-board {
@@ -839,21 +895,12 @@ mark {
         width: 96.2%;
     }
 
-    .guidelines-body-container {
-        height: auto;
-    }
-
-    .grave-poster {
-        top: 260%;
-        left: 35%;
-    }
-
     .ch-poster {
-        top: 212%;
+       top: 74%;
     }
 
     .cthulu-body-container {
-        height: 280vh;
+        height: auto;
     }
 
     .book {
@@ -874,7 +921,7 @@ mark {
     }
 
     .book-sketch-paragraph {
-        top: 675%;
+        top: 33%;
     }
 
     .cthulu-mockup-row {
@@ -893,11 +940,11 @@ mark {
 
 @media only screen and (max-width: 1020px) {
     .grave-poster {
-        top: 250%;
+        top: 89%;
     }
 
     .ch-poster {
-        top: 205%;
+        top: 69%;
     }
 }
 
@@ -914,15 +961,26 @@ mark {
         width: 90%;
     }
 
+    .table-container {
+        width: 70%;
+    }
+
+    .alf-table-container {
+        width: 85%;
+    }
+
+    .cthulu-table-container {
+        width: 75%;
+    }
+
     .iMac {
-        top:380%;
+        top:32%;
         left: 5%;
     }
 
     .brochure {
         height: 90vh;
         background-position: 38% 30%;
-        background-size: 180%;
     }
 
     .link-line {
@@ -938,7 +996,7 @@ mark {
     }
 
     .modal-body {
-        height: 75vh;
+        height: auto;
     }
 
     .modal-container {
@@ -959,7 +1017,6 @@ mark {
 
     .guidelines-body-container {
         max-width: 90%;
-        height: auto;
     }
 
     .alf-invitation-container {
@@ -980,7 +1037,7 @@ mark {
 
     .alf-site {
         height: 100vh;
-        background-position: 20% 2%;
+        background-position: 50% 2%;
     }   
 
     .mood-board {
@@ -1000,7 +1057,7 @@ mark {
     }
 
     .book-sketch-paragraph {
-        top: 700%;
+        top: 31%;
     }
 
     .book-sketch {
@@ -1069,13 +1126,14 @@ mark {
     }
 
     .iMac {
-        top:368%;
+        top:25%;
         left: 5%;
     }
 
     .brochure-container {
         padding-top: 10vh;
-        height: 132.5vh;
+        height: auto;
+
     }
 
     .brochure-sub {
@@ -1083,17 +1141,24 @@ mark {
     }
 
     .brochure {
-        height: 180vh;
+        height: 90vh;
         background-position: 38% 30%;
-        background-size: cover;
+    }
+
+    .brochure-row {
+        height: auto;
     }
 
     .link-line {
         left: 40.7% !important;
     }
 
-    .modal-body {
-        height: 65vh;
+    .alf-table-container {
+        width: 95%;
+    }
+
+    .cthulu-table-container {
+        width: 85%;
     }
 
     .alf-thumbnail-container {
@@ -1103,10 +1168,6 @@ mark {
     .zoom-container {
         height: 100vh;
     }
-
-    .guidelines-body-container {
-        height: auto;
-    }
     
     .alf-mockup-container {
         height: 25.3%;
@@ -1114,11 +1175,11 @@ mark {
 
     .alf-site {
         height: 80vh;
-        background-position: 40% -2%;
+        background-position: 60% -2%;
     }  
 
     .site-mockup-container {
-        height: 240vh;
+        height: auto;
     }
 
     .alf-logo-container {
@@ -1150,7 +1211,7 @@ mark {
     }
 
     .table-container {
-        width: 65%;
+        width: 80%;
     }
 
     .billboard-text {
@@ -1158,7 +1219,7 @@ mark {
     }
 
     .book-sketch-paragraph {
-        top: 760%;
+        top: 32%;
         left: 50%;
         width: 45%;
     }
@@ -1232,12 +1293,6 @@ mark {
     }   
 }
 
-@media only screen and (max-width: 685px) {
-    .brochure-container {
-        height: 136.5vh;
-    }
-}
-
 @media only screen and (max-width: 680px) {
     .project-row {
         height: 105vh;
@@ -1254,12 +1309,6 @@ mark {
     }
     .overlay-text {
         font-size: 3rem;
-    }
-}
-
-@media only screen and (max-width: 598px) {
-    .brochure-container {
-        height: 140.5vh;
     }
 }
 
@@ -1289,10 +1338,6 @@ mark {
         padding-top: 10vh;
     }
 
-    .brochure-row {
-        height: 120vh;
-    }
-
     .brochure-sub {
         margin-bottom: 2vh !important;
     }
@@ -1310,6 +1355,14 @@ mark {
         height: 27vh;
     }
 
+    .alf-table-container {
+        width: 100%;
+    }
+
+    .cthulu-table-container {
+        width: 95%;
+    }
+
     .logo-row {
         height: 180vh;
     }
@@ -1317,10 +1370,6 @@ mark {
     .modal-container {
         top: 10%;
         left: 14%;
-    }
-
-    .modal-body {
-        height: 50vh;
     }
     
     .mood-board {
@@ -1360,7 +1409,7 @@ mark {
     }
 
     .table-container {
-        width: 70%;
+        width: 90%;
     }
 
     .billboard-text {

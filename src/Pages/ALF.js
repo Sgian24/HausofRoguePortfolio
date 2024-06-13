@@ -24,7 +24,7 @@ const ALF = () => {
 
     const [show, setShow] = useState(false);
     const [image, setImage] = useState("");
-    const [scale, setScale] = useState(200);
+    const [scale, setScale] = useState(300);
 
     const imgRef = useRef(null)
 
@@ -82,7 +82,7 @@ const ALF = () => {
             </Row>
             <Row className="mb-4">
                 <Col className="d-flex justify-content-center">
-                 <Table className="table-container" size="sm" borderless>
+                 <Table className="alf-table-container" size="sm" borderless>
                     <thead>
                         <tr>
                             <th>Service</th>
@@ -93,7 +93,7 @@ const ALF = () => {
                     <tbody>
                         <tr>
                             <td>Branding Identity, Logo Design & Illustration, Web Design</td>
-                            <td>Animal Liberation Front [hypothetical]</td>
+                            <td>Animal Liberation Front</td>
                             <td>2022</td>
                         </tr>
                     </tbody>
@@ -151,7 +151,7 @@ const ALF = () => {
                         <img className="modal-img" src={image === 1? logoSketch: logoSketchTwo} height="100%" width="100%" alt="ALF logo drafts." />
                     </Modal.Body>
             </Modal>
-            <Container className="alf-thumbnail-container mb-3 mb-sm-0 mb-lg-5" fluid>
+            <Container className="alf-thumbnail-container mb-3 mb-sm-0 mb-lg-0 mb-xl-5 mb-xxl-5 border" fluid>
                      <Row>
                         <Col><img className="alf-thumbnail" onClick={() => handleShow(1)} src={logoSketch} width="100%" alt="ALF logo drafts."  /></Col>
                         <Col><img className="alf-thumbnail" onClick={() => handleShow(2)} src={logoSketchTwo} width="100%" alt="ALF logo drafts." /></Col>
@@ -191,14 +191,14 @@ const ALF = () => {
             </Container>
             <Container className="mb-5" fluid>
                 <Row>
-                    <Col className="alf-site w-100" style={{backgroundImage:`url(${alfSite})`}}>
+                    <Col className="alf-site" style={{backgroundImage:`url(${alfSite})`}}>
                     </Col>
                 </Row>
             </Container>
             <Container className="site-mockup-container mb-5 mb-sm-4 mb-md-4 mb-lg-4" >
                 <Row className="mb-3">
                     <Col md={4} className="d-flex justify-content-center align-items-center">
-                        <Link className="alf-site-link" to="https://billierogue.github.io/AnimalLiberationFront/">Desktop Web Design</Link>
+                        <Link className="alf-site-link" to="https://billierogue.github.io/AnimalLiberationFront/" target="_blank">Desktop Web Design</Link>
                     </Col>
                     <Col md={8} className="d-flex flex-column justify-content-center align-items-center">
                         <div className="site-mockup-text" >
@@ -228,7 +228,7 @@ const ALF = () => {
                              competitive&nbsp;charities.</p>
                         <p>Designed by me, with the aid of my boyfriend, Sunny Gian, who developed the web 
                             prototype. Click the "Desktop-Web Design" heading to view the prototype or click 
-                            the link: <Link to="https://billierogue.github.io/AnimalLiberationFront">https://billierogue.github.io/<br/>AnimalLiberationFront/</Link></p>
+                            the link: <Link to="https://billierogue.github.io/AnimalLiberationFront" target="_blank">https://billierogue.github.io/AnimalLiberationFront/</Link></p>
                         <p>All in all, I love my work on this organization and had considered commissioning it to the
                            real Animal Liberation Front to turn this project to reality. Though there are just a 
                            plethora of things into consideration, like the organization's radicalism and my 

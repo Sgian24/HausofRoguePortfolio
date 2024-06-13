@@ -29,7 +29,7 @@ const Home = () => {
               <Col lg={6} xl={6}>
                <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img className="attitude-lips" src={lip} width="70" alt="Lips." /></h1>
                <p className="hero-description">Fuelled by vision and verve, I'm here to serve. Combining my passion
-               for music with my design skills, I'm recognized for infusing my visuals witha  rockstar vibe. Balancing
+               for music with my design skills, I'm recognized for infusing my visuals with a rockstar vibe. Balancing
                a rebellious nature with a strong grip of design fundamentals, I craft daring and memorable designs that make a 
                lasting&nbsp;ATTITUDE.</p>
               </Col>

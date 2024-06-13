@@ -66,7 +66,7 @@ const Cthulu = () => {
         <>
         
         <NavBar />
-        <Container className="cthulu-body-container mt-4 mb-sm-5 mb-md-5" fluid>
+        <Container className="cthulu-body-container mt-4 mb-sm-5 mb-md-5 position-relative" fluid>
             <Row>
                 <Col>
                     <h1 className="text-center header-title">Call of Cthulu</h1>
@@ -80,12 +80,12 @@ const Cthulu = () => {
             </Row>
             <Row>
                 <Col className="d-flex justify-content-center">   
-                    <img className="mb-4 border" src={Line} width="90%" height="20%" alt="" />
+                    <img className="mb-4" src={Line} width="90%" height="20%" alt="" />
                 </Col>
             </Row>
             <Row className="mb-4">
                 <Col className="d-flex justify-content-center">
-                <Table className="table-container" size="sm" borderless>
+                <Table className="cthulu-table-container" size="sm" borderless>
                     <thead>
                         <tr>
                             <th>Service</th>
@@ -178,7 +178,7 @@ const Cthulu = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className="book-sketch-container d-flex justify-content-center mb-5" fluid>
+            <Container className="book-sketch-container d-flex justify-content-center mb-5 position-relative" fluid>
                 <Row className="book-sketch-row">
                     <Col className="book-sketch-col d-flex align-items-center pt-5 pt-sm-0 pb-4 pb-sm-0">
                        <img className="book-sketch object-fit-cover pb-3 pb-sm-0" src={sketchFour} width="52%" alt="Call of Cthulu movie poster concept sketches." />
@@ -203,12 +203,12 @@ const Cthulu = () => {
             </Modal>
             <Container className="d-flex typography-container overflow-hidden" fluid>
                 <Row>
-                    <Col className="typography-col order-2 order-sm-2 order-md-1 order-lg-1" md={5} lg={5} xl={6}>
+                    <Col className="typography-col order-2 order-sm-2 order-md-1 order-lg-1 mb-5" md={5} lg={5} xl={6}>
                         <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="Cthulu book mockup opened and facing up." />
                         <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-down")} src={bookMockupDown} width="100%" alt="Cthulu book mockup opened and facing down." />
                         <img className="book-mockup object-fit-lg-cover object-fit-md-cover" src={bookMockup} onClick={() => handleShow("book-mockup")} width="100%" alt="Cthulu book mockup closed." />
                     </Col>
-                    <Col md={7} lg={6} xl={6} className="order-1 order-sm-1 order-md-2 order-lg-2">
+                    <Col md={7} lg={6} xl={6} className="d-flex flex-column justify-content-center order-1 order-sm-1 order-md-2 order-lg-2">
                     <h2 className="sub-heading text-center mb-5">The Typography Aspect</h2>
                     <p className="mb-5"> The main font system used for the body text was Adobe Caslon Pro (directly based on William 
                         Caslon’s eponymous serif font family). I chose this serif font for the body copy because it 

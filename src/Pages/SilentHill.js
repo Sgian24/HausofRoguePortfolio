@@ -118,13 +118,13 @@ const SilentHill = () => {
                 </Col>
             </Row>
             </Container>
-            <Container className="margin-container" fluid>
+            <Container className="margin-container position-relative" fluid>
             <Row>
                 <Col className= "d-flex justify-content-center mb-4">
                     <img className="silent-hill-web" src={silentHill} width="70%" alt="Preview of Silent Hill web design pages." />
                 </Col>
             </Row>
-            <Row>
+            <Row className="">
                 <Col className="order-2 order-sm-1">
                     <img className="iMac" src={iMac} width="50%" alt="iMac mockup with Silent Hill webpage design." />
                 </Col>
@@ -150,14 +150,14 @@ const SilentHill = () => {
                         palette; it just radiates cozy, cottage and coffee.</p>
                     </div>
                 </Col>
-                <Col sm={12} md={6} lg={6} className="brochure-image-scroll">
+                <Col md={6} lg={6} xl={6} className="brochure-image-scroll">
                     <img className="object-fit-cover h-100 w-100" src={silentHillBrochureEdited} alt="Silent Hill brochure." style={{objectPosition:`${position}% 50%`}} />
                 </Col>
             </Row>
         </Container>
-        <Container className="position-relative">
-            <Row>
-                <Col className="brochure w-100" style={{backgroundImage:`url(${silentHillBrochure})`}}>
+        <Container className="position-relative" >
+            <Row className="bg-danger">
+                <Col className="brochure" style={{backgroundImage:`url(${silentHillBrochure})`}}>
                 </Col>
             </Row>
             <Row className="mt-5">

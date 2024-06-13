@@ -59,7 +59,7 @@ const SilentHill = () => {
             </Row>
             <Row>
                 <Col className="d-flex justify-content-center">   
-                    <img className="mb-4 border" src={Line} width="90%" height="20%" />
+                    <img className="mb-4" src={Line} width="90%" height="20%" />
                 </Col>
             </Row>
             <Row className="mb-4">

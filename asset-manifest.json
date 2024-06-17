@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2dbc36e0.css",
-    "main.js": "/static/js/main.a6f6c1d6.js",
+    "main.css": "/static/css/main.c26c9b71.css",
+    "main.js": "/static/js/main.ffc98a58.js",
     "static/media/IMG_3121.jpg": "/static/media/IMG_3121.3fec9b1144718ee3df38.jpg",
     "static/media/IMG_3015.jpg": "/static/media/IMG_3015.07cb06517cdb4d630a25.jpg",
     "static/media/iPhone11-PSD-Mockup.jpg": "/static/media/iPhone11-PSD-Mockup.4f101d71c535129979e5.jpg",
@@ -56,11 +56,11 @@
     "static/media/Asset 8.png": "/static/media/Asset 8.b953e42b0c2cf486238e.png",
     "static/media/attitude.webp": "/static/media/attitude.656f79af92787c92fd2a.webp",
     "index.html": "/index.html",
-    "main.2dbc36e0.css.map": "/static/css/main.2dbc36e0.css.map",
-    "main.a6f6c1d6.js.map": "/static/js/main.a6f6c1d6.js.map"
+    "main.c26c9b71.css.map": "/static/css/main.c26c9b71.css.map",
+    "main.ffc98a58.js.map": "/static/js/main.ffc98a58.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dbc36e0.css",
-    "static/js/main.a6f6c1d6.js"
+    "static/css/main.c26c9b71.css",
+    "static/js/main.ffc98a58.js"
   ]
 }

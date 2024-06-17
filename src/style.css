@@ -1150,7 +1150,7 @@ mark {
 
     .brochure {
         height: 90vh;
-        background-size: auto auto;
+        background-attachment: initial;
         background-position: 38% 30%;
     }
 
@@ -1185,6 +1185,7 @@ mark {
     .alf-site {
         height: 80vh;
         background-position: 60% -2%;
+        background-attachment: initial;
     }  
 
     .site-mockup-container {

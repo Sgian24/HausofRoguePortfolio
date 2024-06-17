@@ -22,7 +22,7 @@ import paperBackBooks from "..//Assets/Paperback-Book-Mockup-Vol6.jpg";
 import sketchFour from "..//Assets/Picsart_23-02-16_20-16-02-752.jpg";
 import bookMockupUp from "..//Assets/Free_Book_Mockup_3.jpg";
 import bookMockupDown from "..//Assets/Free_Book_Mockup_8.jpg";
-import bookMockup from "..//Assets/cthulu.webp";
+import bookMockup from "..//Assets/Free_Book_Mockup_1.jpg";
 import book from "..//Assets/book png.png";
 import iPhoneMockup from "..//Assets/iPhone11-PSD-Mockup.jpg";
 import wallMockup from "..//Assets/Billboard on Wall Mockup.jpg";

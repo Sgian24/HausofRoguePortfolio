@@ -7,8 +7,8 @@ import SilentHill from "..//Assets/silenthill.webp";
 import cd from "..//Assets/updatedCDcover.jpg";
 import { useEffect } from "react";
 import ALF from "..//Assets/ALF-stationary.webp";
-import cthulu from "..//Assets/cthulu.webp";
-import Resthaven from "..//Assets/resthaven.webp";
+import cthulu from "..//Assets/Free_Book_Mockup_1.jpg";
+import Resthaven from "..//Assets/Resthaven-updated-shrink.jpg";
 import { Link} from "react-router-dom";
 import Footer from "../Components/Footer";
 

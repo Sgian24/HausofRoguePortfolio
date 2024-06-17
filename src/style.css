@@ -1532,6 +1532,14 @@ mark {
     .resthaven-table-container {
         width: 100%;
     }
+
+    .table-container {
+        width: 100%;
+    }
+
+    .cthulu-table-container {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 482px) {

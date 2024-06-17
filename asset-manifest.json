@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.43888100.css",
-    "main.js": "/static/js/main.86a0a698.js",
+    "main.js": "/static/js/main.3790abc3.js",
     "static/media/IMG_3121.jpg": "/static/media/IMG_3121.3fec9b1144718ee3df38.jpg",
     "static/media/IMG_3015.jpg": "/static/media/IMG_3015.07cb06517cdb4d630a25.jpg",
     "static/media/iPhone11-PSD-Mockup.jpg": "/static/media/iPhone11-PSD-Mockup.4f101d71c535129979e5.jpg",
@@ -19,6 +19,7 @@
     "static/media/AnimalRightsWebpages.jpg": "/static/media/AnimalRightsWebpages.25e24b218c255f056e60.jpg",
     "static/media/silenthill.webp": "/static/media/silenthill.e4b91f7656312e3d0d15.webp",
     "static/media/updatedCDcover.jpg": "/static/media/updatedCDcover.4362d88bb38b821a83ec.jpg",
+    "static/media/Free_Book_Mockup_1.jpg": "/static/media/Free_Book_Mockup_1.98eab73bf619f27a1cd8.jpg",
     "static/media/Roa_Billie-LogoDesign-03.jpg": "/static/media/Roa_Billie-LogoDesign-03.f9912217ed234a7cff81.jpg",
     "static/media/mock up stamp_edited.jpg": "/static/media/mock up stamp_edited.b4152994dbf7071d1bfc.jpg",
     "static/media/Identity-Invitation-Stationery-Free-psd-Mockup.jpg": "/static/media/Identity-Invitation-Stationery-Free-psd-Mockup.d7514efc70fbaec3d110.jpg",
@@ -40,6 +41,7 @@
     "static/media/Cthulu Moodboard.jpg": "/static/media/Cthulu Moodboard.4f5febaed902a216874e.jpg",
     "static/media/Picsart_23-02-16_20-16-02-752.jpg": "/static/media/Picsart_23-02-16_20-16-02-752.12b1e607c86863e90a81.jpg",
     "static/media/logo-full.jpg": "/static/media/logo-full.208a86df4db15958ac4f.jpg",
+    "static/media/Resthaven-updated-shrink.jpg": "/static/media/Resthaven-updated-shrink.16bca357493cab57aa59.jpg",
     "static/media/Free_Book_Mockup_3.jpg": "/static/media/Free_Book_Mockup_3.a24837182bf0d58812db.jpg",
     "static/media/MCDCAHO_EC016.jpg": "/static/media/MCDCAHO_EC016.02e239576ea37eacec5b.jpg",
     "static/media/fullColor_redSpray_edited.png": "/static/media/fullColor_redSpray_edited.b3e5f78885538542a190.png",
@@ -50,18 +52,16 @@
     "static/media/naughtyamerica.png": "/static/media/naughtyamerica.447957f744cb8da05eba.png",
     "static/media/Barlow-ExtraLight.otf": "/static/media/Barlow-ExtraLight.790c798a520bb4ea5614.otf",
     "static/media/Barlow-Medium.otf": "/static/media/Barlow-Medium.c2228f2e9cb0ba7f3958.otf",
-    "static/media/resthaven.webp": "/static/media/resthaven.0a1d871f053d085c4ebb.webp",
-    "static/media/cthulu.webp": "/static/media/cthulu.bafb2c543b472d7e7fbf.webp",
     "static/media/ALF-stationary.webp": "/static/media/ALF-stationary.1fbd92c3bcd9e05965d9.webp",
     "static/media/HOR.webp": "/static/media/HOR.fc2d2c4a5f589c5fe195.webp",
     "static/media/Asset 8.png": "/static/media/Asset 8.b953e42b0c2cf486238e.png",
     "static/media/attitude.webp": "/static/media/attitude.656f79af92787c92fd2a.webp",
     "index.html": "/index.html",
     "main.43888100.css.map": "/static/css/main.43888100.css.map",
-    "main.86a0a698.js.map": "/static/js/main.86a0a698.js.map"
+    "main.3790abc3.js.map": "/static/js/main.3790abc3.js.map"
   },
   "entrypoints": [
     "static/css/main.43888100.css",
-    "static/js/main.86a0a698.js"
+    "static/js/main.3790abc3.js"
   ]
 }

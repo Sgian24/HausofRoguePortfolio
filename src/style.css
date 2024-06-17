@@ -186,6 +186,7 @@ th {
 }
 
 .more-projects {
+    color: black;
     text-decoration: none;
     font-family: Barlow-ExtraLight;
     transition: 0.5s;

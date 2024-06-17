@@ -125,7 +125,7 @@ const ALF = () => {
             </Container>
             <Container className="alf-logo-container gx-0 mb-5" fluid>
                 <Row className="logo-row gx-0">
-                    <Col sm={0} md={6} lg={6} xl={6} className="alf-logo-container-col border d-flex justify-content-end h-100">
+                    <Col sm={0} md={6} lg={6} xl={6} className="alf-logo-container-col d-flex justify-content-end h-100">
                         <img src={logo} alt="ALF logo." />
                     </Col>
                     <Col xx={12} sm={12} md={6} lg={6} xl={6} className="logo-text-col h-100 d-flex justify-content-center align-items-center mb-5">
@@ -151,7 +151,7 @@ const ALF = () => {
                         <img className="modal-img" src={image === 1? logoSketch: logoSketchTwo} height="100%" width="100%" alt="ALF logo drafts." />
                     </Modal.Body>
             </Modal>
-            <Container className="alf-thumbnail-container mb-3 mb-sm-0 mb-lg-0 mb-xl-5 mb-xxl-5 border" fluid>
+            <Container className="alf-thumbnail-container mb-3 mb-sm-0 mb-lg-0 mb-xl-5 mb-xxl-5" fluid>
                      <Row>
                         <Col><img className="alf-thumbnail" onClick={() => handleShow(1)} src={logoSketch} width="100%" alt="ALF logo drafts."  /></Col>
                         <Col><img className="alf-thumbnail" onClick={() => handleShow(2)} src={logoSketchTwo} width="100%" alt="ALF logo drafts." /></Col>
@@ -184,7 +184,7 @@ const ALF = () => {
                             industrial-anarchist elements were instead used as statement pieces--just to
                              maintain ALF's roots and convictive&nbsp;tone.</p>
                        
-                            <img className="border alf-mockup object-fit-contain" src={alfMockup}  width="98.6%"  alt="ALF pen, journal and business card mockup." />
+                            <img className="alf-mockup object-fit-contain" src={alfMockup}  width="98.6%"  alt="ALF pen, journal and business card mockup." />
                       
                     </Col>
                 </Row>
@@ -228,7 +228,7 @@ const ALF = () => {
                              competitive&nbsp;charities.</p>
                         <p>Designed by me, with the aid of my boyfriend, Sunny Gian, who developed the web 
                             prototype. Click the "Desktop-Web Design" heading to view the prototype or click 
-                            the link: <Link to="https://billierogue.github.io/AnimalLiberationFront" target="_blank">https://billierogue.github.io/AnimalLiberationFront/</Link></p>
+                            the link: <Link to="https://billierogue.github.io/AnimalLiberationFront" target="_blank">https://billierogue.github.io/<br></br>AnimalLiberationFront/</Link></p>
                         <p>All in all, I love my work on this organization and had considered commissioning it to the
                            real Animal Liberation Front to turn this project to reality. Though there are just a 
                            plethora of things into consideration, like the organization's radicalism and my 

@@ -144,6 +144,7 @@ th {
 
 .carousel-container {
     background-color: #f0f0f0;
+    height: auto;
 }
 
 .carousel {
@@ -298,6 +299,7 @@ th {
 }
 
 .alf-site-link {
+    color: black;
     font-family: Cozy;
     font-size: 4rem;
     text-decoration: none;
@@ -1026,7 +1028,6 @@ mark {
 
     .alf-invitation-container {
         height: 28%;
-        border: solid 1px black;
     }
 
     .alf-invitation {
@@ -1161,6 +1162,7 @@ mark {
 
     .link-line {
         left: 40.7% !important;
+        display: none;
     }
 
     .alf-table-container {
@@ -1229,6 +1231,10 @@ mark {
         width: 38vw;
     }
 
+    .book-header-container {
+        background-attachment: initial;
+    }
+
     .book-sketch-paragraph {
         top: 32%;
         left: 50%;
@@ -1245,8 +1251,8 @@ mark {
     }
 
     .promotional-package-bg-row {
-        background-color: #00b4bd;
         height: 40%;
+        background-attachment: initial;
     }
 
     .promotional-package-container {
@@ -1254,6 +1260,7 @@ mark {
     }
     .promotional-package-bg-col {
         height: 100vh;
+        background-attachment: initial;
     }
 
     .promotional-package-text-row {
@@ -1272,13 +1279,22 @@ mark {
         background-position: 62% 50% ;
     }
 
+    .split-row-col {
+        background-attachment: initial;
+    }
+
     .split-row-col-full {
         background-size: auto;
         background-position: 50% 50%;
+        background-attachment: initial;
     }
 
     .paragraph-resthaven {
         width: 90vw;
+    }
+
+    .resthaven-link-line {
+        display: none;
     }
 
     .origin-col {
@@ -1483,6 +1499,10 @@ mark {
     .link-line { 
         left: 39.5% !important;
     }
+
+    .sketches {
+        height: 50vh;
+    }
 }
 
 @media only screen and (max-width: 482px) {
@@ -1494,5 +1514,9 @@ mark {
 @media only screen and (max-width: 411px) {
     .footer-link-container {
         gap: 1.5rem !important;
+    }
+
+    .billboard-text {
+        width: 55vw;
     }
 }

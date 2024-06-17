@@ -117,11 +117,11 @@ const Cthulu = () => {
                         audiences. However, the grindhouse aesthetic is usually associated with gore, horror and 
                         slashers--hence the "visceral"&nbsp;experience.</p>
                 </Col>
-                <Col lg={8}>
+                <Col lg={8} className="mb-5 mb-sm-0 mb-xxl-0">
                     <img src={cthuluMMoodBoard} width="100%" alt="Call of Cthulu moodboard with various horror movie posters." />
                     <img src={gravePoster} className="grave-poster position-absolute" width="10%" alt="" />
                     <img src={chPoster} className="ch-poster position-absolute" width="7%" alt="" />
-                </Col>
+                </Col> 
             </Row>
         </Container>
         <Container fluid>

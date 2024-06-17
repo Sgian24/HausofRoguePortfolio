@@ -47,6 +47,29 @@ const Resthaven = () => {
 
     return (
         <>
+        <style>
+            {`
+            @media only screen and (max-width: 992px) {
+                .split-row-col-full {
+                    background-position: 69% 50px !important;
+                }
+            }
+
+            @media only screen and (max-width: 576px) {
+                .split-row-col{
+                    background-position: 62% 30px !important;
+                }
+            }
+
+            @media only screen and (max-width: 576px) {
+                .split-row-col-full {
+                    background-position: 62% 50px !important;
+                }
+            }
+
+         
+            `}
+        </style>
         <NavBar />
         <Container className="resthaven-body-container mt-4" fluid>
             <Row>
@@ -62,7 +85,7 @@ const Resthaven = () => {
             </Row>
             <Row>
                 <Col className="d-flex justify-content-center">   
-                    <img className="mb-4 border" src={Line} width="90%" height="20%" alt="" />
+                    <img className="mb-4" src={Line} width="90%" height="20%" alt="" />
                 </Col>
             </Row>
             <Row className="mb-4">

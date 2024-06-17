@@ -97,7 +97,8 @@ p {
 }
 
 .footer-container {
-    height: 18vh;
+    height: auto;
+    padding-top: 1rem;
 }
 
 footer {
@@ -491,7 +492,6 @@ mark {
 }
 
 .split-row-col-full {
-    height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -1089,9 +1089,8 @@ mark {
         margin-top: 0rem;
     }
 
-    .split-row-col-full {
-        background-position: 50% 50% !important;
-        background-size: cover;
+    .split-row-col {
+        background-position: 69% 30px;
     }
 
     .paragraph-resthaven {
@@ -1268,11 +1267,6 @@ mark {
 
     .resthaven-bg-row {
         background-position: 62% 50% ;
-    }
-
-    .split-row-col {
-        background-position: auto;
-        background-position: 50% 50%;
     }
 
     .split-row-col-full {

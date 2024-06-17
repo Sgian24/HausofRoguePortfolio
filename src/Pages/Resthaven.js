@@ -57,16 +57,9 @@ const Resthaven = () => {
 
             @media only screen and (max-width: 576px) {
                 .split-row-col{
-                    background-position: 62% 30px !important;
+                    background-position: 62% 38px !important;
                 }
             }
-
-            @media only screen and (max-width: 576px) {
-                .split-row-col-full {
-                    background-position: 62% 50px !important;
-                }
-            }
-
          
             `}
         </style>
@@ -110,12 +103,12 @@ const Resthaven = () => {
             </Row>
         </Container>
         <Container className="resthaven-bg-container" fluid>
-            <Row className="h-100 bg-danger">
+            <Row className="h-100">
                 <Col className="h-100 resthaven-bg-row" style={{backgroundImage:`url(${resthaven})`}}>
                 </Col>
             </Row>
         </Container>
-        <Container className="resthaven-history-container mt-5 mb-5" >
+        <Container className="resthaven-history-container mt-5 mb-sm-2 mb-xxl-5" >
             <Row className="mb-5">
                 <Col className="d-flex justify-content-center align-items-center" lg={4}>
                     <div>

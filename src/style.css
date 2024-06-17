@@ -1277,6 +1277,7 @@ mark {
 
     .resthaven-bg-row {
         background-position: 62% 50% ;
+        background-attachment: initial;
     }
 
     .split-row-col {
@@ -1284,9 +1285,11 @@ mark {
     }
 
     .split-row-col-full {
-        background-size: auto;
-        background-position: 50% 50%;
-        background-attachment: initial;
+        display: none;
+    }
+
+    .split-row-container {
+        margin-bottom: 1.5rem;
     }
 
     .paragraph-resthaven {
@@ -1295,6 +1298,10 @@ mark {
 
     .resthaven-link-line {
         display: none;
+    }
+
+    .parallax-container {
+        background-attachment: initial;
     }
 
     .origin-col {

@@ -1150,6 +1150,7 @@ mark {
 
     .brochure {
         height: 90vh;
+        background-size: auto auto;
         background-position: 38% 30%;
     }
 
@@ -1479,5 +1480,17 @@ mark {
 @media only screen and (Max-width: 501px) {
     .link-line { 
         left: 39.5% !important;
+    }
+}
+
+@media only screen and (max-width: 482px) {
+    .attitude-lips {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .footer-link-container {
+        gap: 1.5rem !important;
     }
 }

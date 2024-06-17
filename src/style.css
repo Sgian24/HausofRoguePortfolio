@@ -74,7 +74,7 @@ p {
 }
 
 .cd-container {
-    margin-left: 6vw;
+    margin-left: 4vw;
 }
 
 .project-row {
@@ -399,6 +399,10 @@ mark {
     opacity: 0.7;
 }
 
+.book-paragraph {
+    margin-bottom: 5rem;
+}
+
 .book {
     left: 95%;
     transition: left 1s ease-out;
@@ -469,6 +473,7 @@ mark {
 
 .resthaven-body-container {
     width:90%;
+    height: auto;
 }
 
 .resthaven-table-container {
@@ -859,6 +864,13 @@ mark {
     }
  }
 
+ @media only screen and (max-width: 1400px) {
+
+    .book-paragraph {
+        margin-bottom: 0px;
+    }
+ }
+
  @media only screen and (max-width: 1200px) {
 
     .silent-hill-web {
@@ -957,7 +969,7 @@ mark {
 
  @media only screen and (max-width: 992px) {
     .cd {
-        width:80%;
+        width:90%;
     }
 
     .hero-title {
@@ -1276,7 +1288,7 @@ mark {
     }
 
     .resthaven-bg-row {
-        background-position: 62% 50% ;
+        background-position: 38% 50% ;
         background-attachment: initial;
     }
 
@@ -1479,6 +1491,10 @@ mark {
         left: 41%;
      }
 
+     .resthaven-bg-row {
+        background-position: 44% 50%;
+     }
+
      .resthaven-table-container {
         width: 85%;
     }
@@ -1496,19 +1512,25 @@ mark {
     }
 }
 
-@media only screen and (max-width: 502px) {
+@media only screen and (Max-width: 501px) {
+
     .attitude-lips {
         display: none;
     }
-}
-
-@media only screen and (Max-width: 501px) {
     .link-line { 
         left: 39.5% !important;
     }
 
     .sketches {
         height: 50vh;
+    }
+
+    .resthaven-bg-container {
+        height: 50vh;
+    }
+
+    .resthaven-table-container {
+        width: 100%;
     }
 }
 
@@ -1525,5 +1547,9 @@ mark {
 
     .billboard-text {
         width: 55vw;
+    }
+
+    .resthaven-bg-row {
+        background-position: 46% 50%;
     }
 }

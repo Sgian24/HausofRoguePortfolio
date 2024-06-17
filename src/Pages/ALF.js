@@ -16,7 +16,7 @@ import guideline from "..//Assets/wprch.jpg";
 import alfInvitation from "..//Assets/Identity-Invitation-Stationery-Free-psd-Mockup.jpg";
 import moodBoard from "..//Assets/Roa_Billie-Moodboard1.jpg";
 import alfMockup from "..//Assets/ALF-stationary.webp";
-import alfSite from "..//Assets/alf-website.webp";
+import alfSite from "..//Assets/AnimalRightsWebpages.jpg";
 import siteMockup from "..//Assets/Web Screen PSD Mockup.jpg";
 import Footer from "../Components/Footer";
 

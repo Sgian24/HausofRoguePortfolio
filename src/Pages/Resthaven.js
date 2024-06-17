@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
 import Line from "..//Assets/Asset 8.png";
-import resthaven from "..//Assets/resthaven.jpg";
+import resthaven from "..//Assets/Resthaven-updated.jpg";
 import bwResthaven from "..//Assets/IMG_3121.jpg";
 import resthavenOne from "..//Assets/resthaven2.webp";
 import brayden from "..//Assets/IMG_3015.jpg";
@@ -128,7 +128,7 @@ const Resthaven = () => {
                     <img src={bwResthaven} width="100%" alt="Resthaven performing at a gig." />
                 </Col>
             </Row>
-            <Row className="album-preview-row mb-5">
+            <Row className="album-preview-row mb-4">
                 <Col className="h-100 d-flex flex-column align-items-center ">
                     <div className="bandcamp-div w-50">
                         <h2 className="text-end sub-heading mb-4">Album Preview</h2>

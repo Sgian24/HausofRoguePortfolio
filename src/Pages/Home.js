@@ -2,9 +2,9 @@ import NavBar from "..//Components/NavBar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import lip from "..//Assets/red-lip.webp";
+import lip from "..//Assets/naughtyamerica.png";
 import SilentHill from "..//Assets/silenthill.webp";
-import cd from "..//Assets/cd-services.webp";
+import cd from "..//Assets/updatedCDcover.jpg";
 import { useEffect } from "react";
 import ALF from "..//Assets/ALF-stationary.webp";
 import cthulu from "..//Assets/cthulu.webp";
@@ -26,14 +26,14 @@ const Home = () => {
         <NavBar />
         <Container className="body-content-container mb-4" fluid>
             <Row className="mb-5 ">
-              <Col lg={6} xl={6}>
+              <Col lg={6} xl={6} className="mb-sm-4 mb-xxl-0">
                <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img className="attitude-lips" src={lip} width="70" alt="Lips." /></h1>
                <p className="hero-description">Fuelled by vision and verve, I'm here to serve. Combining my passion
                for music with my design skills, I'm recognized for infusing my visuals with a rockstar vibe. Balancing
                a rebellious nature with a strong grip of design fundamentals, I craft daring and memorable designs that make a 
                lasting&nbsp;ATTITUDE.</p>
               </Col>
-              <Col lg={4} xl={4} className="cd-container mt-3"><img className="cd"src={cd} width="140%" alt="Haus of Rogue's services." /></Col>
+              <Col lg={4} xl={4} className="cd-container"><img className="cd"src={cd} width="140%" alt="Haus of Rogue's services." /></Col>
             </Row>
             <Row className="mb-3 gap-4 project-row">
               <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${SilentHill})`,}} sm={6} md={6} lg={6}>

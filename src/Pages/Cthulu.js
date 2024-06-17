@@ -218,7 +218,7 @@ const Cthulu = () => {
                          because the point-of-view of Call of Cthulhu is narrated through the point-of-view of s
                          omeone going through their <br />late-uncle’s&nbsp;journals. </p>
                     <h5 className="text-end mb-4">Justification and Composition</h5>
-                    <p className="mb-sm-4 mb-xl-0">I was already wary of widows, orphans and rivers in text formatting so fixing those didn’t 
+                    <p className="book-paragraph">I was already wary of widows, orphans and rivers in text formatting so fixing those didn’t 
                         take up too much of my time. If you have a grasp of InDesign, working paragraph styles then 
                         formatting the text (via justification, hyphenation and ‘GREP” style”) shouldn’t take long 
                         (when in doubt, YouTube). One thing I noticed in books is the body copy is justified with the 

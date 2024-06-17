@@ -5,13 +5,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
 import Line from "..//Assets/Asset 8.png";
-import silentHill from "..//Assets/silenthill.webp";
+import silentHill from "..//Assets/TourismSiteMockup.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import silentHillPoster from "..//Assets/Poly_art_assignment_Poster_Design_Two.jpg";
 import silentHillPostCard from "..//Assets/Poly_art_assignment_Postcard_Design.jpg";
 import iMac from "..//Assets/iMac Mockup.png";
 import silentHillBrochureEdited from "../Assets/Silent Hill Tourist brochure mockup_edited.png";
-import silentHillBrochure from "../Assets/SilentHillBrochure.webp";
+import silentHillBrochure from "../Assets/SilentHilltouristbrochuremockup.jpg";
 import Footer from "../Components/Footer";
 import {Link} from "react-router-dom";
 

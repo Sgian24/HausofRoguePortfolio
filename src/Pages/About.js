@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import attitude from "..//Assets/attitude.webp";
-import billie from "..//Assets/billie.jpg";
+import billie from "..//Assets/BillieRogue.jpg";
 import billieTwo from "..//Assets/IMG_8596.jpeg";
 import {Link} from "react-router-dom";
 import Footer from "../Components/Footer";

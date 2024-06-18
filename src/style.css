@@ -195,8 +195,8 @@ th {
 }
 
 .link-line {
-    left: 45.7%;
-    margin-top: 2vh;
+    left: 46.2%;
+    margin-top: .75rem;
     background-color: black;
     z-index: 1;
     position: absolute;
@@ -868,6 +868,10 @@ mark {
 
     .book-paragraph {
         margin-bottom: 0px;
+    }
+
+    .link-line {
+        left: 45.6%;
     }
  }
 

@@ -55,13 +55,13 @@ p {
 }
 
 .hero-title {
-    font-family: Barlow-ExtraLight;
+    font-family: Modern Typewriter;
     font-size: 4rem;
     margin-bottom: 5vh;
 }
 
 .Billie {
-    font-family: Barlow-Bold;
+    color: #c60000;
 }
 
 .attitude {
@@ -79,6 +79,7 @@ p {
 
 .project-row {
     height:70vh;
+    margin-top: 2rem;
 }
 
 .overlay {
@@ -561,7 +562,7 @@ mark {
 .glitch,.glitch-img {
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: cover;
+    background-size: 120%;
 }
         
 .glitch {

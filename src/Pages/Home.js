@@ -36,17 +36,19 @@ const Home = () => {
               <Col lg={4} xl={4} className="cd-container"><img className="cd"src={cd} width="140%" alt="Haus of Rogue's services." /></Col>
             </Row>
             <Row className="mb-3 gap-4 project-row">
-              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${SilentHill})`,}} sm={6} md={6} lg={6}>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}> </div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`, zIndex:2}}></div>
-                <Link to="/silenthill">
+            <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Call of Cthulu section." style={{ backgroundImage:`url(${cthulu})`,}} sm={6} md={6} lg={6}>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
+                <div></div>
+                <div></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
+                <Link to="/callofcthulu">
                   <div className="d-flex justify-content-center align-items-center overlay h-100 ">
-                    <h1 className="overlay-text">Visit: Silent Hill</h1>
+                    <h1 className="overlay-text">Call of Cthulu Campaign</h1>
                   </div>
-                </Link> 
+                </Link>
               </Col>
               <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Animal Liberation Front section." style={{backgroundImage:`url(${ALF})`}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
@@ -63,19 +65,17 @@ const Home = () => {
               </Col>
             </Row>
             <Row className="gap-4 project-row">
-              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Call of Cthulu section." style={{ backgroundImage:`url(${cthulu})`,}} sm={6} md={6} lg={6}>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
-                <div></div>
-                <div></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
-                <Link to="/callofcthulu">
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${SilentHill})`,}} sm={6} md={6} lg={6}>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}> </div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`, zIndex:2}}></div>
+                <Link to="/silenthill">
                   <div className="d-flex justify-content-center align-items-center overlay h-100 ">
-                    <h1 className="overlay-text">Call of Cthulu Campaign</h1>
+                    <h1 className="overlay-text">Visit: Silent Hill</h1>
                   </div>
-                </Link>
+                </Link> 
               </Col>
               <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Resthaven section." style={{backgroundImage:`url(${Resthaven})`}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>

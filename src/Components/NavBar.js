@@ -22,7 +22,7 @@ const NavBar = () => {
         <Navbar collapseOnSelect expand="sm" >
             <Container className="nav-container" fluid>
                 <Navbar.Brand>
-                    <img src={Hor} width="200" alt="" />    
+                    <a href="/"><img src={Hor} width="200" alt="" /></a>    
                 </Navbar.Brand> 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse className="" id="responsive-navbar-nav">

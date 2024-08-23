@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import lip from "..//Assets/naughtyamerica.png";
-import SilentHill from "..//Assets/silenthill.webp";
+import SilentHill from "..//Assets/Tablet-Mockup-cropped.jpg";
 import cd from "..//Assets/updatedCDcover.jpg";
 import { useEffect } from "react";
 import ALF from "..//Assets/ALF-stationary.webp";
@@ -35,7 +35,7 @@ const Home = () => {
               </Col>
               <Col lg={4} xl={4} className="cd-container"><img className="cd"src={cd} width="140%" alt="Haus of Rogue's services." /></Col>
             </Row>
-            <Row className="mb-3 gap-4 project-row">
+            <Row className="mb-3 project-row">
             <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Call of Cthulu section." style={{ backgroundImage:`url(${cthulu})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
@@ -64,7 +64,7 @@ const Home = () => {
               </Link>
               </Col>
             </Row>
-            <Row className="gap-4 project-row">
+            <Row className="project-row">
               <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${SilentHill})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}> </div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>

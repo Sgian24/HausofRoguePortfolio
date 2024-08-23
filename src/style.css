@@ -79,7 +79,7 @@ p {
 
 .project-row {
     height:70vh;
-    margin-top: 2rem;
+  
 }
 
 .overlay {
@@ -322,7 +322,7 @@ th {
 }
 
 .cthulu-table-container {
-    width: 50%;
+    width: 40%;
 }
 
 .grave-poster {
@@ -401,12 +401,12 @@ mark {
 }
 
 .book-paragraph {
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .book {
     left: 95%;
-    transition: left 1s ease-out;
+    transition: left 1.5s ease-out;
 }
 
 .promotional-package-container {
@@ -562,7 +562,7 @@ mark {
 .glitch,.glitch-img {
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: 120%;
+    background-size: 150%;
 }
         
 .glitch {
@@ -570,7 +570,7 @@ mark {
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    width: 48%;
+    width: 49%;
 }
         
 .glitch-img {
@@ -848,12 +848,18 @@ mark {
  }
 
  @media only screen and (max-width: 1500px) {
+
+    .glitch {
+        width: 48.8%;
+    }
+
     .alf-table-container {
         width: 60%;
     }
 
     .cthulu-table-container {
         width: 55%;
+        text-align: left;
     }
 
     .grave-poster {
@@ -873,6 +879,12 @@ mark {
 
     .link-line {
         left: 45.6%;
+    }
+ }
+
+ @media only screen and (max-width: 1350px) {
+    .glitch, .glitch-img {
+        background-size: cover;
     }
  }
 

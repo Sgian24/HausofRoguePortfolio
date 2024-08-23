@@ -14,6 +14,21 @@ import silentHillBrochureEdited from "../Assets/Silent Hill Tourist brochure moc
 import silentHillBrochure from "../Assets/SilentHilltouristbrochuremockup.jpg";
 import Footer from "../Components/Footer";
 import {Link} from "react-router-dom";
+import postCardMockupOne from "..//Assets/ruined-postcard-mockup.jpg";
+import postCardMockupTwo from "..//Assets/postcard-mockup-copy.jpg";
+import heroWebpage from "..//Assets/1-Home-Hero.png";
+import tourismWebpage from "..//Assets/2-Tourism.png";
+import lodgingWebpage from "..//Assets/3-Lodging.png";
+import galleryWebpage from "..//Assets/4-Gallery.png";
+import adWebpage from "..//Assets/5-Ad.png";
+import footerWebpage from "..//Assets/6-Footer.png";
+import flyer from "..//Assets/DL_Flyer_cropped.jpg";
+import iphoneMockup from "..//Assets/iPhone-in-Hands-Mockup-copy.jpg";
+import brochureBackCover from "..//Assets/Back-Cover.png";
+import brochureFrontCover from "..//Assets/Front-Cover.png";
+import brochureOne from "..//Assets/Inside1-flap.png";
+import brochureTwo from "..//Assets/Inside2-Lodging.png";
+import brochureThree from "..//Assets/Inside3-Tourism.png";
 
 const SilentHill = () => {
     const [position, setPosition] = useState(10)
@@ -44,15 +59,14 @@ const SilentHill = () => {
         <NavBar />
         <Container className="margin-container mt-4 " fluid>
             <Row>
-            <Col>
-                <h1 className="text-center header-title">Visit: Silent Hill</h1>
-                <p className="mb-5">The Silent Hill game series known for the 'creepy fog effect' and grotesque monsters. 
+            <Col className="d-flex flex-column align-items-center">
+                <h1 className="header-title">Visit: Silent Hill</h1>
+                <p className="mb-5" style={{width:"61%"}}>The Silent Hill game series known for the 'creepy fog effect' and grotesque monsters. 
                    It is so much more than that it's a haunting and captivating journey into the depths of
                    psychological horror and existential dread. With each installment, it weaves an intricate
                    tapestry of fear and introspection, inviting players to confront their (character's) 
-                   darkest fears and innermost demons in a nightmarish realm like no other. The objective of 
-                   the assignment itself was to pick a city/town to use as a subject for a promotional print
-                   campaign. We were free to pick a fictional place as well, so with the Silent Hill being among 
+                   darkest fears and innermost demons in a nightmarish realm like no other. The objective was 
+                   to pick a city/town to use as a subject for a promotional print campaign. With the Silent Hill being among 
                    my most cherished video games ever, I went with it. You'll see some game references and Easter
                    eggs planted&nbsp;around.</p>
             </Col>
@@ -64,22 +78,14 @@ const SilentHill = () => {
             </Row>
             <Row className="mb-4">
                 <Col className="d-flex justify-content-center">
-                 <Table className="table-container" size="sm" borderless>
-                    <thead>
-                        <tr>
-                            <th>Service</th>
-                            <th>Client</th> 
-                            <th>Year</th> 
-                        </tr>    
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Digital Art, Web Design, <br /> Print, Marketing Campaign</td>
-                            <td>School Project</td>
-                            <td>2022</td>
-                        </tr>
-                    </tbody>
-                 </Table>   
+                 <div className="cthulu-table-heading me-4">
+                    <h6><u>Service</u></h6>
+                    <p>Digital Art, Web Design, Print, Marketing Campaign</p>
+                </div>
+                <div>
+                    <h6><u>Year</u></h6>
+                    <p>2022</p>
+                </div>     
                 </Col>
             </Row>
             <Row className="mb-4">
@@ -91,8 +97,7 @@ const SilentHill = () => {
                <Col>
                 <p>              
                     The first step of the Silent Hill Project with a low-poly art poster. This was quite the 
-                    challenge because it was during my first year of using Illustrator, let alone, I don't often 
-                    do low-poly&nbsp;art.  
+                    challenge because it was during my first year of using Illustrator.  
                 </p>
                 </Col>
                 <Col>
@@ -106,12 +111,20 @@ const SilentHill = () => {
             <Container fluid>
             <Row className="mb-4">
                 <Col className="carousel-container d-flex p-5 justify-content-center" >
-                    <Carousel className="carousel">
+                    <Carousel className="carousel h-100">
                         <Carousel.Item className="bg-transparent" >
-                            <img className="d-block m-auto" src={silentHillPoster}  width="92.4%"  alt="Low-poly Silent Hill poster." />
+                            <img className="d-block m-auto" src={silentHillPoster}  width="94.5%"  alt="Low-poly Silent Hill poster." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="carousel-image position-relative" src={silentHillPostCard} width="104%"  
+                            <img className="carousel-image position-relative" src={silentHillPostCard} width="106.5%"  
+                            alt="Distressed and washed-out version of the low-poly Silent Hill poster." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="object-fit-cover" src={postCardMockupOne} height="100%" width="127.5%"  
+                            alt="Distressed and washed-out version of the low-poly Silent Hill poster." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="position-relative object-fit-cover" src={postCardMockupTwo} height="100%" width="100%"  
                             alt="Distressed and washed-out version of the low-poly Silent Hill poster." />
                         </Carousel.Item>
                     </Carousel>
@@ -119,27 +132,50 @@ const SilentHill = () => {
             </Row>
             </Container>
             <Container className="margin-container position-relative" fluid>
-            <Row>
-                <Col className= "d-flex justify-content-center mb-4">
-                    <img className="silent-hill-web" src={silentHill} width="70%" alt="Preview of Silent Hill web design pages." />
-                </Col>
-            </Row>
             <Row className="">
                 <Col className="order-2 order-sm-1">
-                    <img className="iMac" src={iMac} width="50%" alt="iMac mockup with Silent Hill webpage design." />
+                    <img src={iMac} width="100%" alt="iMac mockup with Silent Hill webpage design." />
                 </Col>
                 <Col xs={12} sm={6} md={6} className="mb-0 mb-sm-5 order-1 order-sm-2">
                     <h1 className="mb-4 web-design-sub sub-heading">Web Design</h1>
                     <p>
-                    For the website design, as you can see, I decided to take things a little more seriously. 
                     As my brand for Silent Hill began to develop, I did so on the basis of a peaceful, quiet, 
                     serene resort town. A description that would intrigue introverted travellers looking for a 
                     quiet getaway with a lakeside. I wanted it to completely hide the fact that the town is a 
                     portal to a hellish alternate reality. After all it was a tourist marketing&nbsp;campaign.</p>
                 </Col>
             </Row>
+            <Row className="mb-4">
+                <Col className="carousel-container d-flex p-5 justify-content-center" >
+                    <Carousel className="carousel" data-bs-theme="dark">
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={heroWebpage} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={tourismWebpage} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={lodgingWebpage} width="100%"  alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={galleryWebpage} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={adWebpage} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={footerWebpage} width="100%"  alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                    </Carousel>
+                </Col>
+            </Row>
+            <Row >
+                <Col className="d-flex justify-content-center mb-4">
+                    <img src={iphoneMockup} width="70%" alt="" />
+                </Col>
+            </Row>
             </Container>
-            <Container className="gx-0 brochure-container" fluid>
+            <Container className="gx-0 brochure-container mb-4" fluid>
             <Row className="brochure-row gx-0">
                 <Col xs={12} sm={12} md={6} lg={6} className="d-flex justify-content-center align-items-center px-5 mb-4 mb-lg-0 mb-xl-0 mb-xs-4 mb-sm-4">
                     <div>
@@ -151,21 +187,40 @@ const SilentHill = () => {
                     </div>
                 </Col>
                 <Col md={6} lg={6} xl={6} className="brochure-image-scroll">
-                    <img className="object-fit-cover h-100 w-100" src={silentHillBrochureEdited} alt="Silent Hill brochure." style={{objectPosition:`${position}% 50%`}} />
+                    <img className="object-fit-cover h-100 w-100" src={flyer} alt="Silent Hill brochure." style={{objectPosition:`${position}% 50%`}} />
                 </Col>
             </Row>
         </Container>
         <Container className="position-relative" >
-            <Row className="bg-danger">
+        <Row className="mb-4">
+                <Col className="carousel-container d-flex p-5 justify-content-center" >
+                    <Carousel className="carousel" data-bs-theme="dark">
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={brochureFrontCover} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={brochureBackCover} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={brochureOne} width="100%"  alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={brochureTwo} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={brochureThree} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                    </Carousel>
+                </Col>
+            </Row>
+            <Row>
                 <Col className="brochure" style={{backgroundImage:`url(${silentHillBrochure})`}}>
                 </Col>
             </Row>
             <Row className="mt-5">
                 <Col className="d-flex justify-content-center">
-                    <p className="w-75 mb-5">
-                    And that's all she wrote for Visit: Silent Hill. This was made in the first year of my 
-                    graphic design course, and in almost 2 years now, it still holds up among the works I'm 
-                    most proud of. This project also showcased my versatility as an artist because
+                    <p className="mb-5" style={{width:"61%"}}>
+                    And that's all she wrote for Visit: Silent Hill. This project also showcased my versatility as an artist because
                      Visit: Silent Hill has this very snug, warm colour palette with fancy elegant header fonts. 
                      Something that's a little different from my usual gritty&nbsp;taste. </p>
                 </Col>

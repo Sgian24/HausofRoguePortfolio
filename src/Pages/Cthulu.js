@@ -3,32 +3,32 @@ import NavBar from "../Components/NavBar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Table from "react-bootstrap/Table";
 import Carousel from "react-bootstrap/Carousel";
 import Modal from "react-bootstrap/Modal";
 import Footer from "..//Components/Footer";
 import {Link} from "react-router-dom";
 import Line from "..//Assets/Asset 8.png";
-import cthuluBookMockup from "..//Assets/CoC_Book-Mockup.jpg";
+import cthuluBookMockup from "..//Assets/cover-image-updated.jpg";
 import cthuluMMoodBoard from "..//Assets/Cthulu Moodboard.jpg";
 import gravePoster from "..//Assets/71W0COYDONL._AC_UF1000,1000_QL80_.jpg";
 import chPoster from "..//Assets/MCDCAHO_EC016.jpg";
 import sketchOne from "..//Assets/Picsart_23-02-16_20-14-24-980.jpg";
 import sketchTwo from "..//Assets/Picsart_23-02-16_20-18-38-394.jpg";
 import sketchThree from "..//Assets/sketch call of Cthulhu.jpg";
-import posterOnWall from "..//Assets/Poster on Building Wall Mockup_edited.jpg";
+import posterOnWall from "..//Assets/movie poster updated.jpg";
 import billboard from "..//Assets/CoC_Billboard-Mockup.jpg";
 import paperBackBooks from "..//Assets/Paperback-Book-Mockup-Vol6.jpg";
 import sketchFour from "..//Assets/Picsart_23-02-16_20-16-02-752.jpg";
 import bookMockupUp from "..//Assets/Free_Book_Mockup_3.jpg";
 import bookMockupDown from "..//Assets/Free_Book_Mockup_8.jpg";
 import bookMockup from "..//Assets/Free_Book_Mockup_1.jpg";
-import book from "..//Assets/book png.png";
+import book from "..//Assets/BOOK_PNG_updated.png";
 import iPhoneMockup from "..//Assets/iPhone11-PSD-Mockup.jpg";
-import wallMockup from "..//Assets/Billboard on Wall Mockup.jpg";
+import wallMockup from "..//Assets/Vertical billboard updated.jpg";
 import exteriorMockup from "..//Assets/Exterior_scene_4_free_updated.jpg";
 import iPhoneJacketMockup from "..//Assets/IphoneX-JacketMockup.jpg";
 import digestMockup from "..//Assets/Digest-mockup-vol1-Free -800x526px.jpg";
+import dvdMockup from "..//Assets/DVD_Case_cropped.jpg";
 
 const Cthulu = () => {
 
@@ -68,14 +68,13 @@ const Cthulu = () => {
         <NavBar />
         <Container className="cthulu-body-container mt-4 mb-sm-5 mb-md-5 position-relative" fluid>
             <Row>
-                <Col>
-                    <h1 className="text-center header-title">Call of Cthulu</h1>
-                    <p className="mb-5"> Though I've never read the book, I'm aware of the premise and its popularity 
+                <Col className="d-flex flex-column align-items-center">
+                    <h1 className="header-title">Call of Cthulu</h1>
+                    <p className="mb-5" style={{width:"55%"}}> Though I've never read the book, I'm aware of the premise and its popularity 
                     especially in the gothic horror community--and gaming community. This recent assignment, inspired 
                     by one of the amazing works of H.P. Lovecraft, provided me with a much-needed new challenge which 
-                    was mixing my hand drawings into digital work and designing a novel. For this project we had to
-                    create a movie poster for a novel of our choosing, a book specimen and a promotional package; all
-                    for the hypothetical, upcoming Call of Cthulu film and&nbsp;publication.</p>
+                    was mixing my hand drawings into digital work and designing a novel. For this project I created a
+                    movie poster for a novel, a book specimen and a promotional package.</p>
                 </Col>
             </Row>
             <Row>
@@ -83,29 +82,21 @@ const Cthulu = () => {
                     <img className="mb-4" src={Line} width="90%" height="20%" alt="" />
                 </Col>
             </Row>
-            <Row className="mb-4">
-                <Col className="d-flex justify-content-center">
-                <Table className="cthulu-table-container" size="sm" borderless>
-                    <thead>
-                        <tr>
-                            <th>Service</th>
-                            <th>Client</th> 
-                            <th>Year</th> 
-                        </tr>    
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Brand Campaign, Promotional Campaign, Print, Illustration</td>
-                            <td>[Fictional movie company]</td>
-                            <td>2023</td>
-                        </tr>
-                    </tbody>
-                </Table>   
+            <Row className="mb-4 w-100">
+                <Col className="border d-flex justify-content-center">
+                <div className="cthulu-table-heading me-4">
+                    <h6><u>Service</u></h6>
+                    <p>Brand Campaign, Promotional Campaign, Print, Illustration</p>
+                </div>
+                <div>
+                    <h6><u>Year</u></h6>
+                    <p>2023</p>
+                </div>      
                 </Col>
             </Row>
             <Row className="mb-3 mb-sm-4 mb-md-4 mb-xl-5">
                <Col> 
-                <img src={cthuluBookMockup} width="100%" alt="Call of Cthulu book mockup." />
+                <img src={cthuluBookMockup} style={{objectFit:"cover"}}width="100%" height="95%" alt="Call of Cthulu book mockup." />
                </Col>
             </Row>
             <Row>
@@ -141,13 +132,13 @@ const Cthulu = () => {
                 </Col>
             </Row>
             </Container>
-            <Container className="cthulu-movie-poster-container d-flex mb-5" fluid>
+            <Container className="cthulu-movie-poster-container d-flex flex-column mb-5" fluid>
                 <Row className="">
                     <Col className="order-2 order-sm-2 order-md-1" md={6} lg={6}>
                         <img className="object-fit-md-cover" src={posterOnWall} height="100%" width="100%" alt="Call of Cthulu movie poster mockup." />
                     </Col>
                     <Col className="d-flex align-items-center order-1 order-sm-1 order-md-2">
-                    <div>
+                    <div className="px-5">
                         <h2 className="sub-heading text-center">The Movie Poster</h2>
                         <p>My goal was to recreate my adaption of the Cthulhu franchise onto the grindhouse face. 
                             I also intentionally misspelled Cthulhu to Cthulu for artistic purposes: easier 
@@ -160,6 +151,11 @@ const Cthulu = () => {
                             chose my drawing. I've been doing art with my hands way before doing it on the laptop, 
                             so why&nbsp;not.</p>
                             </div>
+                    </Col>
+                </Row>
+                <Row className="mt-5">
+                    <Col>
+                        <img className="object-fit-cover" width="100%" src={dvdMockup} alt="" />
                     </Col>
                 </Row>
             </Container>
@@ -208,7 +204,7 @@ const Cthulu = () => {
                         <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-down")} src={bookMockupDown} width="100%" alt="Cthulu book mockup opened and facing down." />
                         <img className="book-mockup object-fit-lg-cover object-fit-md-cover" src={bookMockup} onClick={() => handleShow("book-mockup")} width="100%" alt="Cthulu book mockup closed." />
                     </Col>
-                    <Col md={7} lg={6} xl={6} className="d-flex flex-column justify-content-center order-1 order-sm-1 order-md-2 order-lg-2">
+                    <Col md={7} lg={6} xl={6} className="d-flex flex-column justify-content-center order-1 order-sm-1 order-md-2 order-lg-2 px-5">
                     <h2 className="sub-heading text-center mb-5">The Typography Aspect</h2>
                     <p className="mb-5"> The main font system used for the body text was Adobe Caslon Pro (directly based on William 
                         Caslon’s eponymous serif font family). I chose this serif font for the body copy because it 
@@ -216,7 +212,7 @@ const Cthulu = () => {
                          20th century and is popular in gothic fiction. Overall, the Caslon font has somewhat of a 
                          vintage, typewriter feel to it. Caslon is used for journals and books which is perfect 
                          because the point-of-view of Call of Cthulhu is narrated through the point-of-view of s
-                         omeone going through their <br />late-uncle’s&nbsp;journals. </p>
+                         omeone going through their late-uncle’s&nbsp;journals. </p>
                     <h5 className="text-end mb-4">Justification and Composition</h5>
                     <p className="book-paragraph">I was already wary of widows, orphans and rivers in text formatting so fixing those didn’t 
                         take up too much of my time. If you have a grasp of InDesign, working paragraph styles then 
@@ -233,7 +229,7 @@ const Cthulu = () => {
                         based on the context of the story. For example, page 1, Chapter 1: I italicized the word “live”. 
                         I wanted the word to be thin to symbolize the slim chances of the character surviving—-show the reader 
                         the&nbsp;stakes.</p>
-                        <img className="book position-relative" ref={imgRef} src={book} width="80%" alt="Cthulu book." />
+                        <img className="book position-relative" ref={imgRef} src={book} width="100%" alt="Cthulu book." />
                     </Col>
                 </Row>
             </Container>
@@ -276,11 +272,8 @@ const Cthulu = () => {
                 </Row>
                 <Row className="cthulu-mockup-text-row mb-3">
                     <Col className="d-flex align-items-center justify-content-center">
-                        <p className="w-75 ">As I begin closing off this project, I feel like I’ve already made my Lovecraftian 
-                         cinematic universe. Digitizing my handmade art onto Photoshop without retracing anything
-                         and it still came out beautifully and full-of-life--in a retro style that has never been
-                         done before, for any Lovecraft works. My favourite in particular was the book design 
-                         because it allowed me to harness some much needed ‘expertise’ on typography and utilizing&nbsp;InDesign.</p>
+                        <p style={{width:"53%"}}>My favourite part of this project was designing the book cover and its contents, it 
+                        let me refine my typography skills as well as harness the InDesign software.</p>
                     </Col>
                 </Row>
             </Container>

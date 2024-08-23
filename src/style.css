@@ -890,6 +890,10 @@ mark {
 
  @media only screen and (max-width: 1200px) {
 
+    .cthulu-table-heading {
+        width: 50%;
+    }
+
     .silent-hill-web {
         width: 80%;
     }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8177c05.css",
-    "main.js": "/static/js/main.106d8af7.js",
+    "main.css": "/static/css/main.291ba7e4.css",
+    "main.js": "/static/js/main.d392d85c.js",
     "static/media/IMG_3121.jpg": "/static/media/IMG_3121.3fec9b1144718ee3df38.jpg",
     "static/media/5-Ad.png": "/static/media/5-Ad.635bdc4ceeead2a51647.png",
     "static/media/IMG_3015.jpg": "/static/media/IMG_3015.07cb06517cdb4d630a25.jpg",
@@ -28,12 +28,12 @@
     "static/media/SilentHilltouristbrochuremockup.jpg": "/static/media/SilentHilltouristbrochuremockup.f87b8707d9a31435dcf9.jpg",
     "static/media/alf-brand-guideline.jpg": "/static/media/alf-brand-guideline.85fc30a2bf21cc890a78.jpg",
     "static/media/2-Tourism.png": "/static/media/2-Tourism.47dd6c2ca45a1c0f6f80.png",
-    "static/media/iPhone-in-Hands-Mockup-copy.jpg": "/static/media/iPhone-in-Hands-Mockup-copy.06aab20422546a85793c.jpg",
     "static/media/postcard-mockup-copy.jpg": "/static/media/postcard-mockup-copy.89feb2767f13575e587d.jpg",
     "static/media/Tablet-Mockup-cropped.jpg": "/static/media/Tablet-Mockup-cropped.fdea0927ba521be0789d.jpg",
     "static/media/AnimalRightsWebpages.jpg": "/static/media/AnimalRightsWebpages.25e24b218c255f056e60.jpg",
     "static/media/cover-image-updated.jpg": "/static/media/cover-image-updated.6cc17df0b2723540381f.jpg",
     "static/media/updatedCDcover.jpg": "/static/media/updatedCDcover.4362d88bb38b821a83ec.jpg",
+    "static/media/Exterior_scene_4_free_updated2.jpg": "/static/media/Exterior_scene_4_free_updated2.f16981174129d36d3c2a.jpg",
     "static/media/IdentityDesign_Package-PrintCollaterals.jpg": "/static/media/IdentityDesign_Package-PrintCollaterals.2166d597be9df6e0c412.jpg",
     "static/media/3-Lodging.png": "/static/media/3-Lodging.423a757e106dccaee02d.png",
     "static/media/Front-Cover.png": "/static/media/Front-Cover.5849f9a86e4c9fca4c8b.png",
@@ -50,9 +50,9 @@
     "static/media/Roa_Billie-Moodboard1.jpg": "/static/media/Roa_Billie-Moodboard1.ddfbbfedca23eefacfe2.jpg",
     "static/media/TourismSiteMockup.jpg": "/static/media/TourismSiteMockup.dbe695761c4754c7feb0.jpg",
     "static/media/IphoneX-JacketMockup.jpg": "/static/media/IphoneX-JacketMockup.81726ba4161a84e36ed0.jpg",
-    "static/media/Exterior_scene_4_free_updated.jpg": "/static/media/Exterior_scene_4_free_updated.2782e5ecd5257fc89be8.jpg",
     "static/media/sketch call of Cthulhu.jpg": "/static/media/sketch call of Cthulhu.91189a3ee4a3eb71043b.jpg",
     "static/media/Picsart_23-02-16_20-14-24-980.jpg": "/static/media/Picsart_23-02-16_20-14-24-980.c02c1080488395bc3a12.jpg",
+    "static/media/iPhone-in-HandsCROP.jpg": "/static/media/iPhone-in-HandsCROP.1e118b83f05c8548545f.jpg",
     "static/media/Picsart_23-02-16_20-18-38-394.jpg": "/static/media/Picsart_23-02-16_20-18-38-394.15d0bf97077b94d60d22.jpg",
     "static/media/Free_Book_Mockup_8.jpg": "/static/media/Free_Book_Mockup_8.ac4baf88cd7a60ad9f9c.jpg",
     "static/media/Cthulu Moodboard.jpg": "/static/media/Cthulu Moodboard.4f5febaed902a216874e.jpg",
@@ -77,11 +77,11 @@
     "static/media/Asset 8.png": "/static/media/Asset 8.b953e42b0c2cf486238e.png",
     "static/media/attitude.webp": "/static/media/attitude.656f79af92787c92fd2a.webp",
     "index.html": "/index.html",
-    "main.e8177c05.css.map": "/static/css/main.e8177c05.css.map",
-    "main.106d8af7.js.map": "/static/js/main.106d8af7.js.map"
+    "main.291ba7e4.css.map": "/static/css/main.291ba7e4.css.map",
+    "main.d392d85c.js.map": "/static/js/main.d392d85c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8177c05.css",
-    "static/js/main.106d8af7.js"
+    "static/css/main.291ba7e4.css",
+    "static/js/main.d392d85c.js"
   ]
 }

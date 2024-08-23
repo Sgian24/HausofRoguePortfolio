@@ -11,6 +11,8 @@ import cthulu from "..//Assets/Free_Book_Mockup_1.jpg";
 import Resthaven from "..//Assets/Resthaven-updated-shrink.jpg";
 import { Link} from "react-router-dom";
 import Footer from "../Components/Footer";
+import teaserOne from "..//Assets/teaser-1.jpg";
+import teaserTwo from "..//Assets/teaser-2.jpg";
 
 const Home = () => {
 
@@ -64,7 +66,7 @@ const Home = () => {
               </Link>
               </Col>
             </Row>
-            <Row className="project-row">
+            <Row className="project-row mb-3">
               <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${SilentHill})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}> </div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
@@ -89,6 +91,32 @@ const Home = () => {
                 <Link to="/resthaven">
                   <div className="d-flex justify-content-center align-items-center overlay h-100 ">
                     <h1 className="overlay-text">Resthaven: Album</h1>
+                  </div>
+                </Link>
+              </Col>
+            </Row>
+            <Row className="project-row">
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${teaserOne})`,}} sm={6} md={6} lg={6}>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`}}> </div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`, zIndex:2}}></div>
+                <Link to="/silenthill">
+                  <div className="d-flex justify-content-center align-items-center overlay h-100 ">
+                    <h1 className="overlay-text">New Project Coming Soon</h1>
+                  </div>
+                </Link> 
+              </Col>
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Resthaven section." style={{backgroundImage:`url(${teaserTwo})`}} sm={6} md={6} lg={6}>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
+                <Link to="/resthaven">
+                  <div className="d-flex justify-content-center align-items-center overlay h-100 ">
+                    <h1 className="overlay-text">New Project Coming Soon</h1>
                   </div>
                 </Link>
               </Col>

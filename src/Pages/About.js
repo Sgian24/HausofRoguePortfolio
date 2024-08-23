@@ -40,13 +40,11 @@ const About = () => {
                         <h2 className="sub-heading">Hey, I'm Billie</h2>
                         <img className="lips " src={attitude} width="15%" height="15%" alt="Lips." />
                     </div>
-                    <p>I'm a graphic design student based in Toronto, currently enrolled in Humber's graphic 
-                        design program (class of 2024, woohoo!). As an active musician, I'm known for bringing 
-                        my rockstar flair into my visuals which result in a 90s-esque, grunge x punk style. With
-                         a rebellious spirit but a deep understanding of design principles, I'm on a mission to 
-                         create bold, unforgettable experiences that leave an indelible mark on audiences and 
-                         brands alike, long after the screen. I'm here to give your design that much-needed edge 
-                         and&nbsp;attitude. </p>
+                    <p>I'm a graphic design student based in Toronto, I'm here to give your design that much-needed edge
+                        and attitude. As an active musician, I'm known for bringing my rockstar flair into my visuals which result in a 90s-esque, 
+                        grunge x punk style. With a rebellious spirit but a firm understanding of design principles, I'm on a mission to 
+                        create bold, unforgettable experiences that leave an indelible mark on audiences and 
+                        brands alike, long after the screen. I specialize in illustration, editorial design and audio production. </p>
                     <p>When I'm not designing, I'm either gaming, being a rockstar or&nbsp;scrapbooking.</p>
                     <img className="billie-guitar d-none d-sm-none d-md-block" src={billieTwo} width="100%" height="180%" alt="Billie Rogue performing at a gig." />
                     <img className="mb-5 d-block d-sm-block d-md-none" src={billie} width="100%" alt="Billie Rogue posing." />  

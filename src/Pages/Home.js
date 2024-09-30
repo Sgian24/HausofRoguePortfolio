@@ -44,9 +44,14 @@ const Home = () => {
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`, zIndex:2}}></div>
+                <Link to="https://www.behance.net/gallery/203137321/Zine-but-not-Heard-an-Editorial-Project" target="_blank">
                 <div className="d-flex justify-content-center align-items-center overlay h-100 ">
+                  <div>
                     <h1 className="overlay-text">New Project Coming Soon</h1>
-                </div>
+                    <h2 className="overlay-text-behance">Click to View Behance Case Study</h2>
+                  </div>
+                </div> 
+                </Link>
               </Col>
               <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Resthaven section." style={{backgroundImage:`url(${teaserTwo})`}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>

@@ -33,6 +33,18 @@ p {
     font-family: Modern Typewriter; 
 }
 
+tr {
+    font-family: Modern Typewriter;
+}
+
+td {
+    font-family: Barlow-ExtraLight;
+}
+
+th {
+    font-weight: lighter;
+}
+
 .nav-container {
     width: 90%;
 }
@@ -97,6 +109,13 @@ p {
     text-align: center;
 }
 
+.overlay-text-behance {
+    font-family: Modern Typewriter;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
 .footer-container {
     height: auto;
     padding-top: 1rem;
@@ -134,9 +153,6 @@ footer {
     width: 50%;
 }
 
-td {
-    font-family: Modern Typewriter;
-}
 
 th {
     text-decoration: underline;
@@ -421,7 +437,7 @@ mark {
 }
 
 .promotional-package-bg-col {
-    background-size:cover;
+    background-size:150%;
     background-position:center;
     background-attachment:fixed; 
     background-repeat:no-repeat;

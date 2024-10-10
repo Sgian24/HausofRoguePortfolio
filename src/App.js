@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import SilentHill from "./Pages/SilentHill";
@@ -5,8 +6,10 @@ import ALF from "./Pages/ALF";
 import Cthulu from "./Pages/Cthulu";
 import Resthaven from "./Pages/Resthaven";
 import About from "./Pages/About";
+import Arb from "./Pages/Arb";
 
 const App = () => {
+
   return (
     <>
        <Routes>
@@ -16,6 +19,7 @@ const App = () => {
        <Route path="/animalliberationfront" element={<ALF />}/>
        <Route path="/callofcthulu" element={<Cthulu />}/>
        <Route path="/Resthaven" element={<Resthaven />}/>
+       <Route path="/humberarboretum" element={<Arb />}/>
       </Routes>
     </>
   )

@@ -14,7 +14,7 @@ const Footer = () => {
              </div>
             </Row>
             <Row className="px-0">
-              <p className="copyright px-2">© 2024 Haus of Rogue. <br/> Site developed by Sunny Gian.</p>
+              <p className="copyright px-2">© 2024 Haus of Rogue. <br/> Site developed by <a className="sunny-portfolio" target="_blank" href="https://sgian24.github.io/Portfolio/">Sunny Gian</a>. </p>
             </Row>
           </footer> 
         </Container> 

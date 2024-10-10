@@ -138,6 +138,10 @@ footer {
     font-size: 1.5rem;
 }
 
+.sunny-portfolio:visited {
+    color: white;
+}
+
 /********* Silent Hill ***********************************/
 
 .margin-container {
@@ -569,6 +573,41 @@ mark {
     color: black;
 }
 
+
+/********* Arboretum ***********************************/
+
+.arb-mark {
+    box-decoration-break:clone;
+    background-color: rgb(116, 116, 116);
+    line-height: 1.4;
+    color:white;
+}
+
+.arb-mark-list {
+    box-decoration-break:clone;
+    background-color: black;
+    padding: 0;
+    line-height: 1.4;
+    color:white;
+    font-family: Barlow-ExtraLight;
+    font-size: 1.1rem;
+}
+
+.arb-thumbnail:hover {
+    cursor:pointer;
+    opacity: 0.6;
+}
+
+.arb-mockup-thumbnail:hover {
+    cursor:pointer;
+    opacity: 0.6;
+}
+
+.carousel-mockup {
+    height: 90vh;
+    background-color: #ffffff;
+}
+
 /********* Glitch Effect ***********************************/
 
 .overlay:hover {
@@ -992,6 +1031,13 @@ mark {
         object-position: 20% -120px;
     }
 
+    .arb-mockup-row {
+        height:66% !important;
+    }
+
+    .arb-mockup-row-two {
+        height:34% !important;
+    }
 }
 
 @media only screen and (max-width: 1020px) {
@@ -1165,6 +1211,11 @@ mark {
         object-fit: contain;
         object-position: 50% -20%;
     }
+
+    .arb-row-container {
+        height:auto !important;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1564,6 +1615,10 @@ mark {
     }
 
     .sketches {
+        height: 50vh;
+    }
+
+    .carousel-mockup {
         height: 50vh;
     }
 

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1244f653.css",
-    "main.js": "/static/js/main.969f11bb.js",
+    "main.js": "/static/js/main.4eec1758.js",
     "static/media/user-persona.png": "/static/media/user-persona.cc19f7216dc761e4524b.png",
     "static/media/IMG_3121.jpg": "/static/media/IMG_3121.3fec9b1144718ee3df38.jpg",
     "static/media/5-Ad.png": "/static/media/5-Ad.635bdc4ceeead2a51647.png",
@@ -51,6 +51,7 @@
     "static/media/AnimalRightsWebpages.jpg": "/static/media/AnimalRightsWebpages.25e24b218c255f056e60.jpg",
     "static/media/cover-image-updated.jpg": "/static/media/cover-image-updated.6cc17df0b2723540381f.jpg",
     "static/media/Exterior_scene_4_free_updated2.jpg": "/static/media/Exterior_scene_4_free_updated2.f16981174129d36d3c2a.jpg",
+    "static/media/humber-arb-thumbnail.jpg": "/static/media/humber-arb-thumbnail.fec795b95936627af092.jpg",
     "static/media/IdentityDesign_Package-PrintCollaterals.jpg": "/static/media/IdentityDesign_Package-PrintCollaterals.2166d597be9df6e0c412.jpg",
     "static/media/3-Lodging.png": "/static/media/3-Lodging.423a757e106dccaee02d.png",
     "static/media/10.png": "/static/media/10.3ef1131ec17371bd324c.png",
@@ -95,7 +96,6 @@
     "static/media/04.png": "/static/media/04.3842376a19a85afcc573.png",
     "static/media/8.png": "/static/media/8.ffdfa42cfec1487115df.png",
     "static/media/MCDCAHO_EC016.jpg": "/static/media/MCDCAHO_EC016.02e239576ea37eacec5b.jpg",
-    "static/media/teaser-2.jpg": "/static/media/teaser-2.0dcfb4adcfb43fbd703e.jpg",
     "static/media/fullColor_redSpray_edited.png": "/static/media/fullColor_redSpray_edited.b3e5f78885538542a190.png",
     "static/media/6-Footer.png": "/static/media/6-Footer.a9568bcb168a2bdd9798.png",
     "static/media/resthaven2.webp": "/static/media/resthaven2.2b139eabee3f515d94ea.webp",
@@ -112,10 +112,10 @@
     "static/media/attitude.webp": "/static/media/attitude.656f79af92787c92fd2a.webp",
     "index.html": "/index.html",
     "main.1244f653.css.map": "/static/css/main.1244f653.css.map",
-    "main.969f11bb.js.map": "/static/js/main.969f11bb.js.map"
+    "main.4eec1758.js.map": "/static/js/main.4eec1758.js.map"
   },
   "entrypoints": [
     "static/css/main.1244f653.css",
-    "static/js/main.969f11bb.js"
+    "static/js/main.4eec1758.js"
   ]
 }

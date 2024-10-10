@@ -12,7 +12,7 @@ import Resthaven from "..//Assets/Resthaven-updated-shrink.jpg";
 import { Link} from "react-router-dom";
 import Footer from "../Components/Footer";
 import teaserOne from "..//Assets/teaser-1.jpg";
-import teaserTwo from "..//Assets/teaser-2.jpg";
+import teaserTwo from "..//Assets/humber-arb-thumbnail.jpg";
 
 const Home = () => {
 
@@ -59,12 +59,9 @@ const Home = () => {
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
-                <Link to="https://www.behance.net/gallery/208895071/Humber-Arb-Signage-System" target="_blank">
+                <Link to="/humberarboretum" >
                 <div className="d-flex justify-content-center align-items-center overlay h-100 ">
-                  <div>
-                    <h1 className="overlay-text">New Project Coming Soon</h1>
-                    <h2 className="overlay-text-behance">Click to View Behance Case Study</h2>
-                  </div>
+                    <h1 className="overlay-text">Humber Arboretum: Signage System</h1>
                 </div>   
                 </Link>  
               </Col>

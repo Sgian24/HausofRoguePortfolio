@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import NavBar from "../Components/NavBar";
 import { Container, Row, Col, Table, Modal, Carousel } from "react-bootstrap";
 import Line from "..//Assets/Asset 8.png";
@@ -36,6 +36,13 @@ const Arb = () => {
     const [index, setIndex] = useState(0)
     const [indexMockup, setIndexMockup] = useState(0)
 
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior:'instant'
+        });
+    },[])
+
     const handleShow = (i) => {
         setShow(true)
         setIndex(i)
@@ -58,7 +65,7 @@ const Arb = () => {
 
     const handleCloseMockup = () => setShowMockup(false)
 
-    console.log(show);
+
     return (
         <>
         <NavBar />

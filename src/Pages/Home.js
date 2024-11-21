@@ -13,6 +13,7 @@ import { Link} from "react-router-dom";
 import Footer from "../Components/Footer";
 import teaserOne from "..//Assets/teaser-1.jpg";
 import teaserTwo from "..//Assets/humber-arb-thumbnail.jpg";
+import mm from "..//Assets/MM/MM-thumbnail.jpg";
 
 const Home = () => {
 
@@ -39,6 +40,21 @@ const Home = () => {
             </Row>
             <Row className="mb-3 project-row">
               <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${teaserOne})`,}} sm={6} md={6} lg={6}>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`}}> </div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`,zIndex:2}}></div>
+                <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`, zIndex:2}}></div>
+                <Link to="https://www.behance.net/gallery/211411573/Marianas-Mirror-a-Deep-Dive-into-Dermo-Cosmetics" target="_blank">
+                <div className="d-flex justify-content-center align-items-center overlay h-100 ">
+                  <div>
+                    <h1 className="overlay-text">New Project Coming Soon</h1>
+                    <h2 className="overlay-text-behance">Click to View Behance Case Study</h2>
+                  </div>
+                </div> 
+                </Link>
+              </Col>
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${teaserOne})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`}}> </div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
@@ -53,7 +69,9 @@ const Home = () => {
                 </div> 
                 </Link>
               </Col>
-              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Resthaven section." style={{backgroundImage:`url(${teaserTwo})`}} sm={6} md={6} lg={6}>
+            </Row>
+            <Row className="mb-3 project-row">
+            <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Resthaven section." style={{backgroundImage:`url(${teaserTwo})`}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
@@ -65,8 +83,6 @@ const Home = () => {
                 </div>   
                 </Link>  
               </Col>
-            </Row>
-            <Row className="mb-3 project-row">
             <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Call of Cthulu section." style={{ backgroundImage:`url(${cthulu})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${cthulu})`}}></div>
@@ -81,7 +97,9 @@ const Home = () => {
                   </div>
                 </Link>
               </Col>
-              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Animal Liberation Front section." style={{backgroundImage:`url(${ALF})`}} sm={6} md={6} lg={6}>
+            </Row>
+            <Row className="project-row mb-3">
+            <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Animal Liberation Front section." style={{backgroundImage:`url(${ALF})`}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${ALF})`}}></div>
@@ -94,8 +112,6 @@ const Home = () => {
                   </div>
               </Link>
               </Col>
-            </Row>
-            <Row className="project-row mb-3">
               <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${SilentHill})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`}}> </div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${SilentHill})`,zIndex:2}}></div>
@@ -108,7 +124,9 @@ const Home = () => {
                   </div>
                 </Link> 
               </Col>
-              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Resthaven section." style={{backgroundImage:`url(${Resthaven})`}} sm={6} md={6} lg={6}>
+            </Row>
+            <Row className="project-row mb-3">
+            <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Resthaven section." style={{backgroundImage:`url(${Resthaven})`}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${Resthaven})`}}></div>

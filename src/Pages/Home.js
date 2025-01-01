@@ -45,7 +45,7 @@ const Home = () => {
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`,zIndex:2}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`,zIndex:2}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`, zIndex:2}}></div>
-                <Link to="https://www.behance.net/gallery/211411573/Marianas-Mirror-a-Deep-Dive-into-Dermo-Cosmetics" target="_blank">
+                <Link to="/MarianasMirror">
                 <div className="d-flex justify-content-center align-items-center overlay h-100 ">
                   <div>
                     <h1 className="overlay-text">New Project Coming Soon</h1>

@@ -139,7 +139,7 @@ footer {
 }
 
 .sunny-portfolio:visited {
-    color: white;
+    color: w hite;
 }
 
 /********* Silent Hill ***********************************/
@@ -606,6 +606,29 @@ mark {
 .carousel-mockup {
     height: 90vh;
     background-color: #ffffff;
+}
+
+/******* Marianas Mirror ********/
+
+.mm-ad:hover {
+    cursor:pointer;
+    opacity: 0.7;
+}
+
+.mm-description {
+    width: 55%;
+}
+
+.ai-prompt {
+    font-family: Barlow-ExtraLight;
+}
+
+.baume-row {
+    height: 37rem;
+}
+
+.ad-row {
+    height: 38rem;
 }
 
 /********* Glitch Effect ***********************************/

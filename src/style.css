@@ -576,6 +576,62 @@ mark {
 
 /********* Arboretum ***********************************/
 
+.arb-paragraph {
+    width: 55%;
+}
+
+.arb-header-text {
+    font-family: Barlow-ExtraLight;
+}
+
+.arb-container {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.observations-text {
+    width: 80%;
+    font-family: Modern TypeWriter;
+}
+
+.arb-carousel {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.signage-gallery-heading {
+    font-family: Barlow-ExtraLight;
+}
+
+.arb-row-container-one {
+    height: 700px !important;
+}
+
+.arb-row-container-two {
+    height: 820px;
+}
+
+.arb-mockup-row {
+    height: 60%;
+}
+
+.arb-mockup-row-two {
+    height: 40%;
+}
+
+.arb-mockup-row-three {
+    height: 60%;
+}
+
+.arb-mockup-row-four {
+    height: 70%;
+}
+
+.arb-mockup-row-five {
+    height: 30%;
+}
+
 .arb-mark {
     box-decoration-break:clone;
     background-color: rgb(116, 116, 116);
@@ -1235,7 +1291,7 @@ mark {
         object-position: 50% -20%;
     }
 
-    .arb-row-container {
+    .arb-row-container-one {
         height:auto !important;
     }
 

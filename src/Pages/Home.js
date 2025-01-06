@@ -36,10 +36,10 @@ const Home = () => {
                a rebellious nature with a strong grip of design fundamentals, I craft daring and memorable designs that make a 
                lasting&nbsp;ATTITUDE.</p>
               </Col>
-              <Col lg={4} xl={4} className="cd-container"><img className="cd " style={{padding:0, margin:0}}src={cd} width="140%" alt="Haus of Rogue's services." /></Col>
+              <Col lg={4} xl={4} className="cd-container"><img className="cd p-0 m-0 " src={cd} width="140%" alt="Haus of Rogue's services." /></Col>
             </Row>
             <Row className="mb-3 project-row">
-              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${teaserOne})`,}} sm={6} md={6} lg={6}>
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Marianas Mirror section." style={{ backgroundImage:`url(${teaserOne})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`}}> </div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`,zIndex:2}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${mm})`,zIndex:2}}></div>
@@ -54,7 +54,7 @@ const Home = () => {
                 </div> 
                 </Link>
               </Col>
-              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Silent Hill section." style={{ backgroundImage:`url(${teaserOne})`,}} sm={6} md={6} lg={6}>
+              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Zine section." style={{ backgroundImage:`url(${teaserOne})`,}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`}}> </div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
@@ -71,7 +71,7 @@ const Home = () => {
               </Col>
             </Row>
             <Row className="mb-3 project-row">
-            <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Resthaven section." style={{backgroundImage:`url(${teaserTwo})`}} sm={6} md={6} lg={6}>
+            <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Arboretum section." style={{backgroundImage:`url(${teaserTwo})`}} sm={6} md={6} lg={6}>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>
                 <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserTwo})`}}></div>

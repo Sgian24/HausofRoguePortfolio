@@ -40,7 +40,7 @@ const MM = () => {
         <Container className="cthulu-body-container mt-4 mb-sm-5 mb-md-5" fluid>
         <Row>
             <Col className="d-flex flex-column align-items-center">
-                <h1 className="header-title">Marianas Mirror: a Deep Dive into Dermo-Cosmetics</h1>
+                <h1 className="MM-title">Marianas Mirror: a Deep Dive into Dermo-Cosmetics</h1>
                 <p className="mb-5 mm-description">Marianas Mirror is an international North American dermo-cosmetic skincare 
                 brand with a unique focus on incorporating aquatic ingredients towards sensitive, atopic skin, as well 
                 an aim to protect and reduce impact on marine life. The company's USP is their hydrothermal mineral 
@@ -76,17 +76,17 @@ const MM = () => {
         </Row>
     </Container>
     <Container className="px-0" fluid>
-        <Row className="mb-4">
+        <Row className="mb-5 mb-lg-4">
             <Col>
                 <img src={header} width="100%" alt="" />
             </Col>
         </Row>
-        <Row className="mb-4 mx-5">
-            <Col md={7} xxl={6}>
+        <Row className="mb-5 mb-lg-4 mx-5">
+            <Col className="order-2 order-lg-1" md={12} lg={6} xxl={6}>
                 <img src={moodBoard} width="100%" alt="" />
             </Col>
-            <Col className="d-flex align-items-center " md={5} xxl={6}>
-                <div className="d-flex flex-column align-items-center p-5">
+            <Col className="d-flex align-items-center order-1 order-lg-2 mb-4 mb-lg-0" md={12} lg={6} xxl={6}>
+                <div className="d-flex flex-column align-items-center p-0 p-xl-5">
                    <h2 className="sub-heading text-center">Vision</h2>
                    <p className="text-center">The inspiration behind this brand comes from my experience as a sales associate
                      in the cosmetics department where I was exposed to reputable dermo-cosmetic brands such as La Roche Posay, Avene, Vichy 
@@ -95,32 +95,32 @@ const MM = () => {
                 </div>
             </Col>
         </Row>
-        <Row className="mb-4 mx-5">
-            <Col className="d-flex align-items-center" md={5} xxl={6}>
-                <div className="d-flex flex-column align-items-center p-5">
+        <Row className="mb-5 mb-lg-4 mx-5">
+            <Col className="d-flex align-items-center mb-4 mb-lg-0" md={12} lg={5}>
+                <div className="d-flex flex-column align-items-center p-0 p-xl-5">
                    <h2 className="sub-heading text-center">Development</h2>
                    <p className=" text-center">I was determined to create my own bottles and packaging
                     using the 3D software on Illustrator because I wanted to give Adobe Substance 3D 
                     Stager a try for some time to add textures and custom lighting.</p> 
                 </div>
             </Col>
-            <Col md={7} xxl={6}>
+            <Col md={12} lg={7}>
             <video width="100%" autoPlay loop muted>
                 <source src={bottleGif} type="video/mp4" />
             </video>
             </Col>
         </Row>
         <Row className="mb-4 h-75 mx-5">
-            <Col md={7} xxl={6} className="d-flex flex-column align-items-center">
-            <video width="100%"autoPlay loop muted>
-                <source src={aiGif} type="video/mp4" />
-            </video>
-            <p className="ai-prompt w-75 text-center fst-italic">
+            <Col md={12} lg={6} xl={6} className="d-flex flex-column align-items-center order-2 order-lg-1">
+                <video height="100%" width="100%"autoPlay loop muted>
+                    <source src={aiGif} type="video/mp4" />
+                </video>
+                <p className="ai-prompt w-75 text-center fst-italic">
                 Prompt: "ethereal headshot of [ethnic] woman with perfect skin under deep waters; 
                 rays of light hitting"</p>
             </Col>
-            <Col className="d-flex align-items-center" md={5} xxl={6}>
-                <div className="d-flex flex-column align-items-center p-5">
+            <Col className="d-flex flex-column justify-content-center order-1 order-lg-2" md={12} lg={6} xl={6}>
+                <div className="d-flex flex-column align-items-center mb-4 mb-lg-0 p-3 p-xl-5">
                    <h2 className="sub-heading text-center">Utilizing AI</h2>
                    <p >I wanted to optimize what I felt accurately represents the 
                    brand I had in mind that stock photos couldn't offer me. When staging the product renders on 
@@ -128,12 +128,12 @@ const MM = () => {
                    <p>Because I was first inspired by an aquarium, the feeling that comes to mind is dark 
                     and glowy. There's a mysterious aura. That's what makes aquariums calming--especially 
                     when visiting the jellyfish exhibit. I was set on deeper blues and teals, extracted 
-                    from the AI generated images from these women.</p> 
+                    from the AI generated images from these&nbsp;women.</p> 
                 </div>
             </Col>
         </Row>
         <Row className="mb-4 mx-5">
-            <Col md={7}>
+            <Col className="mb-3 mb-md-0" md={7}>
                 <img className="object-fit-cover" src={thermalSpray} height="100%" width="100%" alt="" />
             </Col>
             <Col md={5}>
@@ -141,7 +141,7 @@ const MM = () => {
             </Col>
         </Row>
         <Row className="mb-4 mx-5">
-            <Col md={6}>
+            <Col className="mb-3 mb-md-0" md={6}>
                 <img className="object-fit-cover" src={bioBottle} height="100%" width="100%" alt="" />
             </Col>
             <Col md={6}>
@@ -149,7 +149,7 @@ const MM = () => {
             </Col>
         </Row>
         <Row className="mb-4 mx-5">
-            <Col md={4}>
+            <Col className="mb-3 mb-md-0" md={4}>
                 <img src={sunscreenPackage}  width="100%" alt="" />
             </Col>
             <Col md={8}>
@@ -164,7 +164,7 @@ const MM = () => {
                 <img className="object-fit-cover" src={cleanserPackage} height="100%" width="100%" alt="" />
             </Col>
         </Row>
-        <Row className="baume-row mb-4 overflow-hidden">
+        <Row className="baume-row mb-4 mb-lg-4 overflow-hidden">
             <Col className="h-100" md={6}>
                 <img className="object-fit-cover" src={baumePackage} height="100%"  width="100%" alt="" />
             </Col>
@@ -172,9 +172,9 @@ const MM = () => {
                 <img className="object-fit-cover" src={baumeStaged} height="100%" width="100%" alt="" />
             </Col>  
         </Row>
-        <Row>
+        <Row className="mb-2">
             <Col className="d-flex justify-content-center">
-                <p className="text-center w-50">I took more reference from La Roche and Avene's simple packaging since Marianas Mirror 
+                <p className="mm-paragraph text-center w-50">I took more reference from La Roche and Avene's simple packaging since Marianas Mirror 
                     also has a medicinal focus versus a luxurious one like La Mer. As someone who suffers 
                     from eczema and has sensitive skin, I tend to be a lot more concerned with what the 
                     product has to offer with its ingredients and information instead of pretty 
@@ -187,7 +187,7 @@ const MM = () => {
                         <img src={image === "bio-ad"? bioAd: baumeAd} className="object-fit-md-cover object-fit-lg-cover" height="100%" width="100%"/>
                     </Modal.Body>
             </Modal>
-        <Row className="ad-row gx-2">
+        <Row className="ad-row gx-2 gy-3 gy-md-0">
             <Col md={7} className="h-100">
                 <img className="mm-ad object-fit-cover" src={bioAd} onClick={() => handleShow("bio-ad") } height="100%" width="100%" alt="" />
             </Col>

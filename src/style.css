@@ -666,6 +666,12 @@ mark {
 
 /******* Marianas Mirror ********/
 
+.MM-title {
+    font-family: Cozy;
+    font-size: 5rem;
+    text-align: center;
+}
+
 .mm-ad:hover {
     cursor:pointer;
     opacity: 0.7;
@@ -684,7 +690,7 @@ mark {
 }
 
 .ad-row {
-    height: 38rem;
+    height: 60rem;
 }
 
 /********* Glitch Effect ***********************************/
@@ -979,6 +985,10 @@ mark {
     .ch-poster {
         top: 72%;
     }
+
+    .ad-row {
+        height: 53rem;
+    }
  }
 
  @media only screen and (max-width: 1500px) {
@@ -1003,6 +1013,10 @@ mark {
     .billie-guitar {
         object-position: 50% 300%;
     }
+
+    .ad-row {
+        height: 44rem;
+    }
  }
 
  @media only screen and (max-width: 1400px) {
@@ -1019,6 +1033,10 @@ mark {
  @media only screen and (max-width: 1350px) {
     .glitch, .glitch-img {
         background-size: cover;
+    }
+
+    .ad-row {
+        height: 40rem;
     }
  }
 
@@ -1117,6 +1135,10 @@ mark {
     .arb-mockup-row-two {
         height:34% !important;
     }
+
+    .ad-row {
+        height: 38rem;
+    }
 }
 
 @media only screen and (max-width: 1020px) {
@@ -1126,6 +1148,10 @@ mark {
 
     .ch-poster {
         top: 69%;
+    }
+
+    .ad-row {
+        height: 30rem;
     }
 }
 
@@ -1293,6 +1319,14 @@ mark {
 
     .arb-row-container-one {
         height:auto !important;
+    }
+
+    .mm-description {
+        width: 70%;
+    }
+
+    .ad-row {
+        height: 25rem;
     }
 
 }
@@ -1504,7 +1538,15 @@ mark {
     .lips {
         height: 15%;
         width: 15%;
-    }   
+    }
+    
+    .baume-row {
+        height: auto;
+    }
+
+    .ad-row {
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 680px) {
@@ -1523,6 +1565,10 @@ mark {
     }
     .overlay-text {
         font-size: 3rem;
+    }
+
+    .mm-paragraph {
+        width: 60% !important;
     }
 }
 
@@ -1682,6 +1728,15 @@ mark {
     .billie-guitar {
         object-position: -70px -150px;
     }
+
+    .MM-title {
+        font-size: 4em;
+    }
+
+    .mm-description {
+        width: 90%;
+    }
+
 }
 
 @media only screen and (Max-width: 501px) {
@@ -1715,6 +1770,10 @@ mark {
 
     .cthulu-table-container {
         width: 100%;
+    }
+
+    .mm-paragraph {
+        width: 70% !important;
     }
 }
 

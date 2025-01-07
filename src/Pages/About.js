@@ -21,7 +21,7 @@ const About = () => {
     return (
         <>
         <NavBar />
-        <Container className="body-content-container mb-5" style={{height: "100%"}} fluid>
+        <Container className="body-content-container mb-5 h-100" fluid>
             <Row className="mb-5 overflow-hidden">
                 <Col className="origin-col order-2 order-sm-2 order-md-1">
                     <img className="mb-5 d-none d-sm-none d-md-block object-fit-cover" src={billie} width="100%" alt="Billie Rogue posing." />

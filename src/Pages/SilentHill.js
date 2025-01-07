@@ -23,7 +23,7 @@ import galleryWebpage from "..//Assets/4-Gallery.png";
 import adWebpage from "..//Assets/5-Ad.png";
 import footerWebpage from "..//Assets/6-Footer.png";
 import flyer from "..//Assets/DL_Flyer_cropped.jpg";
-import iphoneMockup from "..//Assets/iPhone-in-Hands-Mockup-copy.jpg";
+import iphoneMockup from "..//Assets/iPhone-in-HandsCROP.jpg";
 import brochureBackCover from "..//Assets/Back-Cover.png";
 import brochureFrontCover from "..//Assets/Front-Cover.png";
 import brochureOne from "..//Assets/Inside1-flap.png";
@@ -73,18 +73,18 @@ const SilentHill = () => {
             </Row>
             <Row>
                 <Col className="d-flex justify-content-center">   
-                    <img className="mb-4" src={Line} width="90%" height="20%" />
+                    <img className="mb-4" src={Line} width="90%" height="20%" alt="Line." />
                 </Col>
             </Row>
             <Row className="mb-4">
                 <Col className="d-flex justify-content-center">
                  <div className="cthulu-table-heading me-4">
-                    <h6><u>Service</u></h6>
-                    <p>Digital Art, Web Design, Print, Marketing Campaign</p>
+                    <h6 style={{fontFamily:"Modern Typewriter"}}><u>Service</u></h6>
+                    <p style={{fontFamily:"Barlow-ExtraLight"}}>Digital Art, Web Design, Print, Marketing Campaign</p>
                 </div>
                 <div>
-                    <h6><u>Year</u></h6>
-                    <p>2022</p>
+                    <h6 style={{fontFamily:"Modern Typewriter"}}><u>Year</u></h6>
+                    <p style={{fontFamily:"Barlow-ExtraLight"}}>2022</p>
                 </div>     
                 </Col>
             </Row>
@@ -171,7 +171,7 @@ const SilentHill = () => {
             </Row>
             <Row >
                 <Col className="d-flex justify-content-center mb-4">
-                    <img src={iphoneMockup} width="70%" alt="" />
+                    <img src={iphoneMockup} width="70%" alt="Iphone Mockup." />
                 </Col>
             </Row>
             </Container>
@@ -196,19 +196,19 @@ const SilentHill = () => {
                 <Col className="carousel-container d-flex p-5 justify-content-center" >
                     <Carousel className="carousel" data-bs-theme="dark">
                         <Carousel.Item>
-                            <img className="sketches object-fit-contain" src={brochureFrontCover} width="100%" alt="Call of Cthulu concept sketches." />
+                            <img className="sketches object-fit-contain" src={brochureFrontCover} width="100%" alt="Brochure mockup." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="sketches object-fit-contain" src={brochureBackCover} width="100%" alt="Call of Cthulu concept sketches." />
+                            <img className="sketches object-fit-contain" src={brochureBackCover} width="100%" alt="Brochure mockup." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="sketches object-fit-contain" src={brochureOne} width="100%"  alt="Call of Cthulu concept sketches." />
+                            <img className="sketches object-fit-contain" src={brochureOne} width="100%"  alt="Brochure mockup." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="sketches object-fit-contain" src={brochureTwo} width="100%" alt="Call of Cthulu concept sketches." />
+                            <img className="sketches object-fit-contain" src={brochureTwo} width="100%" alt="Brochure mockup." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="sketches object-fit-contain" src={brochureThree} width="100%" alt="Call of Cthulu concept sketches." />
+                            <img className="sketches object-fit-contain" src={brochureThree} width="100%" alt="Brochure mockup." />
                         </Carousel.Item>
                     </Carousel>
                 </Col>

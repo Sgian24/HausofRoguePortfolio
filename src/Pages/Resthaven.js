@@ -66,9 +66,9 @@ const Resthaven = () => {
         <NavBar />
         <Container className="resthaven-body-container mt-4" fluid>
             <Row>
-                <Col>
-                    <h1 className="text-center header-title">Resthaven</h1>
-                    <p className="mb-5"> Since its no surprise that I'm a musician and live a (responsible) 
+                <Col className="d-flex flex-column align-items-center">
+                    <h1 className=" header-title">Resthaven</h1>
+                    <p className="mb-5" style={{width:"69%"}}> Since its no surprise that I'm a musician and live a (responsible) 
                     rock 'n' roll life, for those who may not know, I play bass and backup vocals for a metal 
                     band called Resthaven. We describe ourselves as "thrashgaze" (thrash metal and shoegaze 
                     hybrid). This summer, it was an honour to have been called to produce and master an entire 
@@ -78,7 +78,7 @@ const Resthaven = () => {
             </Row>
             <Row>
                 <Col className="d-flex justify-content-center">   
-                    <img className="mb-4" src={Line} width="90%" height="20%" alt="" />
+                    <img className="mb-4" src={Line} width="90%" height="20%" alt="Line." />
                 </Col>
             </Row>
             <Row className="mb-4">
@@ -132,25 +132,25 @@ const Resthaven = () => {
                 <Col className="h-100 d-flex flex-column align-items-center ">
                     <div className="bandcamp-div w-50">
                         <h2 className="text-end sub-heading mb-4">Album Preview</h2>
-                        <iframe className="iframe w-100" src="https://bandcamp.com/EmbeddedPlayer/album=1129382717/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
+                        <iframe className="iframe w-100" title="Bandcamp player - Resthaven album" src="https://bandcamp.com/EmbeddedPlayer/album=1129382717/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
                             <a href="https://resthaven.bandcamp.com/album/resthaven">Resthaven by Resthaven</a>
                         </iframe>
                     </div>
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col >
                  <h2 className="sub-heading">The Process</h2>
-                 <p>Braydan recorded his own instruments in his own studio setup, which made things a lot easier 
+                 <p style={{width:"67%"}}>Braydan recorded his own instruments in his own studio setup, which made things a lot easier 
                     for me, however he would be recording vocals at my home studio--literally Haus of Rogue. 
                     The process took 2 days. After we finished, we celebrated with pizza and watched Puss In&nbsp;Boots.</p>
-                <p>Shortly afterwards, I recorded my backup vocals and finished mixing and mastering the album 
+                <p style={{width:"67%"}}>Shortly afterwards, I recorded my backup vocals and finished mixing and mastering the album 
                     around early to&nbsp;mid-May. </p>
                 </Col>
             </Row>
             <Row >
                 <Col>
-                    <iframe width="100%" height="400vh" src="https://www.youtube.com/embed/8GRPV1GlyaI?si=E7FiwbFrTo4yI0MD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    <iframe width="100%" height="400vh" src="https://www.youtube.com/embed/8GRPV1GlyaI?si=E7FiwbFrTo4yI0MD" title="YouTube video player - Behind the Scenes: Resthaven Album" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                     </iframe>
                     </Col>
             </Row>
@@ -166,9 +166,9 @@ const Resthaven = () => {
         <Container className="parallax-container d-flex flex-column justify-content-center" style={{backgroundImage:`url(${brayden})`}} fluid>
             <Row className="mb-5">
                 <Col className="d-flex justify-content-center  align-items-center text-center">
-                    <div className="">
+                    <div className="d-flex flex-column align-items-center">
                         <h2 className="sub-heading-resthaven mb-4">Since the album's release, <br />Resthaven has become a full-unit.</h2>
-                        <p className="paragraph-resthaven ">We've gone from a one-man band to a four-membered friend group who loves to take the 
+                        <p className="paragraph-resthaven" style={{width:"60%"}}>We've gone from a one-man band to a four-membered friend group who loves to take the 
                         Toronto local scene by storm, with many more production projects coming&nbsp;up.</p>
                         </div>
                 </Col>

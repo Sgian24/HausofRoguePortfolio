@@ -25,10 +25,21 @@ import bookMockup from "..//Assets/Free_Book_Mockup_1.jpg";
 import book from "..//Assets/BOOK_PNG_updated.png";
 import iPhoneMockup from "..//Assets/iPhone11-PSD-Mockup.jpg";
 import wallMockup from "..//Assets/Vertical billboard updated.jpg";
-import exteriorMockup from "..//Assets/Exterior_scene_4_free_updated.jpg";
+import exteriorMockup from "..//Assets/Exterior_scene_4_free_updated2.jpg";
 import iPhoneJacketMockup from "..//Assets/IphoneX-JacketMockup.jpg";
 import digestMockup from "..//Assets/Digest-mockup-vol1-Free -800x526px.jpg";
 import dvdMockup from "..//Assets/DVD_Case_cropped.jpg";
+import spreadOne from "..//Assets/desn156-assignment2-Billie-Roa.png";
+import spreadTwo from "..//Assets/desn156-assignment2-Billie-Roa2.png";
+import spreadThree from "..//Assets/desn156-assignment2-Billie-Roa3.png";
+import spreadFour from "..//Assets/desn156-assignment2-Billie-Roa4.png";
+import spreadFive from "..//Assets/desn156-assignment2-Billie-Roa5.png";
+import spreadSix from "..//Assets/desn156-assignment2-Billie-Roa6.png";
+import spreadSeven from "..//Assets/desn156-assignment2-Billie-Roa7.png";
+import spreadEight from "..//Assets/desn156-assignment2-Billie-Roa8.png";
+import spreadNine from "..//Assets/desn156-assignment2-Billie-Roa9.png";
+
+
 
 const Cthulu = () => {
 
@@ -83,14 +94,14 @@ const Cthulu = () => {
                 </Col>
             </Row>
             <Row className="mb-4 w-100">
-                <Col className="border d-flex justify-content-center">
+                <Col className="d-flex justify-content-center">
                 <div className="cthulu-table-heading me-4">
-                    <h6><u>Service</u></h6>
-                    <p>Brand Campaign, Promotional Campaign, Print, Illustration</p>
+                    <h6 style={{fontFamily:"Modern Typewriter"}}><u>Service</u></h6>
+                    <p style={{fontFamily:"Barlow-ExtraLight"}}>Brand Campaign, Promotional Campaign, Print, Illustration</p>
                 </div>
                 <div>
-                    <h6><u>Year</u></h6>
-                    <p>2023</p>
+                    <h6 style={{fontFamily:"Modern Typewriter"}}><u>Year</u></h6>
+                    <p style={{fontFamily:"Barlow-ExtraLight"}}>2023</p>
                 </div>      
                 </Col>
             </Row>
@@ -134,8 +145,8 @@ const Cthulu = () => {
             </Container>
             <Container className="cthulu-movie-poster-container d-flex flex-column mb-5" fluid>
                 <Row className="">
-                    <Col className="order-2 order-sm-2 order-md-1" md={6} lg={6}>
-                        <img className="object-fit-md-cover" src={posterOnWall} height="100%" width="100%" alt="Call of Cthulu movie poster mockup." />
+                    <Col className="order-2 order-sm-2 order-md-1 overflow-hidden" style={{height:"130vh"}} md={6} lg={6}>
+                        <img className="object-fit-cover object-fit-sm-cover object-fit-md-cover object-fit-lg-cover position-relative" style={{left:"-50%", top:"-20%"}}src={posterOnWall} height="180%" width="200%" alt="Call of Cthulu movie poster mockup." />
                     </Col>
                     <Col className="d-flex align-items-center order-1 order-sm-1 order-md-2">
                     <div className="px-5">
@@ -199,8 +210,8 @@ const Cthulu = () => {
             </Modal>
             <Container className="d-flex typography-container overflow-hidden" fluid>
                 <Row>
-                    <Col className="typography-col order-2 order-sm-2 order-md-1 order-lg-1 mb-5" md={5} lg={5} xl={6}>
-                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="Cthulu book mockup opened and facing up." />
+                    <Col className="typography-col order-2 order-sm-2 order-md-1 order-lg-1 mb-5" style={{overflow:"hidden"}}md={5} lg={5} xl={6}>
+                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" style={{overflow:"hidden"}} onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="Cthulu book mockup opened and facing up." />
                         <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-down")} src={bookMockupDown} width="100%" alt="Cthulu book mockup opened and facing down." />
                         <img className="book-mockup object-fit-lg-cover object-fit-md-cover" src={bookMockup} onClick={() => handleShow("book-mockup")} width="100%" alt="Cthulu book mockup closed." />
                     </Col>
@@ -232,6 +243,41 @@ const Cthulu = () => {
                         <img className="book position-relative" ref={imgRef} src={book} width="100%" alt="Cthulu book." />
                     </Col>
                 </Row>
+            </Container>
+            <Container fluid>
+            <Row className="mb-4">
+                <Col className="carousel-container d-flex p-5 justify-content-center" >
+                    <Carousel className="carousel" data-bs-theme="dark">
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={spreadOne} width="100%"  alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches  object-fit-contain" src={spreadTwo} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={spreadThree} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={spreadFour} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={spreadFive} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={spreadSix} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={spreadSeven} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={spreadEight} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="sketches object-fit-contain" src={spreadNine} width="100%" alt="Call of Cthulu concept sketches." />
+                        </Carousel.Item>
+                    </Carousel>
+                </Col>
+            </Row>
             </Container>
             <Container className="promotional-package-container pt-5" fluid>
                 <Row className="promotional-package-bg-row">

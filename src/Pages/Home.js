@@ -48,8 +48,7 @@ const Home = () => {
                 <Link to="/MarianasMirror">
                 <div className="d-flex justify-content-center align-items-center overlay h-100 ">
                   <div>
-                    <h1 className="overlay-text">New Project Coming Soon</h1>
-                    <h2 className="overlay-text-behance">Click to View Behance Case Study</h2>
+                    <h1 className="overlay-text">Marianas Mirror</h1>
                   </div>
                 </div> 
                 </Link>

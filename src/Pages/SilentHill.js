@@ -10,7 +10,6 @@ import Carousel from "react-bootstrap/Carousel";
 import silentHillPoster from "..//Assets/Poly_art_assignment_Poster_Design_Two.jpg";
 import silentHillPostCard from "..//Assets/Poly_art_assignment_Postcard_Design.jpg";
 import iMac from "..//Assets/iMac Mockup.png";
-import silentHillBrochureEdited from "../Assets/Silent Hill Tourist brochure mockup_edited.png";
 import silentHillBrochure from "../Assets/SilentHilltouristbrochuremockup.jpg";
 import Footer from "../Components/Footer";
 import {Link} from "react-router-dom";
@@ -61,7 +60,7 @@ const SilentHill = () => {
             <Row>
             <Col className="d-flex flex-column align-items-center">
                 <h1 className="header-title">Visit: Silent Hill</h1>
-                <p className="mb-5" style={{width:"61%"}}>The Silent Hill game series known for the 'creepy fog effect' and grotesque monsters. 
+                <p className="silent-hill-paragraph mb-5">The Silent Hill game series known for the 'creepy fog effect' and grotesque monsters. 
                    It is so much more than that it's a haunting and captivating journey into the depths of
                    psychological horror and existential dread. With each installment, it weaves an intricate
                    tapestry of fear and introspection, inviting players to confront their (character's) 
@@ -79,12 +78,12 @@ const SilentHill = () => {
             <Row className="mb-4">
                 <Col className="d-flex justify-content-center">
                  <div className="cthulu-table-heading me-4">
-                    <h6 style={{fontFamily:"Modern Typewriter"}}><u>Service</u></h6>
-                    <p style={{fontFamily:"Barlow-ExtraLight"}}>Digital Art, Web Design, Print, Marketing Campaign</p>
+                    <h6><u>Service</u></h6>
+                    <p className="table-text">Digital Art, Web Design, Print, Marketing Campaign</p>
                 </div>
                 <div>
-                    <h6 style={{fontFamily:"Modern Typewriter"}}><u>Year</u></h6>
-                    <p style={{fontFamily:"Barlow-ExtraLight"}}>2022</p>
+                    <h6><u>Year</u></h6>
+                    <p className="table-text">2022</p>
                 </div>     
                 </Col>
             </Row>
@@ -219,7 +218,7 @@ const SilentHill = () => {
             </Row>
             <Row className="mt-5">
                 <Col className="d-flex justify-content-center">
-                    <p className="mb-5" style={{width:"61%"}}>
+                    <p className="silent-hill-paragraph mb-5">
                     And that's all she wrote for Visit: Silent Hill. This project also showcased my versatility as an artist because
                      Visit: Silent Hill has this very snug, warm colour palette with fancy elegant header fonts. 
                      Something that's a little different from my usual gritty&nbsp;taste. </p>

@@ -187,7 +187,7 @@ const MM = () => {
                         <img src={image === "bio-ad"? bioAd: baumeAd} className="object-fit-md-cover object-fit-lg-cover" height="100%" width="100%"/>
                     </Modal.Body>
             </Modal>
-        <Row className="ad-row gx-2 gy-3 gy-md-0">
+        <Row className="gx-2 gy-3 gy-md-0 " id="ads-row">
             <Col md={7} className="h-100">
                 <img className="mm-ad object-fit-cover" src={bioAd} onClick={() => handleShow("bio-ad") } height="100%" width="100%" alt="" />
             </Col>

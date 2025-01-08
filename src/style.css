@@ -29,6 +29,10 @@ Nav {
     font-family: Barlow-ExtraLight;
 }
 
+h6 {
+    font-family: Modern Typewriter;
+}
+
 p {
     font-family: Modern Typewriter; 
 }
@@ -144,6 +148,10 @@ footer {
 
 /********* Silent Hill ***********************************/
 
+.silent-hill-paragraph {
+    width: 61%;
+}
+
 .margin-container {
     width: 90%;
 }
@@ -246,6 +254,10 @@ th {
     width: 50%;
 }
 
+.alf-hero-paragraph {
+    width: 60%;
+}
+
 .logo-row {
     height: 120vh;
 }
@@ -306,6 +318,22 @@ th {
     object-fit: cover;
 }
 
+.alf-invitation {
+    transform: scale(1.5);
+}
+
+.alf-site-mockup-row {
+    height: 100vh;
+}
+
+.alf-site-mockup-col {
+    height: 100vh;
+}
+
+.alf-site-mockup-div {
+    height: 100vh;
+}
+
 .alf-site {
     background-size:cover;
     background-position: 50% 50%;
@@ -317,6 +345,10 @@ th {
 
 .site-mockup-container {
     height: auto;
+}
+
+.site-mockup-img {
+    transform: scale(1.5);
 }
 
 .alf-site-link {
@@ -334,7 +366,19 @@ th {
     text-decoration:line-through;
 }
 
+.closing-paragraph-container {
+    width: 90%;
+}
+
+.closing-paragraph {
+    width: 65%;
+}
+
 /********* Cthulu ***********************************/
+
+.table-text {
+    font-family: Barlow-ExtraLight;
+}
 
 .cthulu-body-container {
     width: 90%;
@@ -364,6 +408,15 @@ th {
 
 .cthulu-movie-poster-container {
     width: 90%;
+}
+
+.cthulu-poster-col {
+    height: 130vh;
+}
+
+.cthulu-poster {
+    left: -50%;
+    top: -20%;
 }
 
 .billboard {
@@ -492,6 +545,10 @@ mark {
 
 /********* Resthaven ***********************************/
 
+.resthaven-hero-paragraph {
+    width: 69%;
+}
+
 .resthaven-body-container {
     width:90%;
     height: auto;
@@ -523,6 +580,7 @@ mark {
 .split-row-col-full {
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .parallax-container {
@@ -538,7 +596,7 @@ mark {
 }
 
 .paragraph-resthaven {
-    width: 65vw;
+    width: 60%;
     color: white;
 }
 
@@ -689,7 +747,7 @@ mark {
     height: 37rem;
 }
 
-.ad-row {
+#ads-row {
     height: 60rem;
 }
 
@@ -986,7 +1044,7 @@ mark {
         top: 72%;
     }
 
-    .ad-row {
+    #ads-row {
         height: 53rem;
     }
  }
@@ -1014,7 +1072,7 @@ mark {
         object-position: 50% 300%;
     }
 
-    .ad-row {
+    #ads-row {
         height: 44rem;
     }
  }
@@ -1035,7 +1093,7 @@ mark {
         background-size: cover;
     }
 
-    .ad-row {
+    #ads-row {
         height: 40rem;
     }
  }
@@ -1136,7 +1194,7 @@ mark {
         height:34% !important;
     }
 
-    .ad-row {
+    #ads-row {
         height: 38rem;
     }
 }
@@ -1150,7 +1208,7 @@ mark {
         top: 69%;
     }
 
-    .ad-row {
+    #ads-row {
         height: 30rem;
     }
 }
@@ -1325,7 +1383,7 @@ mark {
         width: 70%;
     }
 
-    .ad-row {
+    #ads-row {
         height: 25rem;
     }
 
@@ -1544,7 +1602,7 @@ mark {
         height: auto;
     }
 
-    .ad-row {
+    #ads-row {
         height: auto;
     }
 }

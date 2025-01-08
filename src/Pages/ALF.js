@@ -72,7 +72,7 @@ const ALF = () => {
             <Row>
             <Col className="d-flex flex-column align-items-center">
                 <h1 className="header-title">Animal Liberation Front</h1>
-                <p className="mb-5" style={{width:"60%"}}>As an animal lover and a dog-mom, this project has some heartstrings into 
+                <p className="alf-hero-paragraph mb-5">As an animal lover and a dog-mom, this project has some heartstrings into 
                 it. The objective of this assignment was to take a real or existing charity organization and 
                 completely rebrand it. New logo, design systems, everything. I chose the real life company of 
                 Animal Liberation Front as my first Branding Identity&nbsp;Project. </p>
@@ -87,17 +87,17 @@ const ALF = () => {
                 <Col className="d-flex justify-content-center">
                  <Table className="alf-table-container" size="sm" borderless>
                     <thead>
-                        <tr style={{fontFamily:"Modern Typewriter"}}>
-                            <th style={{fontWeight:"lighter"}}>Service</th>
-                            <th style={{fontWeight:"lighter"}}>Client</th> 
-                            <th style={{fontWeight:"lighter"}}>Year</th> 
+                        <tr>
+                            <th>Service</th>
+                            <th>Client</th> 
+                            <th>Year</th> 
                         </tr>    
                     </thead>
                     <tbody>
                         <tr >
-                            <td style={{fontFamily:"Barlow-ExtraLight"}}>Branding Identity, Logo Design & <br/> Illustration, Web Design</td>
-                            <td style={{fontFamily:"Barlow-ExtraLight"}}>Animal Liberation Front</td>
-                            <td style={{fontFamily:"Barlow-ExtraLight"}}>2022</td>
+                            <td>Branding Identity, Logo Design & <br/> Illustration, Web Design</td>
+                            <td>Animal Liberation Front</td>
+                            <td>2022</td>
                         </tr>
                     </tbody>
                  </Table>   
@@ -178,7 +178,7 @@ const ALF = () => {
                     </Col>
                     <Col className="d-flex flex-column justify-content-between">
                         <div className="alf-invitation-container mb-3 mb-sm-3 mb-md-3 mb-lg-3 w-100 overflow-hidden" >
-                            <img className="alf-invitation mb-3 object-fit-cover position-relative" src={alfInvitation} style={{transform:"scale(1.5)"}}width="100%" alt="ALF invitation mockup." />
+                            <img className="alf-invitation mb-3 object-fit-cover position-relative" src={alfInvitation} width="100%" alt="ALF invitation mockup." />
                         </div>
                         <p className="" > However, 
                             as the project progressed I opted for a more optimistic design, to show diplomacy. 
@@ -217,7 +217,7 @@ const ALF = () => {
                     </Col>
                     <Col md={8} className="d-flex flex-column justify-content-center align-items-center">
                         <div className="site-mockup-text" >
-                            <p style={{width:"100%"}}>Designing the site was the final set of the project. You can Google their real site 
+                            <p className="w-100">Designing the site was the final set of the project. You can Google their real site 
                             at your own risk but it’s very outdated-looking which is what these other animal 
                             rights organizations have against&nbsp;them. </p>
                             <p> In order to come up with the design, I took into consideration ALF's three biggest 
@@ -229,20 +229,20 @@ const ALF = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row className="mb-4" style={{height:"100vh", width:"100%"}}>
-                    <Col className="d-flex flex-column align-items-center" style={{height:"100vh", width:"100%"}}>
-                      <div className="d-flex flex-column align-items-center"style={{height:"100vh", width:"100%", overflow:"hidden"}}> 
-                     <img className="site-mockup-img d-block m-auto object-fit-cover" style={{transform:"scale(1.5)"}} src={siteMockup} width="100%" alt="ALF web design pages and mockup." />
+                <Row className="alf-site-mockup-row mb-4 w-100">
+                    <Col className="alf-site-mockup-col d-flex flex-column align-items-center w-100">
+                      <div className="alf-site-mockup-div d-flex flex-column align-items-center w-100 overflow-hidden"> 
+                     <img className="site-mockup-img d-block m-auto object-fit-cover" src={siteMockup} width="100%" alt="ALF web design pages and mockup." />
                     </div>
                     </Col>
                 </Row>
                 <Row className="mb-3 mb-sm-4 mb-md-4 mb-lg-4">
                     <Col className="d-flex flex-column align-items-center justify-content-center">
-                      <div className="d-flex flex-column align-items-center" style={{width: "90%"}}>
-                        <p style={{width:"65%"}}>Designed by me, with the aid of my boyfriend, Sunny Gian, who developed the web 
+                      <div className="closing-paragraph-container d-flex flex-column align-items-center">
+                        <p className="closing-paragraph">Designed by me, with the aid of my boyfriend, Sunny Gian, who developed the web 
                             prototype. Click the "Desktop-Web Design" heading to view the prototype or click 
-                            the link: <Link to="https://billierogue.github.io/AnimalLiberationFront" target="_blank">https://billierogue.github.io/<br className="break" style={{display:"none"}} />AnimalLiberationFront/</Link></p>
-                        <p style={{width:"65%"}}>I love my work on this organization and had considered commissioning it to the
+                            the link: <Link to="https://billierogue.github.io/AnimalLiberationFront" target="_blank">https://billierogue.github.io/<br className="break d-none"/>AnimalLiberationFront/</Link></p>
+                        <p className="closing-paragraph">I love my work on this organization and had considered commissioning it to the
                            real Animal Liberation Front to turn this project to reality.</p>
                       </div>
                     </Col>

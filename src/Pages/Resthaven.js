@@ -68,7 +68,7 @@ const Resthaven = () => {
             <Row>
                 <Col className="d-flex flex-column align-items-center">
                     <h1 className=" header-title">Resthaven</h1>
-                    <p className="mb-5" style={{width:"69%"}}> Since its no surprise that I'm a musician and live a (responsible) 
+                    <p className="resthaven-hero-paragraph mb-5"> Since its no surprise that I'm a musician and live a (responsible) 
                     rock 'n' roll life, for those who may not know, I play bass and backup vocals for a metal 
                     band called Resthaven. We describe ourselves as "thrashgaze" (thrash metal and shoegaze 
                     hybrid). This summer, it was an honour to have been called to produce and master an entire 
@@ -141,10 +141,10 @@ const Resthaven = () => {
             <Row>
                 <Col >
                  <h2 className="sub-heading">The Process</h2>
-                 <p style={{width:"67%"}}>Braydan recorded his own instruments in his own studio setup, which made things a lot easier 
+                 <p className="resthaven-hero-paragraph">Braydan recorded his own instruments in his own studio setup, which made things a lot easier 
                     for me, however he would be recording vocals at my home studio--literally Haus of Rogue. 
                     The process took 2 days. After we finished, we celebrated with pizza and watched Puss In&nbsp;Boots.</p>
-                <p style={{width:"67%"}}>Shortly afterwards, I recorded my backup vocals and finished mixing and mastering the album 
+                <p className="resthaven-hero-paragraph">Shortly afterwards, I recorded my backup vocals and finished mixing and mastering the album 
                     around early to&nbsp;mid-May. </p>
                 </Col>
             </Row>
@@ -159,7 +159,7 @@ const Resthaven = () => {
             <Row className="split-row-container">
                 <Col lg={6} className="split-row-col overflow-hidden" role="img" aria-label="Resthaven posing." style={{backgroundImage:`url(${resthavenOne})`}}>
                 </Col>
-                <Col className="split-row-col-full overflow-hidden" role="img" aria-label="Resthaven posing." style={{backgroundImage:`url(${resthavenOne})`, backgroundPosition:`-20% ${position}%`, backgroundSize:"cover"}}>
+                <Col className="split-row-col-full overflow-hidden" role="img" aria-label="Resthaven posing." style={{backgroundImage:`url(${resthavenOne})`, backgroundPosition:`-20% ${position}%`}}>
                 </Col>
             </Row>
         </Container>
@@ -168,7 +168,7 @@ const Resthaven = () => {
                 <Col className="d-flex justify-content-center  align-items-center text-center">
                     <div className="d-flex flex-column align-items-center">
                         <h2 className="sub-heading-resthaven mb-4">Since the album's release, <br />Resthaven has become a full-unit.</h2>
-                        <p className="paragraph-resthaven" style={{width:"60%"}}>We've gone from a one-man band to a four-membered friend group who loves to take the 
+                        <p className="paragraph-resthaven">We've gone from a one-man band to a four-membered friend group who loves to take the 
                         Toronto local scene by storm, with many more production projects coming&nbsp;up.</p>
                         </div>
                 </Col>

@@ -81,7 +81,7 @@ const Cthulu = () => {
             <Row>
                 <Col className="d-flex flex-column align-items-center">
                     <h1 className="header-title">Call of Cthulu</h1>
-                    <p className="mb-5" style={{width:"55%"}}> Though I've never read the book, I'm aware of the premise and its popularity 
+                    <p className="arb-paragraph mb-5"> Though I've never read the book, I'm aware of the premise and its popularity 
                     especially in the gothic horror community--and gaming community. This recent assignment, inspired 
                     by one of the amazing works of H.P. Lovecraft, provided me with a much-needed new challenge which 
                     was mixing my hand drawings into digital work and designing a novel. For this project I created a
@@ -90,24 +90,24 @@ const Cthulu = () => {
             </Row>
             <Row>
                 <Col className="d-flex justify-content-center">   
-                    <img className="mb-4" src={Line} width="90%" height="20%" alt="" />
+                    <img className="mb-4" src={Line} width="90%" height="20%" alt="Line." />
                 </Col>
             </Row>
             <Row className="mb-4 w-100">
                 <Col className="d-flex justify-content-center">
                 <div className="cthulu-table-heading me-4">
-                    <h6 style={{fontFamily:"Modern Typewriter"}}><u>Service</u></h6>
-                    <p style={{fontFamily:"Barlow-ExtraLight"}}>Brand Campaign, Promotional Campaign, Print, Illustration</p>
+                    <h6><u>Service</u></h6>
+                    <p className="table-text">Brand Campaign, Promotional Campaign, Print, Illustration</p>
                 </div>
                 <div>
-                    <h6 style={{fontFamily:"Modern Typewriter"}}><u>Year</u></h6>
-                    <p style={{fontFamily:"Barlow-ExtraLight"}}>2023</p>
+                    <h6><u>Year</u></h6>
+                    <p className="table-text">2023</p>
                 </div>      
                 </Col>
             </Row>
             <Row className="mb-3 mb-sm-4 mb-md-4 mb-xl-5">
                <Col> 
-                <img src={cthuluBookMockup} style={{objectFit:"cover"}}width="100%" height="95%" alt="Call of Cthulu book mockup." />
+                <img className="object-fit-cover" src={cthuluBookMockup} width="100%" height="95%" alt="Call of Cthulu book mockup." />
                </Col>
             </Row>
             <Row>
@@ -121,8 +121,8 @@ const Cthulu = () => {
                 </Col>
                 <Col lg={8} className="mb-5 mb-sm-0 mb-xxl-0">
                     <img src={cthuluMMoodBoard} width="100%" alt="Call of Cthulu moodboard with various horror movie posters." />
-                    <img src={gravePoster} className="grave-poster position-absolute" width="10%" alt="" />
-                    <img src={chPoster} className="ch-poster position-absolute" width="7%" alt="" />
+                    <img src={gravePoster} className="grave-poster position-absolute" width="10%" alt="Movie poster." />
+                    <img src={chPoster} className="ch-poster position-absolute" width="7%" alt="Movie poster." />
                 </Col> 
             </Row>
         </Container>
@@ -145,8 +145,8 @@ const Cthulu = () => {
             </Container>
             <Container className="cthulu-movie-poster-container d-flex flex-column mb-5" fluid>
                 <Row className="">
-                    <Col className="order-2 order-sm-2 order-md-1 overflow-hidden" style={{height:"130vh"}} md={6} lg={6}>
-                        <img className="object-fit-cover object-fit-sm-cover object-fit-md-cover object-fit-lg-cover position-relative" style={{left:"-50%", top:"-20%"}}src={posterOnWall} height="180%" width="200%" alt="Call of Cthulu movie poster mockup." />
+                    <Col className="cthulu-poster-col order-2 order-sm-2 order-md-1 overflow-hidden" md={6} lg={6}>
+                        <img className="cthulu-poster object-fit-cover object-fit-sm-cover object-fit-md-cover object-fit-lg-cover position-relative" src={posterOnWall} height="180%" width="200%" alt="Call of Cthulu movie poster mockup." />
                     </Col>
                     <Col className="d-flex align-items-center order-1 order-sm-1 order-md-2">
                     <div className="px-5">
@@ -166,7 +166,7 @@ const Cthulu = () => {
                 </Row>
                 <Row className="mt-5">
                     <Col>
-                        <img className="object-fit-cover" width="100%" src={dvdMockup} alt="" />
+                        <img className="object-fit-cover" width="100%" src={dvdMockup} alt="DVD mockup." />
                     </Col>
                 </Row>
             </Container>
@@ -205,13 +205,13 @@ const Cthulu = () => {
                                   image === "book-mockup"? bookMockup:
                                   image === "wall-mockup"? wallMockup:
                                   image === "exterior-mockup"? exteriorMockup:
-                                  image === "iPhone-jacket-mockup"? iPhoneJacketMockup: digestMockup} className="object-fit-md-cover object-fit-lg-cover" height="100%" width="100%"/>
+                                  image === "iPhone-jacket-mockup"? iPhoneJacketMockup: digestMockup} className="object-fit-md-cover object-fit-lg-cover" height="100%" width="100%" alt="Book mockup."/>
                     </Modal.Body>
             </Modal>
             <Container className="d-flex typography-container overflow-hidden" fluid>
                 <Row>
-                    <Col className="typography-col order-2 order-sm-2 order-md-1 order-lg-1 mb-5" style={{overflow:"hidden"}}md={5} lg={5} xl={6}>
-                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" style={{overflow:"hidden"}} onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="Cthulu book mockup opened and facing up." />
+                    <Col className="typography-col overflow-hidden order-2 order-sm-2 order-md-1 order-lg-1 mb-5" md={5} lg={5} xl={6}>
+                        <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover overflow-hidden" onClick={() => handleShow("book-mockup-up")} src={bookMockupUp} width="100%" alt="Cthulu book mockup opened and facing up." />
                         <img className="book-mockup mb-4 mb-sm-4 mb-md-5 mb-lg-2 mb-xl-2 object-fit-lg-cover object-fit-md-cover" onClick={() => handleShow("book-mockup-down")} src={bookMockupDown} width="100%" alt="Cthulu book mockup opened and facing down." />
                         <img className="book-mockup object-fit-lg-cover object-fit-md-cover" src={bookMockup} onClick={() => handleShow("book-mockup")} width="100%" alt="Cthulu book mockup closed." />
                     </Col>
@@ -318,7 +318,7 @@ const Cthulu = () => {
                 </Row>
                 <Row className="cthulu-mockup-text-row mb-3">
                     <Col className="d-flex align-items-center justify-content-center">
-                        <p style={{width:"53%"}}>My favourite part of this project was designing the book cover and its contents, it 
+                        <p className="w-50">My favourite part of this project was designing the book cover and its contents, it 
                         let me refine my typography skills as well as harness the InDesign software.</p>
                     </Col>
                 </Row>

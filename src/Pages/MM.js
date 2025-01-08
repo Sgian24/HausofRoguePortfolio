@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Container, Row, Col, Table, Modal } from "react-bootstrap";
 import NavBar from "../Components/NavBar";
 import Line from "..//Assets/Asset 8.png";
@@ -33,6 +33,13 @@ const MM = () => {
     }
 
     const handleClose = () => setShow(false);
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior:'instant'
+        });
+    },[])
 
     return (
         <>

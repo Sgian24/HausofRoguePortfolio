@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7603e1b0.css",
-    "main.js": "/static/js/main.6253383d.js",
+    "main.css": "/static/css/main.46b542b8.css",
+    "main.js": "/static/js/main.3852d631.js",
     "static/media/user-persona.jpg": "/static/media/user-persona.cc19f7216dc761e4524b.jpg",
     "static/media/IMG_3121.jpg": "/static/media/IMG_3121.3fec9b1144718ee3df38.jpg",
     "static/media/ai-ladies-gif.mp4": "/static/media/ai-ladies-gif.2136dd61c96e53d25993.mp4",
@@ -19,7 +19,6 @@
     "static/media/Vertical billboard updated.jpg": "/static/media/Vertical billboard updated.81e38b671a97cfc5f5cf.jpg",
     "static/media/essential-3-post.jpg": "/static/media/essential-3-post.d3d69148c8c6aef6f308.jpg",
     "static/media/poison-ivy-sign-mockup.jpg": "/static/media/poison-ivy-sign-mockup.c04b17baed07afdbd699.jpg",
-    "static/media/Silent Hill Tourist brochure mockup_edited.png": "/static/media/Silent Hill Tourist brochure mockup_edited.16b55d9bdb3cb3333a19.png",
     "static/media/spray-insta-mockup.jpg": "/static/media/spray-insta-mockup.6f3cd45331ff9ad7e10a.jpg",
     "static/media/BillieRogue.jpg": "/static/media/BillieRogue.44aceb5376f2139627e1.jpg",
     "static/media/3.jpg": "/static/media/3.a874e33023f743de0704.jpg",
@@ -130,11 +129,11 @@
     "static/media/Asset 8.png": "/static/media/Asset 8.b953e42b0c2cf486238e.png",
     "static/media/attitude.webp": "/static/media/attitude.656f79af92787c92fd2a.webp",
     "index.html": "/index.html",
-    "main.7603e1b0.css.map": "/static/css/main.7603e1b0.css.map",
-    "main.6253383d.js.map": "/static/js/main.6253383d.js.map"
+    "main.46b542b8.css.map": "/static/css/main.46b542b8.css.map",
+    "main.3852d631.js.map": "/static/js/main.3852d631.js.map"
   },
   "entrypoints": [
-    "static/css/main.7603e1b0.css",
-    "static/js/main.6253383d.js"
+    "static/css/main.46b542b8.css",
+    "static/js/main.3852d631.js"
   ]
 }

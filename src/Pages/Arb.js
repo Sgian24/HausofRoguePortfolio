@@ -99,7 +99,7 @@ const Arb = () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Environmental UX Design, Signage Design </td>
+                                    <td>Environmental UX Design, <br /> Signage Design </td>
                                     <td>Humber Arboretum</td>
                                     <td>2024</td>
                                 </tr>

@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.46b542b8.css",
-    "main.js": "/static/js/main.3ba8717f.js",
-    "static/media/user-persona.jpg": "/static/media/user-persona.cc19f7216dc761e4524b.jpg",
+    "main.js": "/static/js/main.688e2682.js",
     "static/media/IMG_3121.jpg": "/static/media/IMG_3121.3fec9b1144718ee3df38.jpg",
     "static/media/ai-ladies-gif.mp4": "/static/media/ai-ladies-gif.2136dd61c96e53d25993.mp4",
     "static/media/5-Ad.png": "/static/media/5-Ad.635bdc4ceeead2a51647.png",
@@ -53,6 +52,7 @@
     "static/media/MM-thumbnail.jpg": "/static/media/MM-thumbnail.c6f01d20b7e140f6575f.jpg",
     "static/media/postcard-mockup-copy.jpg": "/static/media/postcard-mockup-copy.89feb2767f13575e587d.jpg",
     "static/media/Tablet-Mockup-cropped.jpg": "/static/media/Tablet-Mockup-cropped.fdea0927ba521be0789d.jpg",
+    "static/media/user-persona.jpg": "/static/media/user-persona.1387e20177869e811105.jpg",
     "static/media/sunscreen-staged-ender.jpg": "/static/media/sunscreen-staged-ender.cbdba7d35fc5d652ceb1.jpg",
     "static/media/AnimalRightsWebpages.jpg": "/static/media/AnimalRightsWebpages.25e24b218c255f056e60.jpg",
     "static/media/cover-image-updated.jpg": "/static/media/cover-image-updated.6cc17df0b2723540381f.jpg",
@@ -130,10 +130,10 @@
     "static/media/attitude.webp": "/static/media/attitude.656f79af92787c92fd2a.webp",
     "index.html": "/index.html",
     "main.46b542b8.css.map": "/static/css/main.46b542b8.css.map",
-    "main.3ba8717f.js.map": "/static/js/main.3ba8717f.js.map"
+    "main.688e2682.js.map": "/static/js/main.688e2682.js.map"
   },
   "entrypoints": [
     "static/css/main.46b542b8.css",
-    "static/js/main.3ba8717f.js"
+    "static/js/main.688e2682.js"
   ]
 }

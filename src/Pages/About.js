@@ -55,7 +55,6 @@ const About = () => {
                     <h2 className="sub-heading text-center mb-4">Get in Touch</h2>
                     <div className="d-flex justify-content-center gap-5">
                     <div className="text-center">
-                        <p>647-909-4094</p>
                         <p>
                             <Link className="email" to="mailto:isabella.mtr@outlook.com">
                                 isabella.mtr@outlook.com
@@ -64,7 +63,6 @@ const About = () => {
                     </div>
                     <div className="text-center">
                         <p>Toronto, ON</p>
-                        <p>Canada</p>
                     </div>
                     </div>
                 </Col>

@@ -14,6 +14,7 @@ import Footer from "../Components/Footer";
 import teaserOne from "..//Assets/teaser-1.jpg";
 import teaserTwo from "..//Assets/humber-arb-thumbnail.jpg";
 import mm from "..//Assets/MM/MM-thumbnail.jpg";
+import zineThumbnail from "..//Assets/Zine/THUMBNAIL-loop.mp4";
 
 const Home = () => {
 
@@ -30,7 +31,7 @@ const Home = () => {
         <Container className="body-content-container mb-4" fluid>
             <Row className="mb-5 ">
               <Col lg={6} xl={6} className="mb-sm-4 mb-xxl-0">
-               <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img className="attitude-lips" src={lip} width="70" alt="Lips." /></h1>
+               <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img className="attitude-lips" src={lip} width="90" alt="Lips." /></h1>
                <p className="hero-description">Fuelled by vision and verve, I'm here to serve. Combining my passion
                for music with my design skills, I'm recognized for infusing my visuals with a rockstar vibe. Balancing
                a rebellious nature with a strong grip of design fundamentals, I craft daring and memorable designs that make a 
@@ -53,13 +54,8 @@ const Home = () => {
                 </div> 
                 </Link>
               </Col>
-              <Col className="h-100 rounded glitch" role="img" aria-label="Thumbnail of Zine section." style={{ backgroundImage:`url(${teaserOne})`,}} sm={6} md={6} lg={6}>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`}}> </div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`,zIndex:2}}></div>
-                <div className="h-100 glitch-img" style={{backgroundImage:`url(${teaserOne})`, zIndex:2}}></div>
-                <Link to="https://www.behance.net/gallery/203137321/Zine-but-not-Heard-an-Editorial-Project" target="_blank">
+              <Col className="h-100 rounded glitch border bg-black" role="img" aria-label="Thumbnail of Zine section." sm={6} md={6} lg={6}>
+              <Link to="https://www.behance.net/gallery/203137321/Zine-but-not-Heard-an-Editorial-Project" target="_blank">
                 <div className="d-flex justify-content-center align-items-center overlay h-100 ">
                   <div>
                     <h1 className="overlay-text">New Project Coming Soon</h1>
@@ -67,6 +63,9 @@ const Home = () => {
                   </div>
                 </div> 
                 </Link>
+                <video height="100%" width="100%"autoPlay loop muted>
+                    <source src={zineThumbnail} type="video/mp4" />
+                </video>
               </Col>
             </Row>
             <Row className="mb-3 project-row">

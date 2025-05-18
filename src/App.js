@@ -7,6 +7,8 @@ import Cthulu from "./Pages/Cthulu";
 import Resthaven from "./Pages/Resthaven";
 import About from "./Pages/About";
 import Arb from "./Pages/Arb";
+import MM from "./Pages/MM";
+import Zine from "./Pages/Zine";
 
 const App = () => {
 
@@ -20,6 +22,8 @@ const App = () => {
        <Route path="/callofcthulu" element={<Cthulu />}/>
        <Route path="/Resthaven" element={<Resthaven />}/>
        <Route path="/humberarboretum" element={<Arb />}/>
+       <Route path="/MarianasMirror" element={<MM />}/>
+       <Route path="/Zine" element={<Zine />}/>
       </Routes>
     </>
   )

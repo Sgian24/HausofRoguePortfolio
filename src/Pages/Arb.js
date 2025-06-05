@@ -36,12 +36,12 @@ const Arb = () => {
     const [index, setIndex] = useState(0)
     const [indexMockup, setIndexMockup] = useState(0)
 
-    useEffect(() => {
+   useEffect(() => {
         window.scrollTo({
             top: 0,
             behavior:'instant'
         });
-    },[])
+    },[]) 
 
     const handleShow = (i) => {
         setShow(true)
@@ -261,7 +261,7 @@ const Arb = () => {
                         </Carousel>
                     </Modal.Body>
             </Modal>
-            <Container className="mb-5">
+            <Container className="mb-5" >
                 <Row className="mb-4">
                     <Col className="d-flex justify-content-center">
                         <p className="w-75">Taking the existing branding style guide (exception of new chosen fonts), I've leaned into the 
@@ -279,12 +279,12 @@ const Arb = () => {
                                <img className="arb-mockup-thumbnail object-fit-cover" onClick={() => handleShowMockup(0)} src={monolithMockup} height="100%" width="100%" alt="Monolith." />
                             </Col>
                         </Row>
-                        <Row className="arb-mockup-row-two pt-3 overflow-hidden gx-3">
+                        <Row className="arb-mockup-row-two pb-4 pt-3 overflow-hidden gx-3 " >
                             <Col md={12} lg={6}>
                                 <img className="arb-mockup-thumbnail object-fit-cover" onClick={() => handleShowMockup(1)} style={{objectPosition:"50% -25px"}} src={signMockupOne} height="100%" width="100%" alt="Warning sign mockup." />
                             </Col>
-                            <Col>
-                                <img className="arb-mockup-thumbnail object-fit-cover" onClick={() => handleShowMockup(2)} style={{objectPosition:"50% -40px"}} src={signMockupTwo} height="100%"  width="100%" alt="Caution sign mockup." />
+                            <Col >
+                                <img className="arb-mockup-thumbnail-caution object-fit-cover bg-black" onClick={() => handleShowMockup(2)} style={{objectPosition:"50% -40px", display:"block !important" }} src={signMockupTwo} height="100%"  width="100%" alt="Caution sign mockup." />
                             </Col>
                         </Row>
                     </Col>
@@ -295,13 +295,13 @@ const Arb = () => {
                             </Col>
                         </Row>
                         <Row className="arb-mockup-row-three pt-3">
-                            <Col className="overflow-hidden ">
+                            <Col className="overflow-hidden">
                                 <img className="arb-mockup-thumbnail object-fit-cover" onClick={() => handleShowMockup(4)} style={{objectPosition:"10%"}} src={identificationSignMockup} height="100%" width="100%" alt="Identification sign mockup." />
                             </Col>
                         </Row>
                     </Col>
                 </Row>
-                <Row className="arb-row-container-two gx-3">
+                <Row className="arb-row-container-two gx-3" style={{height:"auto"}}>
                     <Col className="h-100" lg={8}>
                         <Row className="arb-mockup-row-four pb-3">
                             <Col >

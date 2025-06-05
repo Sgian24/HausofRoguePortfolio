@@ -406,6 +406,12 @@ th {
     background-color: #f0f0f0;
 }
 
+.zine-sketches {
+    height: 130vh;
+    background-color: #f0f0f0;
+    cursor:pointer;
+}
+
 .cthulu-movie-poster-container {
     width: 90%;
 }
@@ -717,6 +723,11 @@ mark {
     opacity: 0.6;
 }
 
+.arb-mockup-thumbnail-caution:hover {
+    cursor:pointer;
+    opacity: 0.6;
+}
+
 .carousel-mockup {
     height: 90vh;
     background-color: #ffffff;
@@ -749,6 +760,17 @@ mark {
 
 #ads-row {
     height: 60rem;
+}
+
+/********* Zine *********************/
+
+.trolley-mockup-thumbnail:hover {
+    cursor:pointer;
+    opacity: 0.6;
+}
+
+.zine-row-container {
+    height: 820px;
 }
 
 /********* Glitch Effect ***********************************/
@@ -1086,6 +1108,10 @@ mark {
     .link-line {
         left: 45.6%;
     }
+
+    .trolley-mockup-thumbnail {
+        height: 90%;
+    }
  }
 
  @media only screen and (max-width: 1350px) {
@@ -1194,12 +1220,26 @@ mark {
         height:34% !important;
     }
 
+    .arb-mockup-row-three {
+        height: 66%;
+        object-position: 50% !important;
+    }
+
     #ads-row {
         height: 38rem;
+    }
+
+    .trolley-mockup-thumbnail {
+        height: 100%;
     }
 }
 
 @media only screen and (max-width: 1020px) {
+
+    .zine-sketches {
+        height: 50vh;
+    }
+    
     .grave-poster {
         top: 89%;
     }
@@ -1385,6 +1425,14 @@ mark {
 
     #ads-row {
         height: 25rem;
+    }
+
+    .arb-mockup-thumbnail-caution {
+        object-position:0% !important;
+    }
+
+    .zine-row-container {
+        height: auto;
     }
 
 }

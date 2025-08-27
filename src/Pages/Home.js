@@ -32,10 +32,9 @@ const Home = () => {
             <Row className="mb-5 ">
               <Col lg={6} xl={6} className="mb-sm-4 mb-xxl-0">
                <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img className="attitude-lips" src={lip} width="90" alt="Lips." /></h1>
-               <p className="hero-description">Fuelled by vision and verve, I'm here to serve. Combining my passion
-               for music with my design skills, I'm recognized for infusing my visuals with a rockstar vibe. Balancing
-               a rebellious nature with a strong grip of design fundamentals, I craft daring and memorable designs that make a 
-               lasting&nbsp;ATTITUDE.</p>
+               <p className="hero-description">Toronto-based graphic designer & audio producer specializing in editorial design,
+                  illustration, branding and audio work. From album artwork to immersive audiovisual experiences, I’m here to give your project
+                  its attitude and authenticity</p>
               </Col>
               <Col lg={4} xl={4} className="cd-container"><img className="cd p-0 m-0 " src={cd} width="140%" alt="Haus of Rogue's services." /></Col>
             </Row>
@@ -55,11 +54,10 @@ const Home = () => {
                 </Link>
               </Col>
               <Col className="h-100 rounded glitch border bg-black" role="img" aria-label="Thumbnail of Zine section." sm={6} md={6} lg={6}>
-              <Link to="https://www.behance.net/gallery/203137321/Zine-but-not-Heard-an-Editorial-Project" target="_blank">
+              <Link to="/Zine">
                 <div className="d-flex justify-content-center align-items-center overlay h-100 ">
                   <div>
-                    <h1 className="overlay-text">New Project Coming Soon</h1>
-                    <h2 className="overlay-text-behance">Click to View Behance Case Study</h2>
+                    <h1 className="overlay-text">Zine But Not Heard</h1>
                   </div>
                 </div> 
                 </Link>

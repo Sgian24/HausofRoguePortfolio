@@ -40,12 +40,15 @@ const About = () => {
                         <h2 className="sub-heading">Hey, I'm Billie</h2>
                         <img className="lips " src={attitude} width="15%" height="15%" alt="Lips." />
                     </div>
-                    <p>I'm a graphic designer based in Toronto, I'm here to give your design that much-needed edge
-                        and attitude. As an active musician, I'm known for bringing my rockstar flair into my visuals which result in a 90s-esque, 
-                        grunge-punk style. With a rebellious spirit but a firm understanding of design principles, I'm on a mission to 
-                        create bold, unforgettable experiences that leave an indelible mark on audiences and 
-                        brands alike, long after the screen. I specialize in illustration, editorial design and audio production. </p>
-                    <p>When I'm not designing, I'm either gaming, being a rockstar or&nbsp;scrapbooking.</p>
+                    <p>I’m a <strong>Toronto-based graphic designer</strong> and <strong>music producer</strong> specializing in 
+                        <strong> illustration, editorial design</strong>, and <strong>audio production.</strong> I help brands, artists, and
+                       creatives alike capture attention and leave an impression. Whether you need <strong>eyecatching album artwork or posters</strong>, 
+                       impactful <strong>brand visuals</strong>, or bold <strong>editorial layouts</strong>, I’m here to help your work make that impact.</p>
+                    <div className="bandcamp-div mb-2 ">
+                    <iframe style={{border: 0, width: "100%", height: "120px"}} src="https://bandcamp.com/EmbeddedPlayer/album=2686133725/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
+                        <a href="https://resthaven.bandcamp.com/album/lunarwave">Lunarwave by Resthaven</a>
+                    </iframe>
+                    </div>
                     <img className="billie-guitar d-none d-sm-none d-md-block" src={billieTwo} width="100%" height="180%" alt="Billie Rogue performing at a gig." />
                     <img className="mb-5 d-block d-sm-block d-md-none" src={billie} width="100%" alt="Billie Rogue posing." />  
                 </Col>

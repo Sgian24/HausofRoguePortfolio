@@ -44,6 +44,10 @@ const About = () => {
                         <strong> illustration, editorial design</strong>, and <strong>audio production.</strong> I help brands, artists, and
                        creatives alike capture attention and leave an impression. Whether you need <strong>eyecatching album artwork or posters</strong>, 
                        impactful <strong>brand visuals</strong>, or bold <strong>editorial layouts</strong>, I’m here to help your work make that impact.</p>
+                    <p>And with a prior background in audio production, I approach a record like I do with 
+                       design—balancing technical skill and creative vision. Notable works include Canadian metal 
+                       band, Resthaven’s, two albums, <a className="fst-italic text-decoration-none" target="_blank" href="https://open.spotify.com/album/0PqhasIqVmd3L6FmONRU9T">Resthaven (2023)</a> and 
+                       <a className="text-decoration-none fst-italic" target="_blank" href="https://open.spotify.com/album/43ApMPmLYIuimoyygUGQx0"> Lunarwave (2025)</a>.</p>  
                     <div className="bandcamp-div mb-2 ">
                     <iframe style={{border: 0, width: "100%", height: "120px"}} src="https://bandcamp.com/EmbeddedPlayer/album=2686133725/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
                         <a href="https://resthaven.bandcamp.com/album/lunarwave">Lunarwave by Resthaven</a>

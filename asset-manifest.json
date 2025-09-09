@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.edd81051.css",
-    "main.js": "/static/js/main.c3119679.js",
+    "main.js": "/static/js/main.8e53ef4d.js",
     "static/media/project-header-video.mp4": "/static/media/project-header-video.80691a6a2b41b2c99189.mp4",
     "static/media/BWF-header.mp4": "/static/media/BWF-header.1fa86538f4ad33760468.mp4",
     "static/media/IMG_3121.jpg": "/static/media/IMG_3121.3fec9b1144718ee3df38.jpg",
@@ -13,7 +13,6 @@
     "static/media/iPhone11-PSD-Mockup.jpg": "/static/media/iPhone11-PSD-Mockup.4f101d71c535129979e5.jpg",
     "static/media/desn156-assignment2-Billie-Roa2.png": "/static/media/desn156-assignment2-Billie-Roa2.a3071d815683a2535d3a.png",
     "static/media/iMac Mockup.png": "/static/media/iMac Mockup.3dc94633743f7fbff73a.png",
-    "static/media/Services-CD-1.png": "/static/media/Services-CD-1.ac1e50c7bba662f110d5.png",
     "static/media/IMG_8596.jpeg": "/static/media/IMG_8596.beaa8909bad353eeb71a.jpeg",
     "static/media/park-ranger.png": "/static/media/park-ranger.544601d87f32018d99c5.png",
     "static/media/Inside3-Tourism.png": "/static/media/Inside3-Tourism.b45586033b5004954589.png",
@@ -83,6 +82,7 @@
     "static/media/2.jpg": "/static/media/2.54e7544620456c5a3e7d.jpg",
     "static/media/IdentityDesign_Package-PrintCollaterals.jpg": "/static/media/IdentityDesign_Package-PrintCollaterals.2166d597be9df6e0c412.jpg",
     "static/media/3-Lodging.png": "/static/media/3-Lodging.423a757e106dccaee02d.png",
+    "static/media/Services-CD-1.png": "/static/media/Services-CD-1.7960ee61176ca5be5171.png",
     "static/media/bioluminessence-ad.jpg": "/static/media/bioluminessence-ad.8dd1f9554b57e1edf3c7.jpg",
     "static/media/Artboard10.jpg": "/static/media/Artboard10.01684c2dc8da79d12ec5.jpg",
     "static/media/Artboard4.jpg": "/static/media/Artboard4.9a344aca7ace6361a78a.jpg",
@@ -160,10 +160,10 @@
     "static/media/attitude.webp": "/static/media/attitude.656f79af92787c92fd2a.webp",
     "index.html": "/index.html",
     "main.edd81051.css.map": "/static/css/main.edd81051.css.map",
-    "main.c3119679.js.map": "/static/js/main.c3119679.js.map"
+    "main.8e53ef4d.js.map": "/static/js/main.8e53ef4d.js.map"
   },
   "entrypoints": [
     "static/css/main.edd81051.css",
-    "static/js/main.c3119679.js"
+    "static/js/main.8e53ef4d.js"
   ]
 }

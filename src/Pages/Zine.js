@@ -84,7 +84,7 @@ const Zine = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="text-center">Illustration, Art Ditrection <br/> Editorial, Typography, Branding</td>
+                            <td className="text-center">Illustration, Art Direction <br/> Editorial, Typography, Branding</td>
                             <td className="text-center">Illustrator, InDesign, ChatGPT</td>
                             <td className="">2024</td>
                         </tr>

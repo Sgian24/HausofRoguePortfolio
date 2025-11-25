@@ -76,17 +76,17 @@ const Zine = () => {
             <Col className="d-flex justify-content-center">
                 <Table className="resthaven-table-container" size="sm" borderless>
                     <thead>
-                        <tr>
+                        <tr className="text-center ">
                             <th>Service</th>
                             <th>Tools</th> 
-                            <th>Year</th> 
+                            <th className="pe-5">Year</th> 
                         </tr>    
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Illustration, Art Ditrection <br/> Editorial, Typography, Branding</td>
-                            <td>Illustrator, InDesign, ChatGPT</td>
-                            <td>2024</td>
+                            <td className="text-center">Illustration, Art Ditrection <br/> Editorial, Typography, Branding</td>
+                            <td className="text-center">Illustrator, InDesign, ChatGPT</td>
+                            <td className="">2024</td>
                         </tr>
                     </tbody>
                 </Table>   

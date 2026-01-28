@@ -34,7 +34,7 @@ const Home = () => {
                <h1 className="hero-title fw-light" >Hey I'm <span className="Billie">Billie</span>, designer with an <strong className="attitude">attitude</strong> <img className="attitude-lips" src={lip} width="90" alt="Lips." /></h1>
                <p className="hero-description">Toronto-based graphic designer & audio producer specializing in editorial design,
                   illustration, branding and audio work. From album artwork to immersive audiovisual experiences, I’m here to give your project
-                  its attitude and authenticity</p>
+                  its attitude and authenticity</p> 
               </Col>
               <Col lg={4} xl={4} className="cd-container"><img className="cd p-0 m-0 " src={cd} width="140%" alt="Haus of Rogue's services." /></Col>
             </Row>
@@ -138,6 +138,7 @@ const Home = () => {
                 </Link>
               </Col>
             </Row>
+            <p className="text-center">Explore some of the best <a href="https://www.designrush.com/best-designs/packaging/automotive" target="_blank">innovative automotive packaging designs</a> on Design Rush.</p>
         </Container>
          <Footer /> 
       </div>

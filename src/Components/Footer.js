@@ -11,6 +11,7 @@ const Footer = () => {
               <a className="footer-links" href="https://ca.linkedin.com/in/billieroa" target="_blank">LinkedIn</a>
               <a className="footer-links" href="https://www.behance.net/billieroa" target="_blank">Behance</a>
               <a className="footer-links" href="https://dribbble.com/hausofrogue/" target="_blank">Dribble</a>
+              <a className="footer-links" href="https://instagram.com/hausof.rogue/" target="_blank">Instagram</a>
              </div>
             </Row>
             <Row className="px-0">

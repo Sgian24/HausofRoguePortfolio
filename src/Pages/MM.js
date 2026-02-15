@@ -48,12 +48,15 @@ const MM = () => {
         <Row>
             <Col className="d-flex flex-column align-items-center">
                 <h1 className="MM-title">Marianas Mirror: a Deep Dive into Dermo-Cosmetics</h1>
-                <p className="mb-5 mm-description">Marianas Mirror is an international North American dermo-cosmetic skincare 
+                <p className="mb-4 mm-description">Marianas Mirror is an international North American dermo-cosmetic skincare 
                 brand with a unique focus on incorporating aquatic ingredients towards sensitive, atopic skin, as well 
                 an aim to protect and reduce impact on marine life. The company's USP is their hydrothermal mineral 
                 complex water which--unlike thermal sprays using natural spring water--uses minerals from <a href="https://en.wikipedia.org/wiki/Hydrothermal_vent" target="_blank">
                 deep sea hydrothermal vents</a>. This year, Marianas Mirror is debuting their line with a release of a 
                 moisturizing essence serum, hydrothermal spray, SPF fluid, a refreshing gel cleanser and a face-body balm.</p>
+
+                <a className="mm-description" href="https://www.designrush.com/best-designs/packaging/marianas-mirror-packaging-design" target="_blank">
+                    <p className="">Marianas Mirror was nominated for Design Rush's Fashion & Beauty Packaging Designs Packaging Design Award!</p></a>
             </Col>
         </Row>
         <Row>

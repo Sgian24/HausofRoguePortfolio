@@ -9,7 +9,7 @@ const Footer = () => {
             <Row className="mb-3">
              <div className="footer-link-container d-flex gap-5 px-2"> 
               <a className="footer-links" href="https://ca.linkedin.com/in/billieroa" target="_blank">LinkedIn</a>
-              <a className="footer-links" href="https://www.behance.net/billieroa" target="_blank">Behance</a>
+              <a className="footer-links" href="https://www.behance.net/gallery/240779739/Portfolio-2026" target="_blank">Behance</a>
               <a className="footer-links" href="https://dribbble.com/hausofrogue/" target="_blank">Dribble</a>
               <a className="footer-links" href="https://instagram.com/hausof.rogue/" target="_blank">Instagram</a>
              </div>

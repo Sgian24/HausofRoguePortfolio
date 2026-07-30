@@ -58,6 +58,12 @@ th {
     background-color: black;
 }
 
+.nav-link2:hover {
+    color: white;
+    background-color: black;
+    
+}
+
 .active {
     color: white !important;
     background-color: black;
@@ -1091,7 +1097,7 @@ mark {
     }
 
     .billie-guitar {
-        object-position: 50% 300%;
+        object-position: 50% -120px;
     }
 
     #ads-row {
